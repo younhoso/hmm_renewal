@@ -1,0 +1,34 @@
+/**
+	z-index guide
+	
+	header : 30
+	location : 20
+	footer : 20
+	
+	layerPopup : 50
+ */
+/* img sprite */
+@import "./sprite/common-sprite";
+@import "./sprite/header-sprite";
+@import "./sprite/header_on-sprite";
+@import "./sprite/company-sprite";
+@import "./sprite/bi-sprite";
+@import "./sprite/sm-sprite";
+@import "./sprite/etc-sprite";
+@import "./sprite/main-sprite";
+@import "./sprite/careers-sprite";
+
+/* 공통 */
+@import "./_common/option";
+@import "./_common/mixin";
+@import "./_common/base";
+@import "./_common/lib/animate";
+@import "./_common/common";
+
+/* header */
+@import "./_common/header";
+
+/* footer */
+@import "./_common/footer";
+
+.bold{font-weight:600 !important;}

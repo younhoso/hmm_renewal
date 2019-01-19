@@ -1,0 +1,412 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Compass</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,target-densitydpi=medium-dpi" />
+    <meta name="Description" content=""/>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content=""/>
+    <meta name="Keywords" content=""/>
+    <meta name="Author" content=""/>
+    <meta name="robots" content="">
+    <meta name="format-detection" content="telephone=no">
+    <script type="text/javascript" src="../../../javascripts/lib/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../../javascripts/lib/TweenMax.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="../../javascripts/lib/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 10]>
+    <script src="../../javascripts/lib/placeholders.min.js"></script>
+    <![endif]-->
+    <!--css-->
+    <link rel="stylesheet" href="../../../stylesheets/css/common.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common_1808.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common2_1808.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common_add.css"/>
+</head>
+<body class="webzine1808">
+<div id="wrap" role="main">
+    <!-- quick -->
+    <div id="quickMenu" class="quick_menu">
+        <ul class="quick-list">
+            <li class="list-01">
+                <span>PDF<br>DOWN<br>LOAD</span>
+                <a href=""><span>PDF DOWNLOAD</span></a>
+            </li>
+            <li class="list-02">
+                <span>VIEW<br>LAST<br>ISSUE</span>
+                <a href=""><span>VIEW LAST ISSUE</span></a>
+            </li>
+            <li class="list-03">
+                <span>BOOK<br>MARK</span>
+                <a href=""><span>BOOK MARK</span></a>
+            </li>
+            <li class="list-04">
+                <span>SUB<br>SCRIBE</span>
+                <a href="#application" class="pop-btn"><span>SUB SCRIBE</span></a>
+            </li>
+        </ul>
+    </div>
+    <!--// quick -->
+    <!-- header -->
+    <header id="header" role="banner">
+        <!-- include header -->
+        <script>$('#header').load('../include/header.html')</script>
+        <!-- //include header -->
+    </header>
+    <!-- //header -->
+    <!-- content -->
+    <div id="content">
+        <div class="container column people">
+            <div class="cultural-odyssey-wrap your_story">
+                <div class="top-visual-area">
+                    <div class="inner-wrap pc_ver">
+                        <p class="label"><span><span>What’s Your Story</span></span></p>
+                        <div class="flt-text">
+                            <div>
+                                <p class="title">
+                                    The First
+                                    <span>Scrubber Installed</span>
+                                    <span>HMM Vessel,</span>
+                                    <span>HMM Blessing</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- inner-wrap pc_ver -->
+                    <div class="m_bg">
+                        <div class="inner-wrap">
+                            <p class="label"><span><span>What’s Your Story</span></span></p>
+                            <div class="flt-text">
+                                <div>
+                                    <p class="title">
+                                        The First
+                                        <span>Scrubber</span>
+                                        <span>Installed</span>
+                                        <span>HMM Vessel,</span>
+                                        <span>HMM Blessing</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="../../../images/1808/people/your_story_top_visual_m.jpg" class="your_story_m_bg"/>
+                    </div>
+                </div>
+                <!-- top-visual-area -->
+                <div class="con-wrap">
+                    <div class="confine-area text_by">
+                        <div class="text_by_img">
+                            <img src="../../../images/1808/people/ys_text_by_img.png" class="your_story_img_pc" />
+                            <img src="../../../images/1808/people/ys_text_by_img_m.png" class="your_story_img_m" />
+                        </div>
+                        <p class="label">Jin, Hyungchel / HMM HQ</p>
+                    </div>
+                    <div class="confine-area">
+                        <div class="info_section">
+                            <div class="line_design"></div>
+                            <p>
+                                HMM installed scrubbers in its newly-built 11,000 TEU containerships, HMM Blessing and HMM Promise, in preparation of the 2020 environmental regulations. I got an opportunity to get on board on the first sailing of HMM Blessing with a media reporter to assist him to write an article about a scrubber system installed in a HMM vessel. We started our journey from Ningbo to Pusan and I would like to share my experience on HMM Blessing with Compass readers.
+                            </p>
+                            <div class="img_wrap">
+                                <img src="../../../images/1808/people/your_story_img1.jpg" class="" alt="">
+                            </div>
+                        </div>
+                        <div class="section1">
+                            <div class="line_design"></div>
+                            <p>On July 5th, after finishing a simple dinner in Ningbo, China around 10:00 PM, we arrived at the container terminal – which was 1 hour from the city – with the local agency personnel for the boarding procedures. After a long 4-hour wait, the boarding procedures were finally completed and we got on board to the ship through the Gang Way of HMM Blessing after 02:00 AM.</p>
+
+                            <p class="tp-2">As the purpose of this boarding was exploring scrubber systems, we first headed to the Engine Control Room (ECR) to study the newly installed scrubbers. In simple terms, the scrubber washes the sulfur dioxide, which is an acid material, with alkaline sea water. If the alkaline sea water is sprayed in small particles on the extra large pipe with the exhaust gas collected from the engine, generator and boiler, the sulfur is neutralized by a reaction with the sodium of the sea water. The exhaust gas filtered through the scrubber is exhausted to the air through the chimney in the cleanest form and the neutralized sea water is drained out of the ship again, and thus the pollution due to sulfur compound is minimized.</p>
+
+                            <p class="tp-2">As the scrubber is a piece of equipment which purifies the exhaust gas, it is located at the highest part of the ECR. By going up dozens of meters through the narrow stairs and ladder of the engine room with the bare heat of the main engine, the scrubber sits, 5.3m in diameter, and a staggering 11m height, which is almost same as the height of a 3 story building, and difficult to see all at once.</p>
+
+                            <div class="img_wrap">
+                                <img src="../../../images/1808/people/your_story_img2.jpg" class="" alt="">
+                                <p class="tin">The scrubber for the main engine (left image) and the scrubber for the generator/boiler (right image)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wide-back-area section2">
+                        <div class="">
+                            <p>The scrubber, which is also called Venturi-Type (U-Type), because of the “ㄴ” shape venturi pipe where the exhaust gas is collected, is connected to the scrubber body and located at the top of the engine room. The scrubber for the main engine with a large amount of exhaust gas (left image) and the scrubber for generator/boiler with relatively less exhaust gas (right image) are installed in this part. They are vertically connected with various pipes which deliver the sea water into the scrubber and spray it through the six sea water pumps. Additionally, the scrubbers are made of special steels, such as molybdenum steel, which is highly resistant to corrosion due to sulfur oxides and sea water.</p>
+                            <div class="img_wrap">
+                                <img src="../../../images/1808/people/your_story_img3.jpg" class="" alt="">
+                                <p class="tin">Through the scrubber operation panel the PH level of the purified and discharged water can be verified.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="confine-area">
+                        <div class="section3">
+                            <div class="line_design"></div>
+                            <p>The scrubber operation panel where the PH level of the purified and discharged water can be verified has been installed within the engine room in order to be easily verified through the touch screen. The part with two venturies with the “ㄴ” shape scrubber on the left side of the screen is for the main engine with a large capacity, and the one venturi installed on the right side of the screen is the scrubber for the generator/boiler. <br>The chief engineer of the ship, Mr. Lee Yu-dong explained that "the engine room of HMM Blessing was designed with the latest methods considering unmanned automatization, but after the take-over of the new ship, the members of the engine room are performing night duties in turn for the stabilization of principal engine equipment such as the engine", and that, "it is very important to accumulate operation knowledge of accurate data arrangement and knowhow acquired during the actual operation of the ship more than just referencing the manufacturer's manual, because it is our first time operating with the scrubber installed."</p>
+
+                            <div class="img_wrap">
+                                <img src="../../../images/1808/people/your_story_img4.jpg" class="" alt="">
+                                <p class="tin">From the exterior of the ship the part where the scrubber is installed can be seen.</p>
+                            </div>
+                        </div>
+                        <div class="section4">
+                            <div class="line_design"></div>
+                            <p>The part with the blue HMM logo on the white square chimney is the part where the scrubber is installed. In the initial design of HMM Blessing when it was first ordered, no scrubber equipment was installed, but when HMM took over the HMM Blessing from Hanjin Heavy Industries Co., Ltd., the existing chimney was remodeled by adding the new scrubber equipment, thus the shape of the chimney is different from other existing ships.</p>
+
+                            <p class="tp-2">I believe that installation of the scrubber will contribute largely to enhance HMM’s competitiveness and improve its profit models. Especially for the HMM Blessing, which has installed the scrubber, I think this could genuinely begin the rebound of HMM.</p>
+
+                            <p class="tp-2">Lastly, I would like to express my special appreciation for the captain, Lee, Hee-Gyo and the first engineer, Choi, Jeong-Woo, who provided such thorough information about the ship and conveniences despite their busy schedules during the first sailing.</p>
+                            <div class="img_wrap">
+                                <img src="../../../images/1808/people/your_story_img5.jpg" class="" alt="">
+                                <p class="tin">Comparison of sizes</p>
+                            </div>
+                        </div>
+                        <div class="slogan">
+                            <div class="line_design"></div>
+
+                            <img src="../../../images/1808/people/your_story_slogan.png" class="" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- con-wrap -->
+            </div>
+            <div class="eval-wrap">
+                <ul>
+                    <li class="e-value-01">
+                        <button type="submit"></button>
+                        <p class="e-value">Great</p>
+                        <p class="count">322</p>
+                    </li>
+                    <li class="e-value-02">
+                        <button type="submit"></button>
+                        <p class="e-value">Like</p>
+                        <p class="count">322</p>
+                    </li>
+                    <li class="e-value-03">
+                        <button type="submit"></button>
+                        <p class="e-value">Sad</p>
+                        <p class="count">322</p>
+                    </li>
+                    <li class="e-value-04">
+                        <button type="submit"></button>
+                        <p class="e-value">So-so</p>
+                        <p class="count">322</p>
+                    </li>
+                    <li class="e-value-05">
+                        <button type="submit"></button>
+                        <p class="e-value">Angry</p>
+                        <p class="count">322</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="reply-wrap">
+                <div class="reply-area">
+                    <div class="reply-input">
+                        <p class="title">Let’s talk about content!</p>
+                        <div class="input-wrap">
+                            <div class="input-area">
+                                <div class="info">
+                                    <input type="text" placeholder="Name">
+                                    <input type="password" placeholder="PW">
+                                </div>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Share your thoughts."></textarea>
+                                <button type="submit">Submit</button>
+                            </div>
+                            <ul class="sns-list">
+                                <li>
+                                    <a href="" class="sns-01">인스타그램</a>
+                                    <a href="" class="sns-02">트위터</a>
+                                    <a href="" class="sns-03">페이스북</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="noti-list">
+                            <li>Please leave a comment with <span>consideration for others.</span></li>
+                            <li>Depending on the content, Compass can take any action by the relevant laws.</li>
+                        </ul>
+                    </div>
+                    <div class="reply-list">
+                    <ul>
+                        <li>
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-1">edit</a>
+                                        <a href="" class="reply-bt tp-1">delete</a>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                </div>
+                                <div class="reply-bt-area">
+                                    <a href="" class="reply-view-bt"><span>1</span>&#09;comments</a>
+                                    <a href="" class="reply-write-bt">write a comment</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-1">edit</a>
+                                        <a href="" class="reply-bt tp-1">delete</a>
+                                    </div>
+                                </div>
+                                <div class="pass-input-area">
+                                    <input type="password" placeholder="비밀번호">
+                                    <button type="submit" class="tp-1">OK</button>
+                                    <button type="submit" class="tp-2">Cancel</button>
+                                </div>
+                                <div class="reply-bt-area">
+                                    <a href="" class="reply-view-bt"><span>1</span>&#09;comments</a>
+                                    <a href="" class="reply-write-bt">write a comment</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li> <!--사용자가 로그인 상태에서 본인이 게시한 글을 수정하고 있는 상태-->
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-2">OK</a>
+                                        <a href="" class="reply-bt tp-1">cancel</a>
+                                    </div>
+                                </div>
+                                <div class="mod-input">
+                                    <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-1">edit</a>
+                                        <a href="" class="reply-bt tp-1">delete</a>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                </div>
+                                <div class="reply-bt-area">
+                                    <a href="" class="reply-view-bt"><span>1</span>&#09;comments</a>
+                                    <a href="" class="reply-write-bt">write a comment</a>
+                                </div>
+                            </div>
+                            <div class="view-area">
+                                <ul>
+                                    <li>
+                                        <div class="info-top">
+                                            <span class="name">이종석</span>
+                                            <span class="date">2017.12.03</span>
+                                        </div>
+                                        <div class="text">
+                                            <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info-top">
+                                            <span class="name">이종석</span>
+                                            <span class="date">2017.12.03</span>
+                                        </div>
+                                        <div class="text">
+                                            <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="write-area">
+                                <ul>
+                                    <li>
+                                        <div class="info-top">
+                                            <span class="name">이종석</span>
+                                            <span class="date">2017.12.03</span>
+                                        </div>
+                                        <div class="mod-input">
+                                            <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+                                            <div class="btn-area">
+                                                <a href="" class="reply-bt tp-2">OK</a>
+                                                <a href="" class="reply-bt tp-1">cancel</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="paging">
+                    <ul>
+                        <li class="prev inactive"><a href="">prev</a></li>
+                        <li class="num"><a href="" class="active">1</a></li>
+                        <li class="num"><a href="">2</a></li>
+                        <li class="num"><a href="">3</a></li>
+                        <li class="num"><a href="">4</a></li>
+                        <li class="num"><a href="">5</a></li>
+                        <li class="next"><a href="">next</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="top-btn">
+            <button type="button" class="mo-util-bt"></button>
+            <button type="button" id="scroll_top" class="pBackgroundColor"></button>
+        </div>
+    </div>
+    <!-- //content -->
+    <!-- footer -->
+    <footer id="footer">
+        <!-- include footer -->
+        <script>$('#footer').load('../../include/footer.html')</script>
+        <!-- //include footer -->
+    </footer>
+    <!-- //footer -->
+    <!-- layer popup container -->
+    <div id="layer_container">
+        <!-- include popup -->
+        <script>$('#layer_container').load('../../include/popup.html')</script>
+        <!-- //include popup -->
+    </div>
+    <!--// layer popup container -->
+    <div class="dimmed h-dimmed"></div>
+    <div class="dimmed p-dimmed"></div>
+</div>
+<script type="text/javascript" src="../../../javascripts/common.js"></script>
+<script>
+    $(function(){
+        $(".mo-util-bt").on("click", function(){
+            var winHeight = $(window).height();
+
+            $(".m_quick_open2").css("display","block");
+            $("html").css({
+                height: winHeight,
+                overflow:"hidden"
+            });
+        });
+
+        $(window).resize(function(){
+            if ( $(window).width() <= 752 ){
+
+            }
+        })
+    })
+</script>
+</body>
+</html>

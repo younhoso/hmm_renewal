@@ -1,0 +1,475 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$sm-average-name: 'sm-average';
+$sm-average-x: 0px;
+$sm-average-y: 0px;
+$sm-average-offset-x: 0px;
+$sm-average-offset-y: 0px;
+$sm-average-width: 26px;
+$sm-average-height: 10px;
+$sm-average-total-width: 332px;
+$sm-average-total-height: 4463px;
+$sm-average-image: '../../images/sprite/sm.png?4103602496446';
+$sm-average: (0px, 0px, 0px, 0px, 26px, 10px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-average', );
+$sm-btn-arrow01-name: 'sm-btn_arrow01';
+$sm-btn-arrow01-x: 0px;
+$sm-btn-arrow01-y: 25px;
+$sm-btn-arrow01-offset-x: 0px;
+$sm-btn-arrow01-offset-y: -25px;
+$sm-btn-arrow01-width: 5px;
+$sm-btn-arrow01-height: 10px;
+$sm-btn-arrow01-total-width: 332px;
+$sm-btn-arrow01-total-height: 4463px;
+$sm-btn-arrow01-image: '../../images/sprite/sm.png?4103602496446';
+$sm-btn-arrow01: (0px, 25px, 0px, -25px, 5px, 10px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-btn_arrow01', );
+$sm-btn-arrow02-name: 'sm-btn_arrow02';
+$sm-btn-arrow02-x: 0px;
+$sm-btn-arrow02-y: 50px;
+$sm-btn-arrow02-offset-x: 0px;
+$sm-btn-arrow02-offset-y: -50px;
+$sm-btn-arrow02-width: 24px;
+$sm-btn-arrow02-height: 11px;
+$sm-btn-arrow02-total-width: 332px;
+$sm-btn-arrow02-total-height: 4463px;
+$sm-btn-arrow02-image: '../../images/sprite/sm.png?4103602496446';
+$sm-btn-arrow02: (0px, 50px, 0px, -50px, 24px, 11px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-btn_arrow02', );
+$sm-certification-name: 'sm-certification';
+$sm-certification-x: 0px;
+$sm-certification-y: 76px;
+$sm-certification-offset-x: 0px;
+$sm-certification-offset-y: -76px;
+$sm-certification-width: 19px;
+$sm-certification-height: 25px;
+$sm-certification-total-width: 332px;
+$sm-certification-total-height: 4463px;
+$sm-certification-image: '../../images/sprite/sm.png?4103602496446';
+$sm-certification: (0px, 76px, 0px, -76px, 19px, 25px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-certification', );
+$sm-environmental-management01-item01-name: 'sm-environmental_management01_item01';
+$sm-environmental-management01-item01-x: 0px;
+$sm-environmental-management01-item01-y: 116px;
+$sm-environmental-management01-item01-offset-x: 0px;
+$sm-environmental-management01-item01-offset-y: -116px;
+$sm-environmental-management01-item01-width: 186px;
+$sm-environmental-management01-item01-height: 160px;
+$sm-environmental-management01-item01-total-width: 332px;
+$sm-environmental-management01-item01-total-height: 4463px;
+$sm-environmental-management01-item01-image: '../../images/sprite/sm.png?4103602496446';
+$sm-environmental-management01-item01: (0px, 116px, 0px, -116px, 186px, 160px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-environmental_management01_item01', );
+$sm-environmental-management01-item02-name: 'sm-environmental_management01_item02';
+$sm-environmental-management01-item02-x: 0px;
+$sm-environmental-management01-item02-y: 291px;
+$sm-environmental-management01-item02-offset-x: 0px;
+$sm-environmental-management01-item02-offset-y: -291px;
+$sm-environmental-management01-item02-width: 186px;
+$sm-environmental-management01-item02-height: 160px;
+$sm-environmental-management01-item02-total-width: 332px;
+$sm-environmental-management01-item02-total-height: 4463px;
+$sm-environmental-management01-item02-image: '../../images/sprite/sm.png?4103602496446';
+$sm-environmental-management01-item02: (0px, 291px, 0px, -291px, 186px, 160px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-environmental_management01_item02', );
+$sm-environmental-management01-item03-name: 'sm-environmental_management01_item03';
+$sm-environmental-management01-item03-x: 0px;
+$sm-environmental-management01-item03-y: 466px;
+$sm-environmental-management01-item03-offset-x: 0px;
+$sm-environmental-management01-item03-offset-y: -466px;
+$sm-environmental-management01-item03-width: 186px;
+$sm-environmental-management01-item03-height: 160px;
+$sm-environmental-management01-item03-total-width: 332px;
+$sm-environmental-management01-item03-total-height: 4463px;
+$sm-environmental-management01-item03-image: '../../images/sprite/sm.png?4103602496446';
+$sm-environmental-management01-item03: (0px, 466px, 0px, -466px, 186px, 160px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-environmental_management01_item03', );
+$sm-environmental-management01-item04-name: 'sm-environmental_management01_item04';
+$sm-environmental-management01-item04-x: 0px;
+$sm-environmental-management01-item04-y: 641px;
+$sm-environmental-management01-item04-offset-x: 0px;
+$sm-environmental-management01-item04-offset-y: -641px;
+$sm-environmental-management01-item04-width: 186px;
+$sm-environmental-management01-item04-height: 160px;
+$sm-environmental-management01-item04-total-width: 332px;
+$sm-environmental-management01-item04-total-height: 4463px;
+$sm-environmental-management01-item04-image: '../../images/sprite/sm.png?4103602496446';
+$sm-environmental-management01-item04: (0px, 641px, 0px, -641px, 186px, 160px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-environmental_management01_item04', );
+$sm-environmental-management01-item05-name: 'sm-environmental_management01_item05';
+$sm-environmental-management01-item05-x: 0px;
+$sm-environmental-management01-item05-y: 816px;
+$sm-environmental-management01-item05-offset-x: 0px;
+$sm-environmental-management01-item05-offset-y: -816px;
+$sm-environmental-management01-item05-width: 200px;
+$sm-environmental-management01-item05-height: 160px;
+$sm-environmental-management01-item05-total-width: 332px;
+$sm-environmental-management01-item05-total-height: 4463px;
+$sm-environmental-management01-item05-image: '../../images/sprite/sm.png?4103602496446';
+$sm-environmental-management01-item05: (0px, 816px, 0px, -816px, 200px, 160px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-environmental_management01_item05', );
+$sm-environmental-management01-item06-name: 'sm-environmental_management01_item06';
+$sm-environmental-management01-item06-x: 0px;
+$sm-environmental-management01-item06-y: 991px;
+$sm-environmental-management01-item06-offset-x: 0px;
+$sm-environmental-management01-item06-offset-y: -991px;
+$sm-environmental-management01-item06-width: 256px;
+$sm-environmental-management01-item06-height: 255px;
+$sm-environmental-management01-item06-total-width: 332px;
+$sm-environmental-management01-item06-total-height: 4463px;
+$sm-environmental-management01-item06-image: '../../images/sprite/sm.png?4103602496446';
+$sm-environmental-management01-item06: (0px, 991px, 0px, -991px, 256px, 255px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-environmental_management01_item06', );
+$sm-ethical-management01-01-name: 'sm-ethical_management01_01';
+$sm-ethical-management01-01-x: 0px;
+$sm-ethical-management01-01-y: 1261px;
+$sm-ethical-management01-01-offset-x: 0px;
+$sm-ethical-management01-01-offset-y: -1261px;
+$sm-ethical-management01-01-width: 266px;
+$sm-ethical-management01-01-height: 266px;
+$sm-ethical-management01-01-total-width: 332px;
+$sm-ethical-management01-01-total-height: 4463px;
+$sm-ethical-management01-01-image: '../../images/sprite/sm.png?4103602496446';
+$sm-ethical-management01-01: (0px, 1261px, 0px, -1261px, 266px, 266px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-ethical_management01_01', );
+$sm-ethical-management01-02-name: 'sm-ethical_management01_02';
+$sm-ethical-management01-02-x: 0px;
+$sm-ethical-management01-02-y: 1542px;
+$sm-ethical-management01-02-offset-x: 0px;
+$sm-ethical-management01-02-offset-y: -1542px;
+$sm-ethical-management01-02-width: 123px;
+$sm-ethical-management01-02-height: 220px;
+$sm-ethical-management01-02-total-width: 332px;
+$sm-ethical-management01-02-total-height: 4463px;
+$sm-ethical-management01-02-image: '../../images/sprite/sm.png?4103602496446';
+$sm-ethical-management01-02: (0px, 1542px, 0px, -1542px, 123px, 220px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-ethical_management01_02', );
+$sm-ethical-management01-03-name: 'sm-ethical_management01_03';
+$sm-ethical-management01-03-x: 0px;
+$sm-ethical-management01-03-y: 1777px;
+$sm-ethical-management01-03-offset-x: 0px;
+$sm-ethical-management01-03-offset-y: -1777px;
+$sm-ethical-management01-03-width: 223px;
+$sm-ethical-management01-03-height: 230px;
+$sm-ethical-management01-03-total-width: 332px;
+$sm-ethical-management01-03-total-height: 4463px;
+$sm-ethical-management01-03-image: '../../images/sprite/sm.png?4103602496446';
+$sm-ethical-management01-03: (0px, 1777px, 0px, -1777px, 223px, 230px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-ethical_management01_03', );
+$sm-ethical-management01-04-name: 'sm-ethical_management01_04';
+$sm-ethical-management01-04-x: 0px;
+$sm-ethical-management01-04-y: 2022px;
+$sm-ethical-management01-04-offset-x: 0px;
+$sm-ethical-management01-04-offset-y: -2022px;
+$sm-ethical-management01-04-width: 123px;
+$sm-ethical-management01-04-height: 220px;
+$sm-ethical-management01-04-total-width: 332px;
+$sm-ethical-management01-04-total-height: 4463px;
+$sm-ethical-management01-04-image: '../../images/sprite/sm.png?4103602496446';
+$sm-ethical-management01-04: (0px, 2022px, 0px, -2022px, 123px, 220px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-ethical_management01_04', );
+$sm-ethical-management04-01-name: 'sm-ethical_management04_01';
+$sm-ethical-management04-01-x: 0px;
+$sm-ethical-management04-01-y: 2257px;
+$sm-ethical-management04-01-offset-x: 0px;
+$sm-ethical-management04-01-offset-y: -2257px;
+$sm-ethical-management04-01-width: 64px;
+$sm-ethical-management04-01-height: 64px;
+$sm-ethical-management04-01-total-width: 332px;
+$sm-ethical-management04-01-total-height: 4463px;
+$sm-ethical-management04-01-image: '../../images/sprite/sm.png?4103602496446';
+$sm-ethical-management04-01: (0px, 2257px, 0px, -2257px, 64px, 64px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-ethical_management04_01', );
+$sm-ethical-management-download-name: 'sm-ethical_management_download';
+$sm-ethical-management-download-x: 0px;
+$sm-ethical-management-download-y: 2336px;
+$sm-ethical-management-download-offset-x: 0px;
+$sm-ethical-management-download-offset-y: -2336px;
+$sm-ethical-management-download-width: 17px;
+$sm-ethical-management-download-height: 16px;
+$sm-ethical-management-download-total-width: 332px;
+$sm-ethical-management-download-total-height: 4463px;
+$sm-ethical-management-download-image: '../../images/sprite/sm.png?4103602496446';
+$sm-ethical-management-download: (0px, 2336px, 0px, -2336px, 17px, 16px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-ethical_management_download', );
+$sm-ethical-management-download01-name: 'sm-ethical_management_download01';
+$sm-ethical-management-download01-x: 0px;
+$sm-ethical-management-download01-y: 2367px;
+$sm-ethical-management-download01-offset-x: 0px;
+$sm-ethical-management-download01-offset-y: -2367px;
+$sm-ethical-management-download01-width: 17px;
+$sm-ethical-management-download01-height: 16px;
+$sm-ethical-management-download01-total-width: 332px;
+$sm-ethical-management-download01-total-height: 4463px;
+$sm-ethical-management-download01-image: '../../images/sprite/sm.png?4103602496446';
+$sm-ethical-management-download01: (0px, 2367px, 0px, -2367px, 17px, 16px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-ethical_management_download01', );
+$sm-performance-name: 'sm-performance';
+$sm-performance-x: 0px;
+$sm-performance-y: 2398px;
+$sm-performance-offset-x: 0px;
+$sm-performance-offset-y: -2398px;
+$sm-performance-width: 10px;
+$sm-performance-height: 10px;
+$sm-performance-total-width: 332px;
+$sm-performance-total-height: 4463px;
+$sm-performance-image: '../../images/sprite/sm.png?4103602496446';
+$sm-performance: (0px, 2398px, 0px, -2398px, 10px, 10px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-performance', );
+$sm-safety-management01-item01-name: 'sm-safety_management01_item01';
+$sm-safety-management01-item01-x: 0px;
+$sm-safety-management01-item01-y: 2423px;
+$sm-safety-management01-item01-offset-x: 0px;
+$sm-safety-management01-item01-offset-y: -2423px;
+$sm-safety-management01-item01-width: 120px;
+$sm-safety-management01-item01-height: 237px;
+$sm-safety-management01-item01-total-width: 332px;
+$sm-safety-management01-item01-total-height: 4463px;
+$sm-safety-management01-item01-image: '../../images/sprite/sm.png?4103602496446';
+$sm-safety-management01-item01: (0px, 2423px, 0px, -2423px, 120px, 237px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-safety_management01_item01', );
+$sm-safety-management01-item02-name: 'sm-safety_management01_item02';
+$sm-safety-management01-item02-x: 0px;
+$sm-safety-management01-item02-y: 2675px;
+$sm-safety-management01-item02-offset-x: 0px;
+$sm-safety-management01-item02-offset-y: -2675px;
+$sm-safety-management01-item02-width: 120px;
+$sm-safety-management01-item02-height: 246px;
+$sm-safety-management01-item02-total-width: 332px;
+$sm-safety-management01-item02-total-height: 4463px;
+$sm-safety-management01-item02-image: '../../images/sprite/sm.png?4103602496446';
+$sm-safety-management01-item02: (0px, 2675px, 0px, -2675px, 120px, 246px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-safety_management01_item02', );
+$sm-safety-management01-item03-name: 'sm-safety_management01_item03';
+$sm-safety-management01-item03-x: 0px;
+$sm-safety-management01-item03-y: 2936px;
+$sm-safety-management01-item03-offset-x: 0px;
+$sm-safety-management01-item03-offset-y: -2936px;
+$sm-safety-management01-item03-width: 120px;
+$sm-safety-management01-item03-height: 237px;
+$sm-safety-management01-item03-total-width: 332px;
+$sm-safety-management01-item03-total-height: 4463px;
+$sm-safety-management01-item03-image: '../../images/sprite/sm.png?4103602496446';
+$sm-safety-management01-item03: (0px, 2936px, 0px, -2936px, 120px, 237px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-safety_management01_item03', );
+$sm-safety-management01-item04-name: 'sm-safety_management01_item04';
+$sm-safety-management01-item04-x: 0px;
+$sm-safety-management01-item04-y: 3188px;
+$sm-safety-management01-item04-offset-x: 0px;
+$sm-safety-management01-item04-offset-y: -3188px;
+$sm-safety-management01-item04-width: 120px;
+$sm-safety-management01-item04-height: 246px;
+$sm-safety-management01-item04-total-width: 332px;
+$sm-safety-management01-item04-total-height: 4463px;
+$sm-safety-management01-item04-image: '../../images/sprite/sm.png?4103602496446';
+$sm-safety-management01-item04: (0px, 3188px, 0px, -3188px, 120px, 246px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-safety_management01_item04', );
+$sm-safety-management01-item05-name: 'sm-safety_management01_item05';
+$sm-safety-management01-item05-x: 0px;
+$sm-safety-management01-item05-y: 3449px;
+$sm-safety-management01-item05-offset-x: 0px;
+$sm-safety-management01-item05-offset-y: -3449px;
+$sm-safety-management01-item05-width: 22px;
+$sm-safety-management01-item05-height: 7px;
+$sm-safety-management01-item05-total-width: 332px;
+$sm-safety-management01-item05-total-height: 4463px;
+$sm-safety-management01-item05-image: '../../images/sprite/sm.png?4103602496446';
+$sm-safety-management01-item05: (0px, 3449px, 0px, -3449px, 22px, 7px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-safety_management01_item05', );
+$sm-safety-management01-item06-name: 'sm-safety_management01_item06';
+$sm-safety-management01-item06-x: 0px;
+$sm-safety-management01-item06-y: 3471px;
+$sm-safety-management01-item06-offset-x: 0px;
+$sm-safety-management01-item06-offset-y: -3471px;
+$sm-safety-management01-item06-width: 218px;
+$sm-safety-management01-item06-height: 8px;
+$sm-safety-management01-item06-total-width: 332px;
+$sm-safety-management01-item06-total-height: 4463px;
+$sm-safety-management01-item06-image: '../../images/sprite/sm.png?4103602496446';
+$sm-safety-management01-item06: (0px, 3471px, 0px, -3471px, 218px, 8px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-safety_management01_item06', );
+$sm-safety-management01-item07-name: 'sm-safety_management01_item07';
+$sm-safety-management01-item07-x: 0px;
+$sm-safety-management01-item07-y: 3494px;
+$sm-safety-management01-item07-offset-x: 0px;
+$sm-safety-management01-item07-offset-y: -3494px;
+$sm-safety-management01-item07-width: 8px;
+$sm-safety-management01-item07-height: 157px;
+$sm-safety-management01-item07-total-width: 332px;
+$sm-safety-management01-item07-total-height: 4463px;
+$sm-safety-management01-item07-image: '../../images/sprite/sm.png?4103602496446';
+$sm-safety-management01-item07: (0px, 3494px, 0px, -3494px, 8px, 157px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-safety_management01_item07', );
+$sm-safety-management01-item08-name: 'sm-safety_management01_item08';
+$sm-safety-management01-item08-x: 0px;
+$sm-safety-management01-item08-y: 3666px;
+$sm-safety-management01-item08-offset-x: 0px;
+$sm-safety-management01-item08-offset-y: -3666px;
+$sm-safety-management01-item08-width: 332px;
+$sm-safety-management01-item08-height: 332px;
+$sm-safety-management01-item08-total-width: 332px;
+$sm-safety-management01-item08-total-height: 4463px;
+$sm-safety-management01-item08-image: '../../images/sprite/sm.png?4103602496446';
+$sm-safety-management01-item08: (0px, 3666px, 0px, -3666px, 332px, 332px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-safety_management01_item08', );
+$sm-social-contribution01-01-name: 'sm-social_contribution01_01';
+$sm-social-contribution01-01-x: 0px;
+$sm-social-contribution01-01-y: 4013px;
+$sm-social-contribution01-01-offset-x: 0px;
+$sm-social-contribution01-01-offset-y: -4013px;
+$sm-social-contribution01-01-width: 19px;
+$sm-social-contribution01-01-height: 25px;
+$sm-social-contribution01-01-total-width: 332px;
+$sm-social-contribution01-01-total-height: 4463px;
+$sm-social-contribution01-01-image: '../../images/sprite/sm.png?4103602496446';
+$sm-social-contribution01-01: (0px, 4013px, 0px, -4013px, 19px, 25px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-social_contribution01_01', );
+$sm-social-contribution01-02-name: 'sm-social_contribution01_02';
+$sm-social-contribution01-02-x: 0px;
+$sm-social-contribution01-02-y: 4053px;
+$sm-social-contribution01-02-offset-x: 0px;
+$sm-social-contribution01-02-offset-y: -4053px;
+$sm-social-contribution01-02-width: 24px;
+$sm-social-contribution01-02-height: 18px;
+$sm-social-contribution01-02-total-width: 332px;
+$sm-social-contribution01-02-total-height: 4463px;
+$sm-social-contribution01-02-image: '../../images/sprite/sm.png?4103602496446';
+$sm-social-contribution01-02: (0px, 4053px, 0px, -4053px, 24px, 18px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-social_contribution01_02', );
+$sm-social-contribution01-03-name: 'sm-social_contribution01_03';
+$sm-social-contribution01-03-x: 0px;
+$sm-social-contribution01-03-y: 4086px;
+$sm-social-contribution01-03-offset-x: 0px;
+$sm-social-contribution01-03-offset-y: -4086px;
+$sm-social-contribution01-03-width: 22px;
+$sm-social-contribution01-03-height: 24px;
+$sm-social-contribution01-03-total-width: 332px;
+$sm-social-contribution01-03-total-height: 4463px;
+$sm-social-contribution01-03-image: '../../images/sprite/sm.png?4103602496446';
+$sm-social-contribution01-03: (0px, 4086px, 0px, -4086px, 22px, 24px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-social_contribution01_03', );
+$sm-social-contribution01-04-name: 'sm-social_contribution01_04';
+$sm-social-contribution01-04-x: 0px;
+$sm-social-contribution01-04-y: 4125px;
+$sm-social-contribution01-04-offset-x: 0px;
+$sm-social-contribution01-04-offset-y: -4125px;
+$sm-social-contribution01-04-width: 24px;
+$sm-social-contribution01-04-height: 24px;
+$sm-social-contribution01-04-total-width: 332px;
+$sm-social-contribution01-04-total-height: 4463px;
+$sm-social-contribution01-04-image: '../../images/sprite/sm.png?4103602496446';
+$sm-social-contribution01-04: (0px, 4125px, 0px, -4125px, 24px, 24px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-social_contribution01_04', );
+$sm-step01-name: 'sm-step01';
+$sm-step01-x: 0px;
+$sm-step01-y: 4164px;
+$sm-step01-offset-x: 0px;
+$sm-step01-offset-y: -4164px;
+$sm-step01-width: 33px;
+$sm-step01-height: 40px;
+$sm-step01-total-width: 332px;
+$sm-step01-total-height: 4463px;
+$sm-step01-image: '../../images/sprite/sm.png?4103602496446';
+$sm-step01: (0px, 4164px, 0px, -4164px, 33px, 40px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-step01', );
+$sm-step01-on-name: 'sm-step01_on';
+$sm-step01-on-x: 0px;
+$sm-step01-on-y: 4219px;
+$sm-step01-on-offset-x: 0px;
+$sm-step01-on-offset-y: -4219px;
+$sm-step01-on-width: 33px;
+$sm-step01-on-height: 40px;
+$sm-step01-on-total-width: 332px;
+$sm-step01-on-total-height: 4463px;
+$sm-step01-on-image: '../../images/sprite/sm.png?4103602496446';
+$sm-step01-on: (0px, 4219px, 0px, -4219px, 33px, 40px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-step01_on', );
+$sm-step02-name: 'sm-step02';
+$sm-step02-x: 0px;
+$sm-step02-y: 4274px;
+$sm-step02-offset-x: 0px;
+$sm-step02-offset-y: -4274px;
+$sm-step02-width: 28px;
+$sm-step02-height: 37px;
+$sm-step02-total-width: 332px;
+$sm-step02-total-height: 4463px;
+$sm-step02-image: '../../images/sprite/sm.png?4103602496446';
+$sm-step02: (0px, 4274px, 0px, -4274px, 28px, 37px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-step02', );
+$sm-step02-on-name: 'sm-step02_on';
+$sm-step02-on-x: 0px;
+$sm-step02-on-y: 4326px;
+$sm-step02-on-offset-x: 0px;
+$sm-step02-on-offset-y: -4326px;
+$sm-step02-on-width: 28px;
+$sm-step02-on-height: 37px;
+$sm-step02-on-total-width: 332px;
+$sm-step02-on-total-height: 4463px;
+$sm-step02-on-image: '../../images/sprite/sm.png?4103602496446';
+$sm-step02-on: (0px, 4326px, 0px, -4326px, 28px, 37px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-step02_on', );
+$sm-step03-name: 'sm-step03';
+$sm-step03-x: 0px;
+$sm-step03-y: 4378px;
+$sm-step03-offset-x: 0px;
+$sm-step03-offset-y: -4378px;
+$sm-step03-width: 45px;
+$sm-step03-height: 35px;
+$sm-step03-total-width: 332px;
+$sm-step03-total-height: 4463px;
+$sm-step03-image: '../../images/sprite/sm.png?4103602496446';
+$sm-step03: (0px, 4378px, 0px, -4378px, 45px, 35px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-step03', );
+$sm-step03-on-name: 'sm-step03_on';
+$sm-step03-on-x: 0px;
+$sm-step03-on-y: 4428px;
+$sm-step03-on-offset-x: 0px;
+$sm-step03-on-offset-y: -4428px;
+$sm-step03-on-width: 45px;
+$sm-step03-on-height: 35px;
+$sm-step03-on-total-width: 332px;
+$sm-step03-on-total-height: 4463px;
+$sm-step03-on-image: '../../images/sprite/sm.png?4103602496446';
+$sm-step03-on: (0px, 4428px, 0px, -4428px, 45px, 35px, 332px, 4463px, '../../images/sprite/sm.png?4103602496446', 'sm-step03_on', );
+$sm-width: 332px;
+$sm-height: 4463px;
+$sm-image: '../../images/sprite/sm.png?4103602496446';
+$sm-sprites: ($sm-average, $sm-btn-arrow01, $sm-btn-arrow02, $sm-certification, $sm-environmental-management01-item01, $sm-environmental-management01-item02, $sm-environmental-management01-item03, $sm-environmental-management01-item04, $sm-environmental-management01-item05, $sm-environmental-management01-item06, $sm-ethical-management01-01, $sm-ethical-management01-02, $sm-ethical-management01-03, $sm-ethical-management01-04, $sm-ethical-management04-01, $sm-ethical-management-download, $sm-ethical-management-download01, $sm-performance, $sm-safety-management01-item01, $sm-safety-management01-item02, $sm-safety-management01-item03, $sm-safety-management01-item04, $sm-safety-management01-item05, $sm-safety-management01-item06, $sm-safety-management01-item07, $sm-safety-management01-item08, $sm-social-contribution01-01, $sm-social-contribution01-02, $sm-social-contribution01-03, $sm-social-contribution01-04, $sm-step01, $sm-step01-on, $sm-step02, $sm-step02-on, $sm-step03, $sm-step03-on, );
+$sm: (332px, 4463px, '../../images/sprite/sm.png?4103602496446', $sm-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

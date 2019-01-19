@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Compass</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,target-densitydpi=medium-dpi" />
+    <meta name="Description" content=""/>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content=""/>
+    <meta name="Keywords" content=""/>
+    <meta name="Author" content=""/>
+    <meta name="robots" content="">
+    <meta name="format-detection" content="telephone=no">
+    <script type="text/javascript" src="../../../javascripts/lib/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../../javascripts/lib/TweenMax.min.js"></script>
+    <script type="text/javascript" src="../../../javascripts/lib/swiper.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="../../javascripts/lib/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 10]>
+    <script src="../../javascripts/lib/placeholders.min.js"></script>
+    <![endif]-->
+    <!--css-->
+    <link rel="stylesheet" href="../../../stylesheets/css/common.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common_add.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common_1807.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common2_1807.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/lib/swiper.min.css"/>
+
+</head>
+<body class="webzine1807">
+<div id="wrap" role="main">
+    <!-- quick -->
+    <div id="quickMenu" class="quick_menu">
+        <ul class="quick-list">
+            <li class="list-01">
+                <span>PDF<br>DOWN<br>LOAD</span>
+                <a href=""><span>PDF DOWNLOAD</span></a>
+            </li>
+            <li class="list-02">
+                <span>VIEW<br>LAST<br>ISSUE</span>
+                <a href=""><span>VIEW LAST ISSUE</span></a>
+            </li>
+            <li class="list-03">
+                <span>BOOK<br>MARK</span>
+                <a href=""><span>BOOK MARK</span></a>
+            </li>
+            <li class="list-04">
+                <span>SUB<br>SCRIBE</span>
+                <a href="#application" class="pop-btn"><span>SUB SCRIBE</span></a>
+            </li>
+        </ul>
+    </div>
+    <!--// quick -->
+    <!-- header -->
+    <header id="header" role="banner">
+        <!-- include header -->
+        <script>$('#header').load('../include/header.html')</script>
+        <!-- //include header -->
+    </header>
+    <!-- //header -->
+    <!-- content -->
+    <div id="content">
+        <div class="container focus">
+            <div class="whats-new-wrap">
+                <div class="top-visual-area">
+                    <div class="inner-wrap">
+                        <p class="label"><span><span>What's NEW</span></span></p>
+                        <div class="flt-text">
+                            <div>
+                                <p class="title">
+                                    2018 HMM
+                                    <span>Xiamen & <i></i>Fuzhou</span>
+                                    <span>CRM Dinner</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- inner-wrap pc_ver -->
+                </div>
+                <!-- top-visual-area -->
+                <div class="content-wrap">
+                    <div class="confine-area text_by">
+                        <div class="inner-wrap">
+                            <div class="editor-pic">
+                                <img src="../../../images/1807/focus/whats_new_editor1.png" alt="" class="pc-v">
+                                <img src="../../../images/1807/focus/whats_new_editor2.png" alt="" class="mo-v">
+                            </div>
+                            <p class="label">Leon Zhang / HMM Xiamen</p>
+                        </div>
+                    </div>
+                    <div class="confine-area section-01">
+                        <div>
+                            <img src="../../../images/1807/focus/whats_sec01_img.jpg" alt="" class="img">
+
+                            <div class="text-area">
+                                <p>On June 8, we organized the 2018 HMM Xiamen & Fuzhou CRM dinner in Xiamen city. Through this event, we successfully introduced both our Xiamen direct call new product promotion and Xiamen new organization to all of our guests.</p>
+
+                                <p>This activity was greatly supported by HMM SEL HQ and the SCHQ Trade Management Team. On behalf of SEL HQ, Mr. SH Kim, Executive Vice President, and Mr. GS Kim, Senior Vice President, visited Xiamen to present at this occasion.</p>
+
+                                <p>Mr. SW Oh, Managing Director of S. China & HK, led the group of consisting of the CHQ TMT and SCHQ regional management teams. In addition, Ms. Suji Shin, General Manager of SCHQ TMT, Mr. HB Song, General Manager of SCHQ operation, and Mr. Chris Oh, General Manager of the Hong Kong office, all were fully engaged in the preparation, together with the Xiamen & Fuzhou Office Managers and Sales Teams, to make sure every detail was in good order.</p>
+
+                                <p>In total, over 130 distinguished guests were included on the invitation list, which included not only external customers, but also the President of Xiamen Port Holding Group, top management of Xiamen Container Terminal Group, and other key persons from different shipping agencies, depots, and feeder suppliers.</p>
+                            </div>
+
+                            <img src="../../../images/1807/focus/whats_obj_01.png" alt="" class="obj">
+                        </div>
+                    </div>
+
+                    <div class="wide-back-area section-02">
+                        <div class="confine-area">
+                            <div>
+                                <img src="../../../images/1807/focus/whats_sec02_img1.jpg" alt="" class="img1">
+
+                                <div class="text-area">
+                                    <p>As the event kicked off, Mr. SH Kim delivered a welcome speech extending his gratitude to all guests, and also emphasized positive anticipation for the upcoming substantial growth of HMM Fujian (Xiamen & Fuzhou) based on Fujian’s market potential and the HMM local agency’s competencies. Next to share on HMM Fujian’s ambitions, Mr. Leon Zhang, General Manager of Fujian province, presented on HMM’s core values, HMM innovation 2020, and HMM missions. He also shared regarding the XMN new direct service introduction (PS5 & EU5), XMN all trade service overview and HMM Fujian leadership chart. Throughout the speeches, the message was clear: HMM Fujian is ready to take on more responsibility and new challenges in collaboration with SEL HQ and SCHQ to enlarge HMM’s market share in Xiamen and deliver premium customer satisfaction.</p>
+                                </div>
+
+                                <img src="../../../images/1807/focus/whats_sec02_img3.jpg" alt="" class="img3">
+
+                                <div class="text-area">
+                                    <p>The dinner was wonderful, extending for more than two hours, and the dining hall was full with happy laughter. There were smiling faces, handshakes, and happy cheers all around. HMM management led a toast with HMM employees yelling, “Fujian! Fujian! Fujian!”, followed by our guests’ resounding response in chorus, “HMM! HMM! HMM!”.</p>
+
+                                    <p>As the saying goes, never say goodbye in Xiamen.<br />
+                                    Let’s keep our fingers crossed for a brilliant tomorrow together as “We Carry the Future!”.
+                                    </p>
+                                </div>
+
+                                <img src="../../../images/1807/focus/whats_sec02_img2.jpg" alt="" class="img2">
+
+                                <img src="../../../images/1807/focus/whats_obj_02.png" alt="" class="obj1">
+                                <img src="../../../images/1807/focus/whats_obj_03.png" alt="" class="obj2">
+                                <img src="../../../images/1807/focus/whats_obj_04.png" alt="" class="obj3">
+                                <img src="../../../images/1807/focus/whats_obj_05.png" alt="" class="obj4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- con-wrap -->
+            </div>
+        </div>
+        <div class="eval-wrap">
+            <ul>
+                <li class="e-value-01">
+                    <button type="submit"></button>
+                    <p class="e-value">Great</p>
+                    <p class="count">322</p>
+                </li>
+                <li class="e-value-02">
+                    <button type="submit"></button>
+                    <p class="e-value">Like</p>
+                    <p class="count">322</p>
+                </li>
+                <li class="e-value-03">
+                    <button type="submit"></button>
+                    <p class="e-value">Sad</p>
+                    <p class="count">322</p>
+                </li>
+                <li class="e-value-04">
+                    <button type="submit"></button>
+                    <p class="e-value">So-so</p>
+                    <p class="count">322</p>
+                </li>
+                <li class="e-value-05">
+                    <button type="submit"></button>
+                    <p class="e-value">Angry</p>
+                    <p class="count">322</p>
+                </li>
+            </ul>
+        </div>
+        <div class="reply-wrap">
+            <div class="reply-area">
+                <div class="reply-input">
+                    <p class="title">Let’s talk about content!</p>
+                    <div class="input-wrap">
+                        <div class="input-area">
+                            <div class="info">
+                                <input type="text" placeholder="Name">
+                                <input type="password" placeholder="PW">
+                            </div>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Share your thoughts."></textarea>
+                            <button type="submit">Submit</button>
+                        </div>
+                        <ul class="sns-list">
+                            <li>
+                                <a href="" class="sns-01">인스타그램</a>
+                                <a href="" class="sns-02">트위터</a>
+                                <a href="" class="sns-03">페이스북</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="noti-list">
+                        <li>Please leave a comment with <span>consideration for others.</span></li>
+                        <li>Depending on the content, Compass can take any action by the relevant laws.</li>
+                    </ul>
+                </div>
+                <div class="reply-list">
+                    <ul>
+                        <li>
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-1">edit</a>
+                                        <a href="" class="reply-bt tp-1">delete</a>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                </div>
+                                <div class="reply-bt-area">
+                                    <a href="" class="reply-view-bt"><span>1</span>&#09;comments</a>
+                                    <a href="" class="reply-write-bt">write a comment</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-1">edit</a>
+                                        <a href="" class="reply-bt tp-1">delete</a>
+                                    </div>
+                                </div>
+                                <div class="pass-input-area">
+                                    <input type="password" placeholder="비밀번호">
+                                    <button type="submit" class="tp-1">OK</button>
+                                    <button type="submit" class="tp-2">Cancel</button>
+                                </div>
+                                <div class="reply-bt-area">
+                                    <a href="" class="reply-view-bt"><span>1</span>&#09;comments</a>
+                                    <a href="" class="reply-write-bt">write a comment</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li> <!--사용자가 로그인 상태에서 본인이 게시한 글을 수정하고 있는 상태-->
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-2">OK</a>
+                                        <a href="" class="reply-bt tp-1">cancel</a>
+                                    </div>
+                                </div>
+                                <div class="mod-input">
+                                    <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-1">edit</a>
+                                        <a href="" class="reply-bt tp-1">delete</a>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                </div>
+                                <div class="reply-bt-area">
+                                    <a href="" class="reply-view-bt"><span>1</span>&#09;comments</a>
+                                    <a href="" class="reply-write-bt">write a comment</a>
+                                </div>
+                            </div>
+                            <div class="view-area">
+                                <ul>
+                                    <li>
+                                        <div class="info-top">
+                                            <span class="name">이종석</span>
+                                            <span class="date">2017.12.03</span>
+                                        </div>
+                                        <div class="text">
+                                            <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info-top">
+                                            <span class="name">이종석</span>
+                                            <span class="date">2017.12.03</span>
+                                        </div>
+                                        <div class="text">
+                                            <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="write-area">
+                                <ul>
+                                    <li>
+                                        <div class="info-top">
+                                            <span class="name">이종석</span>
+                                            <span class="date">2017.12.03</span>
+                                        </div>
+                                        <div class="mod-input">
+                                            <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+                                            <div class="btn-area">
+                                                <a href="" class="reply-bt tp-2">OK</a>
+                                                <a href="" class="reply-bt tp-1">cancel</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="paging">
+                    <ul>
+                        <li class="prev inactive"><a href="">prev</a></li>
+                        <li class="num"><a href="" class="active">1</a></li>
+                        <li class="num"><a href="">2</a></li>
+                        <li class="num"><a href="">3</a></li>
+                        <li class="num"><a href="">4</a></li>
+                        <li class="num"><a href="">5</a></li>
+                        <li class="next"><a href="">next</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="top-btn">
+            <button type="button" class="mo-util-bt"></button>
+            <button type="button" id="scroll_top" class="pBackgroundColor"></button>
+        </div>
+        <!-- //content -->
+        <!-- footer -->
+        <footer id="footer">
+            <!-- include footer -->
+            <script>$('#footer').load('../../include/footer.html')</script>
+            <!-- //include footer -->
+        </footer>
+        <!-- //footer -->
+        <!-- layer popup container -->
+        <div id="layer_container">
+            <!-- include popup -->
+            <script>$('#layer_container').load('../../include/popup.html')</script>
+            <!-- //include popup -->
+        </div>
+        <!--// layer popup container -->
+        <div class="dimmed h-dimmed"></div>
+        <div class="dimmed p-dimmed"></div>
+    </div>
+    <script type="text/javascript" src="../../../javascripts/common.js"></script>
+    <script>
+        (function () {
+            $(document).ready(function () {
+                $(".mo-util-bt").on("click", function(){
+                    var winHeight = $(window).height();
+
+                    $(".m_quick_open2").css("display","block");
+                    $("html").css({
+                        height: winHeight,
+                        overflow:"hidden"
+                    });
+                });
+                $(".short-answer .list-item").on("click", function(){
+                    $(this).find("input").focus();
+                })
+            });
+        })();
+    </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+.webzine1806 #content .main #section01 .main-section{ background: url("../../images/1806/main/main_bg.jpg") no-repeat center center; background-size:cover;}
+.webzine1806 #content .main #section01 .main-section .main_bg_calli div{top:270px; left:140px;}
+.webzine1806 #content .main #section01 .main-section .main_bg_calli div:before{ background-color: #7970b3;}
+.webzine1806 #content .main #section01 .main-section .main_bg_calli div p{font-family: 'montserrat-semibold'; font-size:65px;}
+.webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-list>div .card01_wrap a .card_inner .pad .card_sub_img{top:241px; right:-57px; left:auto;}
+.webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-list>div .card04_wrap a .card_inner .pad .card_sub_img{bottom:auto; top:78px; left:auto; right:-82px;}
+.webzine1806 #content .main #section03 .content .mslider_wrap01 .card_wrap .slick-list>div .card01_wrap a .card_inner .pad .card_sub_img{ right:-70px;}
+.webzine1806 #content .main #section04 .content .mslider_wrap01 .card_wrap .slick-list>div .card01_wrap a .card_inner .pad .card_sub_img{left:60px; bottom:-60px;}
+.webzine1806 #content .main #section05 .content .mslider_wrap01 .card_wrap .slick-list>div .card01_wrap a .card_inner .pad .card_sub_img{left:45px;}
+
+.webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow{top:140px;}
+.webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow:hover{ background-color: #7970b3; border-radius: 55px;}
+.webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow{top:140px;}
+.webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow:hover{ background-color: #7970b3; border-radius: 55px;}
+
+.webzine1806 #content .main #section03 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow{top:110px;}
+.webzine1806 #content .main #section03 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow:hover{ background-color: #7970b3; border-radius: 55px;}
+.webzine1806 #content .main #section03 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow{top:110px;}
+.webzine1806 #content .main #section03 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow:hover{ background-color: #7970b3; border-radius: 55px;}
+
+.webzine1806 #content .main #section04 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow{top:110px;}
+.webzine1806 #content .main #section04 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow:hover{ background-color: #7970b3; border-radius: 55px;}
+.webzine1806 #content .main #section04 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow{top:110px;}
+.webzine1806 #content .main #section04 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow:hover{ background-color: #7970b3; border-radius: 55px;}
+.webzine1806 #content .top-btn #scroll_top{ background-color: #7970b3;}
+
+.webzine1806 #layer_container .popup .content-area dl dd td>div div input:focus {
+    border: 1px solid #7970b3 !important;
+}
+
+/* market report */
+.webzine1806 #content .container.column .market .top-visual-area{ background:url('../../images/1806/column/market_top_visual.jpg') 50% 50% no-repeat;}
+.webzine1806 #content .container.column .market .top-visual-area .inner-wrap .label>span:before{ background:#7970b3; }
+.webzine1806 #content .container.column .cultural-odyssey-wrap .top-visual-area .inner-wrap .flt-text{ background-color: #cad900;}
+.webzine1806 #content .container.column .market .con-wrap .market_center_big{ margin-top:52px; padding-top:70px; position: relative;}
+.webzine1806 #content .container.column .market .con-wrap .market_center_big:before{ content:""; position: absolute; top:0; left:50%; width:1px; height:50px; background-color: #888;}
+.webzine1806 #content .container.column .market .con-wrap .confine-area .market_center_big img{width:100%; margin-left:0;}
+.webzine1806 #content .container.column .market .con-wrap .confine-area>div.section3{ margin-top:23px;}
+.webzine1806 #content .container.column .cultural-odyssey-wrap .con-wrap .confine-area.text_by .text_by_img{top:-252px;}
+
+@media (max-width: 992px) {
+    .webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .tit-wrap .tit{ font-family:'Montserrat-Medium', 'notosans-regular';}
+    .webzine1806 #content .main #section01 .main-section .main_bg_calli div{top:220px; left:0;}
+
+    .webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-dots{display:block !important; width:100% !important; margin:0 auto; position: relative; padding:0 0; top:30px;}
+    .webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-dots li{ width:calc(100% / 5);}
+    .webzine1806 #content .main #section03 .content .mslider_wrap01 .card_wrap .slick-dots{display:block !important; width:100% !important; margin:0 auto; position: relative; padding:0 0; top:30px;}
+    .webzine1806 #content .main #section03 .content .mslider_wrap01 .card_wrap .slick-dots li{ width:calc(100% / 3);}
+    .webzine1806 #content .main #section04 .content .mslider_wrap01 .card_wrap .slick-dots{display:block !important; width:100% !important; margin:0 auto; position: relative; padding:0 0; top:30px;}
+    .webzine1806 #content .main #section04 .content .mslider_wrap01 .card_wrap .slick-dots li{ width:calc(100% / 2);}
+}
+
+@media (max-width: 768px) {
+    .webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .more-bt{ background:url("../../images/main/thumb_more_w_m.png") no-repeat; background-size:21px 21px;}
+
+    .webzine1806 #content .main #section01 .main-section .main_bg_calli div{top:100px; line-height:40px;}
+    .webzine1806 #content .main #section01 .main-section .main_bg_calli div p{ font-size:40px;}
+    .webzine1806 #content .main #section01 .main-section .main_bg_calli div p .brg:before{ background-color: #7970b3;}
+
+    .webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-list>div .card01_wrap a .card_inner .pad .card_sub_img{top:200px; right:-50px;}
+    .webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-list>div .card01_wrap a .card_inner .pad .card_sub_img img{width:270px;}
+    .webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-list>div .card04_wrap a .card_inner .pad .card_sub_img{top:48px; right:-65px;}
+    .webzine1806 #content .main #section02 .content .mslider_wrap01 .card_wrap .slick-list>div .card04_wrap a .card_inner .pad .card_sub_img img{width:200px;}
+
+    .webzine1806 #content .main #section03 .content .mslider_wrap01 .card_wrap .slick-list>div .card01_wrap a .card_inner .pad .card_sub_img{ right:-40px; top:120px;}
+    .webzine1806 #content .main #section03 .content .mslider_wrap01 .card_wrap .slick-list>div .card01_wrap a .card_inner .pad .card_sub_img img{ width:150px;}
+
+    .webzine1806 #content .main #section04 .content .mslider_wrap01 .card_wrap .slick-list>div .card01_wrap a .card_inner .pad .card_sub_img{top:auto; left:-34px; bottom:-35px;}
+    .webzine1806 #content .main #section05 .content .mslider_wrap01 .card_wrap .slick-list>div .card01_wrap a .card_inner .pad .card_sub_img{left:0;}
+    .webzine1806 #content .container.column .cultural-odyssey-wrap .top-visual-area .inner-wrap .flt-text{ background-color: transparent; bottom:-86px;}
+    .webzine1806 #content .container.column .market .top-visual-area .inner-wrap .flt-text div{ background-color: #cad900;}
+    .webzine1806 #content .container.column .cultural-odyssey-wrap .con-wrap .confine-area.text_by .text_by_img{top:-81px; width:85px; height:85px;}
+    .webzine1806 #content .container.column .market .con-wrap .confine-area.text_by .label{ padding-top:10px;}
+    .webzine1806 #content .container.column .market .con-wrap .confine-area.text_by{ padding-top:55px;}
+    .webzine1806 #content .container.column .market .con-wrap .market_center_big{ margin-top:40px; padding-top:35px; }
+    .webzine1806 #content .container.column .market .con-wrap .market_center_big:before{ height:25px;}
+    .webzine1806 #content .container.column .market .con-wrap .confine-area>div.section2{ margin-top:10px;}
+    .webzine1806 #content .container.column .market .con-wrap .confine-area>div.section3{ margin-top:10px; }
+
+    .webzine1806 #content .main #section03 .content .mslider_wrap01 .card_wrap .slick-dots{padding:0 10px; top:25px;}
+}

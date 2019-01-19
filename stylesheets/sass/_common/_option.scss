@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/**
+ * Font style setting
+ */
+$noto: "Noto Sans KR", sans-serif;
+$roboto: "roboto", sans-serif;
+$gotham: "gotham", "NanumBarunGothic", sans-serif;
+$ns: "NanumSquare", sans-serif;
+$nb: "NanumBarunGothic", sans-serif;
+
+/**
+ * FONT SIZE
+ */
+$font-t : 100; //Thin
+$font-n : 300; //Light
+$font-r : 400; //Regular
+$font-m : 500; //Medium
+$font-b : 700; //Bold
+$font-e : 800; //
+
+
+/* Point color setting */
+$point01 : #012b5d;
+$point02 : #0189b1;
+
+/* Background - color setting */
+$bg-dark-black : #000;
+$bg-black : #222;
+$bg-light-black : #333;
+
+$bg-normal : #f7f7f9;
+
+$bg-dark-gray : #a8a9ab;
+$bg-gray : #f5f7f9;
+$bg-light-gray : #999999;
+
+$bg-point01 : $point01;
+$bg-point02 : $point02;
+
+/* Border - color setting */
+$bd-b : $point01;
+$bd-n : #dedee1;
+
+/* Font - color setting */
+$txt-dark-black : #000;
+$txt-black : #222;
+$txt-light-black : #333;
+
+$txt-normal : #555;
+
+$txt-gray : #999999;
+$txt-dark-gray : #999999;
+$txt-light-gray : #999999;
+
+$txt-point01 : $point01;
+$txt-point02 : $point02;
+
+
+/**
+ * BASE SETTING
+ */
+$base-font : $noto;
+$base-font-size : 15px;
+$base-font-color : $txt-normal;
+
+
+
+
+
+

@@ -1,0 +1,409 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$careers-bg-tab-name: 'careers-bg_tab';
+$careers-bg-tab-x: 0px;
+$careers-bg-tab-y: 0px;
+$careers-bg-tab-offset-x: 0px;
+$careers-bg-tab-offset-y: 0px;
+$careers-bg-tab-width: 16px;
+$careers-bg-tab-height: 78px;
+$careers-bg-tab-total-width: 150px;
+$careers-bg-tab-total-height: 2349px;
+$careers-bg-tab-image: '../../images/sprite/careers.png?4103608264717';
+$careers-bg-tab: (0px, 0px, 0px, 0px, 16px, 78px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-bg_tab', );
+$careers-job-count-name: 'careers-job_count';
+$careers-job-count-x: 0px;
+$careers-job-count-y: 93px;
+$careers-job-count-offset-x: 0px;
+$careers-job-count-offset-y: -93px;
+$careers-job-count-width: 21px;
+$careers-job-count-height: 21px;
+$careers-job-count-total-width: 150px;
+$careers-job-count-total-height: 2349px;
+$careers-job-count-image: '../../images/sprite/careers.png?4103608264717';
+$careers-job-count: (0px, 93px, 0px, -93px, 21px, 21px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-job_count', );
+$careers-job-introduction-arrow-name: 'careers-job_introduction_arrow';
+$careers-job-introduction-arrow-x: 0px;
+$careers-job-introduction-arrow-y: 129px;
+$careers-job-introduction-arrow-offset-x: 0px;
+$careers-job-introduction-arrow-offset-y: -129px;
+$careers-job-introduction-arrow-width: 35px;
+$careers-job-introduction-arrow-height: 11px;
+$careers-job-introduction-arrow-total-width: 150px;
+$careers-job-introduction-arrow-total-height: 2349px;
+$careers-job-introduction-arrow-image: '../../images/sprite/careers.png?4103608264717';
+$careers-job-introduction-arrow: (0px, 129px, 0px, -129px, 35px, 11px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-job_introduction_arrow', );
+$careers-job-introduction-close-name: 'careers-job_introduction_close';
+$careers-job-introduction-close-x: 0px;
+$careers-job-introduction-close-y: 155px;
+$careers-job-introduction-close-offset-x: 0px;
+$careers-job-introduction-close-offset-y: -155px;
+$careers-job-introduction-close-width: 58px;
+$careers-job-introduction-close-height: 58px;
+$careers-job-introduction-close-total-width: 150px;
+$careers-job-introduction-close-total-height: 2349px;
+$careers-job-introduction-close-image: '../../images/sprite/careers.png?4103608264717';
+$careers-job-introduction-close: (0px, 155px, 0px, -155px, 58px, 58px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-job_introduction_close', );
+$careers-job-next01-name: 'careers-job_next01';
+$careers-job-next01-x: 0px;
+$careers-job-next01-y: 228px;
+$careers-job-next01-offset-x: 0px;
+$careers-job-next01-offset-y: -228px;
+$careers-job-next01-width: 37px;
+$careers-job-next01-height: 36px;
+$careers-job-next01-total-width: 150px;
+$careers-job-next01-total-height: 2349px;
+$careers-job-next01-image: '../../images/sprite/careers.png?4103608264717';
+$careers-job-next01: (0px, 228px, 0px, -228px, 37px, 36px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-job_next01', );
+$careers-job-prev01-name: 'careers-job_prev01';
+$careers-job-prev01-x: 0px;
+$careers-job-prev01-y: 279px;
+$careers-job-prev01-offset-x: 0px;
+$careers-job-prev01-offset-y: -279px;
+$careers-job-prev01-width: 37px;
+$careers-job-prev01-height: 36px;
+$careers-job-prev01-total-width: 150px;
+$careers-job-prev01-total-height: 2349px;
+$careers-job-prev01-image: '../../images/sprite/careers.png?4103608264717';
+$careers-job-prev01: (0px, 279px, 0px, -279px, 37px, 36px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-job_prev01', );
+$careers-ps01-name: 'careers-ps01';
+$careers-ps01-x: 0px;
+$careers-ps01-y: 330px;
+$careers-ps01-offset-x: 0px;
+$careers-ps01-offset-y: -330px;
+$careers-ps01-width: 49px;
+$careers-ps01-height: 41px;
+$careers-ps01-total-width: 150px;
+$careers-ps01-total-height: 2349px;
+$careers-ps01-image: '../../images/sprite/careers.png?4103608264717';
+$careers-ps01: (0px, 330px, 0px, -330px, 49px, 41px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-ps01', );
+$careers-ps02-name: 'careers-ps02';
+$careers-ps02-x: 0px;
+$careers-ps02-y: 386px;
+$careers-ps02-offset-x: 0px;
+$careers-ps02-offset-y: -386px;
+$careers-ps02-width: 50px;
+$careers-ps02-height: 52px;
+$careers-ps02-total-width: 150px;
+$careers-ps02-total-height: 2349px;
+$careers-ps02-image: '../../images/sprite/careers.png?4103608264717';
+$careers-ps02: (0px, 386px, 0px, -386px, 50px, 52px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-ps02', );
+$careers-ps03-name: 'careers-ps03';
+$careers-ps03-x: 0px;
+$careers-ps03-y: 453px;
+$careers-ps03-offset-x: 0px;
+$careers-ps03-offset-y: -453px;
+$careers-ps03-width: 54px;
+$careers-ps03-height: 56px;
+$careers-ps03-total-width: 150px;
+$careers-ps03-total-height: 2349px;
+$careers-ps03-image: '../../images/sprite/careers.png?4103608264717';
+$careers-ps03: (0px, 453px, 0px, -453px, 54px, 56px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-ps03', );
+$careers-ps04-name: 'careers-ps04';
+$careers-ps04-x: 0px;
+$careers-ps04-y: 524px;
+$careers-ps04-offset-x: 0px;
+$careers-ps04-offset-y: -524px;
+$careers-ps04-width: 50px;
+$careers-ps04-height: 45px;
+$careers-ps04-total-width: 150px;
+$careers-ps04-total-height: 2349px;
+$careers-ps04-image: '../../images/sprite/careers.png?4103608264717';
+$careers-ps04: (0px, 524px, 0px, -524px, 50px, 45px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-ps04', );
+$careers-ps05-name: 'careers-ps05';
+$careers-ps05-x: 0px;
+$careers-ps05-y: 584px;
+$careers-ps05-offset-x: 0px;
+$careers-ps05-offset-y: -584px;
+$careers-ps05-width: 52px;
+$careers-ps05-height: 56px;
+$careers-ps05-total-width: 150px;
+$careers-ps05-total-height: 2349px;
+$careers-ps05-image: '../../images/sprite/careers.png?4103608264717';
+$careers-ps05: (0px, 584px, 0px, -584px, 52px, 56px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-ps05', );
+$careers-ps06-name: 'careers-ps06';
+$careers-ps06-x: 0px;
+$careers-ps06-y: 655px;
+$careers-ps06-offset-x: 0px;
+$careers-ps06-offset-y: -655px;
+$careers-ps06-width: 54px;
+$careers-ps06-height: 53px;
+$careers-ps06-total-width: 150px;
+$careers-ps06-total-height: 2349px;
+$careers-ps06-image: '../../images/sprite/careers.png?4103608264717';
+$careers-ps06: (0px, 655px, 0px, -655px, 54px, 53px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-ps06', );
+$careers-ps07-name: 'careers-ps07';
+$careers-ps07-x: 0px;
+$careers-ps07-y: 723px;
+$careers-ps07-offset-x: 0px;
+$careers-ps07-offset-y: -723px;
+$careers-ps07-width: 52px;
+$careers-ps07-height: 54px;
+$careers-ps07-total-width: 150px;
+$careers-ps07-total-height: 2349px;
+$careers-ps07-image: '../../images/sprite/careers.png?4103608264717';
+$careers-ps07: (0px, 723px, 0px, -723px, 52px, 54px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-ps07', );
+$careers-ps08-name: 'careers-ps08';
+$careers-ps08-x: 0px;
+$careers-ps08-y: 792px;
+$careers-ps08-offset-x: 0px;
+$careers-ps08-offset-y: -792px;
+$careers-ps08-width: 53px;
+$careers-ps08-height: 56px;
+$careers-ps08-total-width: 150px;
+$careers-ps08-total-height: 2349px;
+$careers-ps08-image: '../../images/sprite/careers.png?4103608264717';
+$careers-ps08: (0px, 792px, 0px, -792px, 53px, 56px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-ps08', );
+$careers-ps09-name: 'careers-ps09';
+$careers-ps09-x: 0px;
+$careers-ps09-y: 863px;
+$careers-ps09-offset-x: 0px;
+$careers-ps09-offset-y: -863px;
+$careers-ps09-width: 67px;
+$careers-ps09-height: 42px;
+$careers-ps09-total-width: 150px;
+$careers-ps09-total-height: 2349px;
+$careers-ps09-image: '../../images/sprite/careers.png?4103608264717';
+$careers-ps09: (0px, 863px, 0px, -863px, 67px, 42px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-ps09', );
+$careers-ps10-name: 'careers-ps10';
+$careers-ps10-x: 0px;
+$careers-ps10-y: 920px;
+$careers-ps10-offset-x: 0px;
+$careers-ps10-offset-y: -920px;
+$careers-ps10-width: 46px;
+$careers-ps10-height: 51px;
+$careers-ps10-total-width: 150px;
+$careers-ps10-total-height: 2349px;
+$careers-ps10-image: '../../images/sprite/careers.png?4103608264717';
+$careers-ps10: (0px, 920px, 0px, -920px, 46px, 51px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-ps10', );
+$careers-ps11-name: 'careers-ps11';
+$careers-ps11-x: 0px;
+$careers-ps11-y: 986px;
+$careers-ps11-offset-x: 0px;
+$careers-ps11-offset-y: -986px;
+$careers-ps11-width: 51px;
+$careers-ps11-height: 42px;
+$careers-ps11-total-width: 150px;
+$careers-ps11-total-height: 2349px;
+$careers-ps11-image: '../../images/sprite/careers.png?4103608264717';
+$careers-ps11: (0px, 986px, 0px, -986px, 51px, 42px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-ps11', );
+$careers-ps12-name: 'careers-ps12';
+$careers-ps12-x: 0px;
+$careers-ps12-y: 1043px;
+$careers-ps12-offset-x: 0px;
+$careers-ps12-offset-y: -1043px;
+$careers-ps12-width: 43px;
+$careers-ps12-height: 49px;
+$careers-ps12-total-width: 150px;
+$careers-ps12-total-height: 2349px;
+$careers-ps12-image: '../../images/sprite/careers.png?4103608264717';
+$careers-ps12: (0px, 1043px, 0px, -1043px, 43px, 49px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-ps12', );
+$careers-ps13-name: 'careers-ps13';
+$careers-ps13-x: 0px;
+$careers-ps13-y: 1107px;
+$careers-ps13-offset-x: 0px;
+$careers-ps13-offset-y: -1107px;
+$careers-ps13-width: 48px;
+$careers-ps13-height: 53px;
+$careers-ps13-total-width: 150px;
+$careers-ps13-total-height: 2349px;
+$careers-ps13-image: '../../images/sprite/careers.png?4103608264717';
+$careers-ps13: (0px, 1107px, 0px, -1107px, 48px, 53px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-ps13', );
+$careers-tab01-name: 'careers-tab01';
+$careers-tab01-x: 0px;
+$careers-tab01-y: 1175px;
+$careers-tab01-offset-x: 0px;
+$careers-tab01-offset-y: -1175px;
+$careers-tab01-width: 125px;
+$careers-tab01-height: 125px;
+$careers-tab01-total-width: 150px;
+$careers-tab01-total-height: 2349px;
+$careers-tab01-image: '../../images/sprite/careers.png?4103608264717';
+$careers-tab01: (0px, 1175px, 0px, -1175px, 125px, 125px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-tab01', );
+$careers-tab01-off-name: 'careers-tab01_off';
+$careers-tab01-off-x: 0px;
+$careers-tab01-off-y: 1315px;
+$careers-tab01-off-offset-x: 0px;
+$careers-tab01-off-offset-y: -1315px;
+$careers-tab01-off-width: 44px;
+$careers-tab01-off-height: 78px;
+$careers-tab01-off-total-width: 150px;
+$careers-tab01-off-total-height: 2349px;
+$careers-tab01-off-image: '../../images/sprite/careers.png?4103608264717';
+$careers-tab01-off: (0px, 1315px, 0px, -1315px, 44px, 78px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-tab01_off', );
+$careers-tab01-on-name: 'careers-tab01_on';
+$careers-tab01-on-x: 0px;
+$careers-tab01-on-y: 1408px;
+$careers-tab01-on-offset-x: 0px;
+$careers-tab01-on-offset-y: -1408px;
+$careers-tab01-on-width: 44px;
+$careers-tab01-on-height: 78px;
+$careers-tab01-on-total-width: 150px;
+$careers-tab01-on-total-height: 2349px;
+$careers-tab01-on-image: '../../images/sprite/careers.png?4103608264717';
+$careers-tab01-on: (0px, 1408px, 0px, -1408px, 44px, 78px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-tab01_on', );
+$careers-tab02-name: 'careers-tab02';
+$careers-tab02-x: 0px;
+$careers-tab02-y: 1501px;
+$careers-tab02-offset-x: 0px;
+$careers-tab02-offset-y: -1501px;
+$careers-tab02-width: 125px;
+$careers-tab02-height: 125px;
+$careers-tab02-total-width: 150px;
+$careers-tab02-total-height: 2349px;
+$careers-tab02-image: '../../images/sprite/careers.png?4103608264717';
+$careers-tab02: (0px, 1501px, 0px, -1501px, 125px, 125px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-tab02', );
+$careers-tab02-off-name: 'careers-tab02_off';
+$careers-tab02-off-x: 0px;
+$careers-tab02-off-y: 1641px;
+$careers-tab02-off-offset-x: 0px;
+$careers-tab02-off-offset-y: -1641px;
+$careers-tab02-off-width: 41px;
+$careers-tab02-off-height: 78px;
+$careers-tab02-off-total-width: 150px;
+$careers-tab02-off-total-height: 2349px;
+$careers-tab02-off-image: '../../images/sprite/careers.png?4103608264717';
+$careers-tab02-off: (0px, 1641px, 0px, -1641px, 41px, 78px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-tab02_off', );
+$careers-tab02-on-name: 'careers-tab02_on';
+$careers-tab02-on-x: 0px;
+$careers-tab02-on-y: 1734px;
+$careers-tab02-on-offset-x: 0px;
+$careers-tab02-on-offset-y: -1734px;
+$careers-tab02-on-width: 41px;
+$careers-tab02-on-height: 78px;
+$careers-tab02-on-total-width: 150px;
+$careers-tab02-on-total-height: 2349px;
+$careers-tab02-on-image: '../../images/sprite/careers.png?4103608264717';
+$careers-tab02-on: (0px, 1734px, 0px, -1734px, 41px, 78px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-tab02_on', );
+$careers-tab03-name: 'careers-tab03';
+$careers-tab03-x: 0px;
+$careers-tab03-y: 1827px;
+$careers-tab03-offset-x: 0px;
+$careers-tab03-offset-y: -1827px;
+$careers-tab03-width: 125px;
+$careers-tab03-height: 125px;
+$careers-tab03-total-width: 150px;
+$careers-tab03-total-height: 2349px;
+$careers-tab03-image: '../../images/sprite/careers.png?4103608264717';
+$careers-tab03: (0px, 1827px, 0px, -1827px, 125px, 125px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-tab03', );
+$careers-tab03-off-name: 'careers-tab03_off';
+$careers-tab03-off-x: 0px;
+$careers-tab03-off-y: 1967px;
+$careers-tab03-off-offset-x: 0px;
+$careers-tab03-off-offset-y: -1967px;
+$careers-tab03-off-width: 55px;
+$careers-tab03-off-height: 78px;
+$careers-tab03-off-total-width: 150px;
+$careers-tab03-off-total-height: 2349px;
+$careers-tab03-off-image: '../../images/sprite/careers.png?4103608264717';
+$careers-tab03-off: (0px, 1967px, 0px, -1967px, 55px, 78px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-tab03_off', );
+$careers-tab03-on-name: 'careers-tab03_on';
+$careers-tab03-on-x: 0px;
+$careers-tab03-on-y: 2060px;
+$careers-tab03-on-offset-x: 0px;
+$careers-tab03-on-offset-y: -2060px;
+$careers-tab03-on-width: 55px;
+$careers-tab03-on-height: 78px;
+$careers-tab03-on-total-width: 150px;
+$careers-tab03-on-total-height: 2349px;
+$careers-tab03-on-image: '../../images/sprite/careers.png?4103608264717';
+$careers-tab03-on: (0px, 2060px, 0px, -2060px, 55px, 78px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-tab03_on', );
+$careers-tab-arrow-name: 'careers-tab_arrow';
+$careers-tab-arrow-x: 0px;
+$careers-tab-arrow-y: 2153px;
+$careers-tab-arrow-offset-x: 0px;
+$careers-tab-arrow-offset-y: -2153px;
+$careers-tab-arrow-width: 40px;
+$careers-tab-arrow-height: 7px;
+$careers-tab-arrow-total-width: 150px;
+$careers-tab-arrow-total-height: 2349px;
+$careers-tab-arrow-image: '../../images/sprite/careers.png?4103608264717';
+$careers-tab-arrow: (0px, 2153px, 0px, -2153px, 40px, 7px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-tab_arrow', );
+$careers-tab-step01-name: 'careers-tab_step01';
+$careers-tab-step01-x: 0px;
+$careers-tab-step01-y: 2175px;
+$careers-tab-step01-offset-x: 0px;
+$careers-tab-step01-offset-y: -2175px;
+$careers-tab-step01-width: 150px;
+$careers-tab-step01-height: 174px;
+$careers-tab-step01-total-width: 150px;
+$careers-tab-step01-total-height: 2349px;
+$careers-tab-step01-image: '../../images/sprite/careers.png?4103608264717';
+$careers-tab-step01: (0px, 2175px, 0px, -2175px, 150px, 174px, 150px, 2349px, '../../images/sprite/careers.png?4103608264717', 'careers-tab_step01', );
+$careers-width: 150px;
+$careers-height: 2349px;
+$careers-image: '../../images/sprite/careers.png?4103608264717';
+$careers-sprites: ($careers-bg-tab, $careers-job-count, $careers-job-introduction-arrow, $careers-job-introduction-close, $careers-job-next01, $careers-job-prev01, $careers-ps01, $careers-ps02, $careers-ps03, $careers-ps04, $careers-ps05, $careers-ps06, $careers-ps07, $careers-ps08, $careers-ps09, $careers-ps10, $careers-ps11, $careers-ps12, $careers-ps13, $careers-tab01, $careers-tab01-off, $careers-tab01-on, $careers-tab02, $careers-tab02-off, $careers-tab02-on, $careers-tab03, $careers-tab03-off, $careers-tab03-on, $careers-tab-arrow, $careers-tab-step01, );
+$careers: (150px, 2349px, '../../images/sprite/careers.png?4103608264717', $careers-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

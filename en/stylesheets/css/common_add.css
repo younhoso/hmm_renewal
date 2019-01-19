@@ -1,0 +1,170 @@
+/* header 구조 변경 & 메인 섹션 구조 변경 */
+
+/* header */
+#header .outer .inner .h-bot-area #gnb .depth01-lists>li {width: calc(100% / 5);}
+#header .outer .inner .h-bot-area #gnb {padding: 0 20% 0 15%;}
+#header #siteMap .site-con>dl {width: calc(100% / 5);}
+#header #siteMap .site-con>dl dd a div.label p {line-height: 32px;}
+#header .outer .inner .h-bot-area #gnb .depth01-lists>li .depth02-lists {width: 146%; left:-23%; }
+@media (max-width: 992px){
+    #header .outer .inner .h-bot-area .left-wrap .h-sns-list li {margin-left: 5px;}
+    #header .outer .inner .h-bot-area .h-util .compass-logo {right:30px;}
+    #header #siteMap .site-con>dl dt p {font-family: 'montserrat-bold'; letter-spacing: -1px;}
+    #header #siteMap .site-con>dl {padding: 50px 12px 0;}
+    #header #siteMap .site-con>dl dd a div.label p {line-height: 28px;}
+}
+
+@media (max-width: 768px){
+    #header .outer .inner .h-bot-area .h-util .compass-logo {right:72px;}
+}
+
+
+/* main */
+#content .main #section06 .content {width: 84.2% !important; margin: 0 auto;}
+#content .main #section02 .content .mslider_wrap01{padding:310px 0 100px}
+#content .main #section06 .content .mslider_wrap01 {padding: 185px 0 100px;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap {width: 100%; padding-top: 0;}
+#content .main #section02 .content .mslider_wrap01 .card_wrap:before{top:175px;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap:before {content: ""; display: block; position: absolute; width: 634px; height: 142px; top: 52px; background: url("../../images/1806/main/slide_section5_title.png") no-repeat;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap:after {content: " "; display: block; clear: both;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list {overflow: visible !important;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li {padding: 0 20px;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li.card01_wrap {padding-left: 0;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a {outline: none !important; display: block;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner {float: right; position: relative;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .tilt-wrap {overflow: hidden; position: relative;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .tilt-wrap img {display: block; max-width: 100%; height: auto; vertical-align: top; border-style: none;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .tilt-wrap img.pc {display: block;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .tilt-wrap img.mo {display: none;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad { position: absolute; top: 0; width: 100%; height: 100%; padding: 68px 0 0 30px; box-sizing: border-box;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .tit-wrap .sub_tit { font-size: 18px; color: #1b1b1b; font-family: 'montserrat-regular', 'notosans-regular';}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .tit-wrap .tit {font-size: 36px; color: #1b1b1b; font-family: 'Montserrat-Medium', 'notosans-regular'; letter-spacing: -1px; margin-top: 10px; line-height: 38px;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .tit-wrap .tit span {display: block;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .tit-wrap .tit-m {display: none;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .txt-wrap {position: relative; margin-top: 19px; padding-top: 17px;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .txt-wrap:before {position: absolute; top: 0; left: -30px; width: 180px; height: 1px; background: #1b1b1b; content: "";}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .txt-wrap .txt { font-size: 18px; color: #575757; font-family: 'notosans-regular'; line-height: 24px; letter-spacing: -0.5px;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .more-bt { display: inline-block; margin-top: 24px; width: 50px; height: 50px; background: url("../../images/main/thumb_more.png") no-repeat;
+-webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; -ms-transition: all .3s ease; text-indent: -9999px;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .card_sub_img {position: absolute; z-index: 100; top:128px; left:auto; right: -95px;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .tit-wrap .sub_tit {color: #fff;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .tit-wrap .tit {color: #fff;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .txt-wrap:before {background: #fff;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .txt-wrap .txt {color: #fff;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .more-bt {background: url("../../images/main/thumb_more_w.png") no-repeat;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.card02 .pad .card_sub_img {bottom: 130px; right: -55px;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.card04 .pad .card_sub_img {bottom: 100px; right: -74px;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.card06 .pad .card_sub_img {bottom: -12px; right: -39px;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.hover .tilt-wrap img {-webkit-transform: scale(1.1); transform: scale(1.1); transition-duration: 0.5s;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.hover .pad .more-bt {background: url("../../images/main/thumb_more_hover.png") no-repeat;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow {width: 55px; height: 55px; position: absolute; z-index: 10; text-indent: -9999px;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow {right: 215px; top: 210px; background: url("../../images/main/roll_bt_left.png") no-repeat; background-size: 55px 55px; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow:hover {background: url("../../images/main/roll_bt_left_on.png") no-repeat;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow.slick-disabled {background: url("../../images/main/roll_bt_left.png") no-repeat;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow {right: 150px; top: 210px; background: url("../../images/main/roll_bt_right.png") no-repeat; background-size: 55px 55px; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow:hover {background: url("../../images/main/roll_bt_right_on.png") no-repeat;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow.slick-disabled {background: url("../../images/main/roll_bt_right.png") no-repeat;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-dots {position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; display: none; padding: 0 10px; box-sizing: border-box;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-dots li {display: inline-block; height: 2px; background: #e1e1e1; width: 20%; float: left; margin-top: 1px;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-dots li div {width: 100%; height: 4px; margin-top: -1px; cursor: pointer;}
+#content .main #section06 .content .mslider_wrap01 .card_wrap .slick-dots li.slick-active div {width: 100%; height: 4px; background: #7970b3; margin-top: -1px; cursor: pointer;}
+
+@media (max-width: 992px){
+    #content .main #section02 .content .mslider_wrap01{padding:230px 0 100px;}
+    #content .main #section06 .content .mslider_wrap01 {padding: 200px 0 0;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap {width: 100%; padding-top: 0;}
+    #content .main #section02 .content .mslider_wrap01 .card_wrap:before{top:145px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap:before {content: ""; display: block; position: absolute; width: 402px; height: 90px; top: 115px; background: url("../../images/1806/main/slide_section5_title.png") no-repeat; background-size: 402px 90px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap:after {content: ""; display: block; clear: both;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list {overflow: visible !important;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li {padding: 0 20px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li.card01_wrap {padding-left: 0;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a {outline: none !important; display: block;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner {float: right; position: relative;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .tilt-wrap {overflow: hidden; position: relative;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .tilt-wrap img {display: block; max-width: 100%; height: auto; vertical-align: top; border-style: none;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad {position: absolute; top: 0; width: 100%; height: 100%; padding: 68px 0 0 30px; box-sizing: border-box;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .tit-wrap .sub_tit {font-size: 18px; color: #1b1b1b; font-family: 'Montserrat-Medium', 'notosans-regular';}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .tit-wrap .tit {font-size: 36px; color: #1b1b1b; letter-spacing: -1px; margin-top: 4px; line-height: 42px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .tit-wrap .tit-m {display: none;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .txt-wrap {position: relative; margin-top: 19px; padding-top: 17px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .txt-wrap:before {position: absolute; top: 0; left: -30px; width: 120px; height: 1px; background: #1b1b1b; content: "";}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .txt-wrap .txt {font-size: 18px; color: #575757; font-family: 'notosans-regular'; line-height: 24px; letter-spacing: -0.5px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .more-bt {display: inline-block; margin-top: 37px; width: 50px; height: 50px; background: url("../../images/main/thumb_more.png") no-repeat;
+    -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; -ms-transition: all .3s ease; text-indent: -9999px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .card_sub_img {position: absolute; z-index: 100;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .tit-wrap .sub_tit {color: #fff;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .tit-wrap .tit {color: #fff;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .txt-wrap:before {background: #fff;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .txt-wrap .txt {color: #fff;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .more-bt {background: url("../../images/main/thumb_more_w.png") no-repeat;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.card02 .pad .card_sub_img {bottom: 130px; right: -55px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.card04 .pad .card_sub_img {bottom: 100px; right: -74px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.card06 .pad .card_sub_img {bottom: -12px; right: -39px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.hover .tilt-wrap img {-webkit-transform: scale(1.1); transform: scale(1.1); transition-duration: 0.5s;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.hover .pad .more-bt {background: url("../../images/main/thumb_more_hover.png") no-repeat;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow {width: 55px; height: 55px; position: absolute; z-index: 10; text-indent: -9999px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow {right: 215px; top: 210px; background: url("../../images/main/roll_bt_left.png") no-repeat; background-size: 55px 55px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow:hover {background: url("../../images/main/roll_bt_left_on.png") no-repeat;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow.slick-disabled {background: url("../../images/main/roll_bt_left.png") no-repeat;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow {right: 150px; top: 210px; background: url("../../images/main/roll_bt_right.png") no-repeat; background-size: 55px 55px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow:hover {background: url("../../images/main/roll_bt_right_on.png") no-repeat;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow.slick-disabled {background: url("../../images/main/roll_bt_right.png") no-repeat;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-dots {position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; display: none; padding: 0 10px; box-sizing: border-box;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-dots li {display: inline-block; height: 2px; background: #e1e1e1; width: 20%; float: left; margin-top: 1px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-dots li div {width: 100%; height: 4px; margin-top: -1px; cursor: pointer;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-dots li.slick-active div {width: 100%; height: 4px; background: #7970b3; margin-top: -1px; cursor: pointer;}
+}
+
+@media (max-width: 768px){
+    #content .main #section06 .content {margin-top: 0; width: 100% !important}
+    #content .main #section06 .content .mslider_wrap01 {padding: 100px 0 25px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap {width: 100%; padding-top: 0;}
+    #content .main #section02 .content .mslider_wrap01 .card_wrap:before{top:53px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap:before {content: ""; display: block; position: absolute; width: 196px; height: 50px; top: 53px; left: 10px; background: url("../../images/1806/main/slide_section5_title_m.png") no-repeat; background-size: 196px 50px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap:after {content: ""; display: block; clear: both;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list {overflow: visible !important;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li {padding: 0 10px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li.card01_wrap {padding-left: 10px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a {outline: none !important; display: block;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner {float: right; position: relative; width: 310px !important;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .tilt-wrap {overflow: hidden; position: relative;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .tilt-wrap img { display: block; max-width: 100%; height: auto; vertical-align: top; border-style: none;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .tilt-wrap img.pc {display: none;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .tilt-wrap img.mo {display: block;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad {position: absolute; top: 0; width: 100%; height: 100%; padding: 60px 0 0 15px; box-sizing: border-box;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .tit-wrap .sub_tit {font-size: 16px; color: #1b1b1b; font-family: 'Montserrat-Medium', 'notosans-regular';}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .tit-wrap .tit {font-size: 23px; color: #1b1b1b; letter-spacing: -1px; margin-top: 0; line-height: 30px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .tit-wrap .tit.d-none {display: none;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .tit-wrap .tit-m {font-size: 23px; color: #1b1b1b; font-family: 'Montserrat-Medium'; letter-spacing: -1px; margin-top: 0; line-height: 28px; display: block;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .tit-wrap .tit-m span {display: block;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .txt-wrap {position: relative; margin-top: 14px; padding-top: 14px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .txt-wrap:before {position: absolute; top: 0; left: -15px; width: 120px; height: 1px; background: #1b1b1b; content: "";}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .txt-wrap .txt {font-size: 16px; color: #575757; font-family: 'notosans-regular'; line-height: 24px; letter-spacing: -0.5px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .more-bt {display: inline-block; margin-top: 23px; width: 21px; height: 21px; background: url("../../images/main/thumb_more_m.png") no-repeat; background-size: 21px 21px;
+    -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; -ms-transition: all .3s ease; text-indent: -9999px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad .card_sub_img {position: absolute; z-index: 100;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .tit-wrap .sub_tit {color: #fff;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .tit-wrap .tit {color: #fff;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .txt-wrap:before {background: #fff;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .txt-wrap .txt {color: #fff;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .more-bt {background: url("../../images/main/thumb_more_w_m.png") no-repeat; background-size: 21px 21px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .tit-wrap .tit-m {font-size: 23px; color: #fff; font-family: 'Montserrat-Medium'; letter-spacing: -1px; margin-top: 0; line-height: 28px; display: block;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner .pad.c-white .tit-wrap .tit-m span {display: block;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.card02 .pad .card_sub_img {bottom: 130px; right: -55px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.card04 .pad .card_sub_img {bottom: 100px; right: -74px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.card06 .pad .card_sub_img { bottom: -12px; right: -39px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.hover .tilt-wrap img {-webkit-transform: scale(1.1); transform: scale(1.1); transition-duration: 0.5s;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-list>div li a .card_inner.hover .pad .more-bt {background: url("../../images/main/thumb_more_m.png") no-repeat; background-size: 21px 21px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow {width: 55px; height: 55px; position: absolute; z-index: 10; text-indent: -9999px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow {right: 215px; top: 210px; background: url("../../images/main/roll_bt_left.png") no-repeat; background-size: 55px 55px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow:hover {background: url("../../images/main/roll_bt_left_on.png") no-repeat;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-prev.slick-arrow.slick-disabled {background: url("../../images/main/roll_bt_left.png") no-repeat;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow {right: 150px; top: 210px; background: url("../../images/main/roll_bt_right.png") no-repeat; background-size: 55px 55px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow:hover {background: url("../../images/main/roll_bt_right_on.png") no-repeat;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-arrow.slick-next.slick-arrow.slick-disabled {background: url("../../images/main/roll_bt_right.png") no-repeat;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-dots {position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; display: none; padding: 0 10px; box-sizing: border-box;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-dots li {display: inline-block; height: 2px; background: #e1e1e1; width: calc(100% / 2); float: left; margin-top: 1px;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-dots li div {width: 100%; height: 4px; margin-top: -1px; cursor: pointer;}
+    #content .main #section06 .content .mslider_wrap01 .card_wrap .slick-dots li.slick-active div {width: 100%; height: 4px; background: #7970b3; margin-top: -1px; cursor: pointer;}
+}

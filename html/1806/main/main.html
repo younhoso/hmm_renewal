@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>현대상선</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,target-densitydpi=medium-dpi" />
+    <meta name="Description" content=""/>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content=""/>
+    <meta name="Keywords" content=""/>
+    <meta name="Author" content=""/>
+    <meta name="robots" content="">
+    <meta name="format-detection" content="telephone=no">
+    <script type="text/javascript" src="../../../javascripts/lib/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../../javascripts/lib/TweenMax.min.js"></script>
+    <script type="text/javascript" src="../../../javascripts/lib/site.js"></script>
+    <script type="text/javascript" src="../../../javascripts/lib/index.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="../../javascripts/lib/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 10]>
+    <script src="../../javascripts/lib/placeholders.min.js"></script>
+    <![endif]-->
+    <!--css-->
+    <link rel="stylesheet" href="../../../stylesheets/css/common.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common_1806.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common2_1806.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/lib/slick.css"/>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body class="webzine1806">
+<div id="wrap" role="main">
+    <!-- quick -->
+    <div id="quickMenu" class="quick_menu">
+        <ul class="quick-list">
+            <li class="list-01">
+                <span>PDF<br>다운로드</span>
+                <a href=""><span>PDF 다운로드</span></a>
+            </li>
+            <li class="list-02">
+                <span>과월호<br>보기</span>
+                <a href=""><span>과월호 보기</span></a>
+            </li>
+            <li class="list-03">
+                <span>북마크</span>
+                <a href=""><span>북마크</span></a>
+            </li>
+            <li class="list-04">
+                <span>구독신청</span>
+                <a href="#application" class="pop-btn"><span>구독신청</span></a>
+            </li>
+        </ul>
+    </div>
+    <!--// quick -->
+    <!-- header -->
+    <header id="header" role="banner">
+        <!-- include header -->
+        <script>$('#header').load('../include/header.html')</script>
+        <!-- //include header -->
+    </header>
+    <!-- //header -->
+    <!-- content -->
+    <div id="content">
+        <div class="main">
+            <section id="section01">
+                <canvas id="confetti-holder" style="position: absolute; left:0; top:0; height:770px;"></canvas>
+                <div id="settings" style="opacity: 0; position: absolute;">
+                    <h2>Settings</h2>
+                    <div class="l">
+                        <form>
+                            <div>
+                                <label>Target canvas Id</label>
+                                <input type="text" id="canvas-id" />
+                            </div>
+                            <div>
+                                <label>Max confetti</label>
+                                <input type="number" id="max-confetti" />
+                            </div>
+                            <div>
+                                <label>Type of confetti</label>
+                                <ul>
+                                    <li><input type="checkbox" id="square" value="square" /> <label for="square">Square</label></li>
+                                    <li><input type="checkbox" id="triangle" value="triangle" /> <label for="triangle">Triangle</label></li>
+                                    <li><input type="checkbox" id="line" value="line" /> <label for="line">Lines</label></li>
+                                    <li><input type="checkbox" id="circle" value="circle" /> <label for="circle">Circle</label></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <label>Colors (RGB, [r,g,b],[r,g,b] ...)</label>
+                                <input type="text" id="colors" value="" />
+                            </div>
+                            <div>
+                                <label>Clock</label>
+                                <input type="text" id="clock" value="" />
+                            </div>
+                            <div>
+                                <label>Prop size</label>
+                                <input type="number" id="size" value="" />
+                            </div>
+                            <div>
+                                <label>Canvas Width (defaults is window width)</label>
+                                <input type="number" id="width" value="" />
+                            </div>
+                            <div>
+                                <label>Canvas Height (defaults is window height)</label>
+                                <input type="number" id="height" value="" />
+                            </div>
+                            <div>
+                                <div><input type="checkbox" id="animate" value="animate" /><label for="animate">Animate</label></div>
+                            </div>
+                            <div>
+                                <br />
+                                <input type="button" onclick="app.render()" id="btnRender" value="Render" />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="r">
+                        <h4>Json config output</h4>
+                        <div>
+                          <pre id="json-output">
+                            {}
+                          </pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-section">
+                    <div class="main_bg_calli">
+                        <div class="wrap">
+                            <img src="../../../images/1806/main/main_copy_text.png" alt="">
+                            <p class="tin"><span>바다소리 6월호를 만나보세요.</span></p>
+                        </div>
+                    </div>
+                    <img src="../../../images/1806/main/m_main_sec1_bg.jpg" alt="">
+                    <div class="m-con-wrap">
+                        <div class="outer-wrap">
+                            <div class="inner-wrap">
+                                <img src="../../../images/1806/main/main_copy_text_m.png" alt="">
+                                <p class="tin"><span>바다소리 5월호를 만나보세요.</span></p>
+                            </div>
+                            <img src="../../../images/main/m_main_scroll_icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- main end -->
+            </section>
+            <section id="section02" class="section_slide01" style="position:relative;">
+                <div class="content cont01">
+                    <div class="mslider_wrap01">
+                        <ul class="card_wrap slider01 card_wrap_01">
+                            <li class="card card01_wrap">
+                                <a href="">
+                                    <div class="card_inner card01">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont1_card01.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont1_card01_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit"><span class="en">HMM</span> 뉴스</div>
+                                                <div class="tit">현대상선 소식</div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                            <div class="card_sub_img"><img src="../../../images/1806/main/cont1_card01_sub.png" /></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card card02_wrap">
+                                <a href="#">
+                                    <div class="card_inner card02">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont1_card02.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont1_card02_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">칭찬 릴레이</div>
+                                                <div class="tit">당신이 있어
+                                                    <span>현대상선이</span>
+                                                    <span>행복합니다</span></div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                            <div class="card_sub_img"><img src="../../../images/1806/main/cont1_card02_sub.png" /></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card card03_wrap">
+                                <a href="#">
+                                    <div class="card_inner card03">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont1_card03.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont1_card03_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">NEW In HMM</div>
+                                                <div class="tit">
+                                                    2018년도
+                                                    <span>초임사관을 만나다</span>
+                                                </div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card card04_wrap">
+                                <a href="#">
+                                    <div class="card_inner card04">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont1_card04.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont1_card04_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">현장 스케치</div>
+                                                <div class="tit">
+                                                    2018 컨테이너사업
+                                                    <span>총괄 워크숍</span>
+                                                </div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="section03" class="section_slide02" style="position:relative;">
+                <div class="content cont01">
+                    <div class="mslider_wrap01">
+                        <ul class="card_wrap slider01 card_wrap_02">
+                            <li class="card card05_wrap">
+                                <a href="">
+                                    <div class="card_inner card05">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont2_card05.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont2_card05_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">HMM 인사이드</div>
+                                                <div class="tit">
+                                                    New Start 2018
+                                                    <span>FH(Full Ahead)</span>
+                                                    <span>2020!</span>
+                                                </div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                            <div class="card_sub_img"><img src="../../../images/1806/main/cont2_card05_sub.png" /></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card card06_wrap">
+                                <a href="">
+                                    <div class="card_inner card06">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont2_card06.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont2_card06_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">콘테스트</div>
+                                                <div class="tit">
+                                                    '2018 한마음 대행진
+                                                    <span>사진/영상 콘테스트'</span>
+                                                </div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card card01_wrap">
+                                <a href="">
+                                    <div class="card_inner card01">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont2_card01.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont2_card01_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">&lt;6월호 서베이&gt;</div>
+                                                <div class="tit">
+                                                    워라벨 실천하기 편
+                                                </div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                            <div class="card_sub_img"><img src="../../../images/1806/main/cont2_card01_sub.png" /></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card card02_wrap">
+                                <a href="#">
+                                    <div class="card_inner card02">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont2_card02.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont2_card02_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">&lt;5월호 서베이 결과&gt;</div>
+                                                <div class="tit">
+                                                    건강한 회의 문화
+                                                    <span>만들기 편</span>
+                                                </div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card card03_wrap">
+                                <a href="#">
+                                    <div class="card_inner card03">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont2_card03.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont2_card03_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">차트로 보는 해운</div>
+                                                <div class="tit">
+                                                    명나라 시기 무역의
+                                                    <span>억압과 왜구의 창궐</span>
+                                                </div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card card04_wrap">
+                                <a href="#">
+                                    <div class="card_inner card04">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont2_card04.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont2_card04_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">테드</div>
+                                                <div class="tit">
+                                                    당신의 '소확행'을
+                                                    <span>위한 TED</span>
+                                                </div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="section04" class="section_slide03" style="position:relative;">
+                <div class="content cont01">
+                    <div class="mslider_wrap01">
+                        <ul class="card_wrap slider01 card_wrap_03">
+                            <li class="card card01_wrap">
+                                <a href="">
+                                    <div class="card_inner card01">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont3_card01.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont3_card01_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">뜨거운 낱말</div>
+                                                <div class="tit">
+                                                    직장인이라면
+                                                    <span>공감 200% '급여체'</span>
+                                                </div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                            <div class="card_sub_img"><img src="../../../images/1806/main/cont3_card01_sub.png" /></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card card02_wrap">
+                                <a href="#">
+                                    <div class="card_inner card02">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont3_card02.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont3_card02_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad c-white">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">먹스타 맛집</div>
+                                                <div class="tit">
+                                                    프랑스
+                                                    <span>가정식 레스토랑</span>
+                                                    <span>‘쉐리(Chez Lui)’</span>
+                                                </div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card card03_wrap">
+                                <a href="#">
+                                    <div class="card_inner card03">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont3_card03.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont3_card03_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">여행에 빠지다</div>
+                                                <div class="tit">
+                                                    최남단 전남 장흥에서
+                                                    <span>힐링을</span>
+                                                </div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                            <div class="card_sub_img"><img src="../../../images/1806/main/cont3_card03_sub.png" /></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card card04_wrap">
+                                <a href="#">
+                                    <div class="card_inner card04">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont3_card04.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont3_card04_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">컬처 클럽</div>
+                                                <div class="tit">
+                                                    6월의 컬처 클럽
+                                                </div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="card card05_wrap">
+                                <a href="#">
+                                    <div class="card_inner card05">
+                                        <div class="tilt-wrap thumb">
+                                            <img src="../../../images/1806/main/cont3_card05.jpg" class="img pc-view" alt="">
+                                            <img src="../../../images/1806/main/cont3_card05_m.jpg" class="img mo-view" alt="">
+                                        </div>
+                                        <div class="pad">
+                                            <div class="tit-wrap">
+                                                <div class="sub_tit">이벤트</div>
+                                                <div class="tit">
+                                                    6월의 이벤트
+                                                </div>
+                                            </div>
+                                            <div class="txt-wrap"></div>
+                                            <span class="more-bt">자세히보기</span>
+                                            <div class="card_sub_img"><img src="../../../images/1806/main/cont3_card05_sub.png" /></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div class="top-btn">
+                <button type="button" class="mo-util-bt"></button>
+                <button type="button" id="scroll_top" class="pBackgroundColor"></button>
+            </div>
+        </div>
+    </div>
+    <!-- //content -->
+    <!-- footer -->
+    <footer id="footer">
+        <!-- include footer -->
+        <script>$('#footer').load('../include/footer.html')</script>
+        <!-- //include footer -->
+    </footer>
+    <!-- //footer -->
+    <!-- layer popup container -->
+    <div id="layer_container">
+        <!-- include popup -->
+        <script>$('#layer_container').load('../include/popup.html')</script>
+        <!-- //include popup -->
+    </div>
+
+<!-- 이벤트 팝업 -->
+    <div class="popup event" id="event" style="display:block;">
+        <button type="button" class="event-close-bt">
+            <img src="../../../images/1806/main/event_pop_close2.png" alt="">
+        </button>
+        <p class="go-btn">
+            <a href="">
+                <img src="../../../images/1806/main/event_pop2_go.jpg" alt="">
+            </a>
+        </p>
+        <div class="noToday">
+            <input type="checkbox" id="noToday"><label for="noToday">오늘 하루 열지 않기</label>
+        </div>
+    </div>
+    <!-- // 이벤트 팝업 -->
+    <script>
+        $(document).ready(function(){
+            var windowHeight = $(window).height();
+            var eventPopHeight = $("#event").height();
+
+            $(".p-dimmed").addClass("active2");
+
+            $("#event").css({
+                top: ( windowHeight - eventPopHeight ) / 2
+            })
+
+            $(window).resize(function(){
+                var windowHeight = $(window).height();
+                var eventPopHeight = $("#event").height();
+
+                $("#event").css({
+                    top: ( windowHeight - eventPopHeight ) / 2
+                })
+            })
+
+            $(".event-close-bt, .p-dimmed").on("click", function(){
+                $(".p-dimmed").removeClass("active2");
+                $("#event").hide();
+            })
+        })
+    </script>
+    <!-- // layer popup container -->
+    <div class="dimmed h-dimmed"></div>
+    <div class="dimmed p-dimmed"></div>
+</div>
+<script type="text/javascript" src="../../../javascripts/common.js"></script>
+<script type="text/javascript" src="../../../javascripts/lib/slick.js"></script>
+<script>
+    var $main_sub = $('#main_sub');
+    var es_step = "Expo.ease";
+
+
+    TweenMax.to( $('.main_bg_calli'), 5, {opacity:1, ease:es_step});
+    TweenMax.to( $main_sub, 5, {opacity:1, ease:es_step});
+
+    /* 카드 마우스 오버시 이미지 확대 */
+    $('.card_inner').hover(function(){
+        $(this).addClass('hover');
+    }, function(){
+        $(this).removeClass('hover');
+    });
+
+    $(window).resize(function(){
+        if( $(window).width()  >= 992){
+            $('.slick-arrow').show();
+            $(".slick-dots").hide();
+        } else {
+            $('.slick-arrow').hide();
+            $(".slick-dots").show();
+        }
+    })
+
+    var $slider1 = $(".card_wrap_01");
+    var $slider2 = $(".card_wrap_02");
+    var $slider3 = $(".card_wrap_03");
+    $slider1.each(function(i, el) {
+        var $list = $(el);
+        $list.on("init", function() {
+
+            if( $(window).width() >= 992){
+                $('.slick-arrow').show();
+                $(".slick-dots").hide();
+            } else {
+                $('.slick-arrow').hide();
+                $(".slick-dots").show();
+            }
+
+            $list.find('.slick-arrow').hover(function(){
+                $(this).addClass('hover');
+            }, function(){
+                $(this).removeClass('hover');
+            });
+
+        }).slick({
+            customPaging:function(){
+                return '<div></div>';
+            },
+            dots: true,
+            initialSlide:0,
+            variableWidth: true,
+            centerMode:false,
+            infinite: false,
+            arrows: false,
+
+            mobileFirst: !0,
+            responsive: [
+                {
+                    breakpoint: 320, // 320 이상, 모바일 버전
+                    settings: {
+                        arrows: false,
+                        centerMode: false,
+                        slidesToShow: 1,
+                        dots: true
+                    }
+                }, {
+                    breakpoint: 768, // 768 이상, 태블릿 버전
+                    settings: {
+                        arrows: false,
+                        centerMode: false,
+                        slidesToShow: 1,
+                        dots: true
+                    }
+                }, {
+                    breakpoint: 992, // 992 이상, PC 버전
+                    settings: {
+                        arrows: true,
+                        centerMode: false,
+                        slidesToShow: 2,
+                        dots: false
+                    }
+                }, {
+                    breakpoint: 1307, // 1307 이상, PC 버전
+                    settings: {
+                        arrows: true,
+                        centerMode: false,
+                        slidesToShow: 3,
+                        dots: false
+                    }
+                }, {
+                    breakpoint: 1755, // 1755 이상, PC 버전
+                    settings: {
+                        arrows: true,
+                        centerMode: false,
+                        slidesToShow: 4,
+                        dots: false
+                    }
+                }]
+        })
+    });
+    $slider2.each(function(i, el) {
+        var $list = $(el);
+        $list.on("init", function() {
+
+            if( $(window).width() >= 992){
+                $('.slick-arrow').show();
+                $(".slick-dots").hide();
+            } else {
+                $('.slick-arrow').hide();
+                $(".slick-dots").show();
+            }
+
+            $list.find('.slick-arrow').hover(function(){
+                $(this).addClass('hover');
+            }, function(){
+                $(this).removeClass('hover');
+            });
+
+        }).slick({
+            customPaging:function(){
+                return '<div></div>';
+            },
+            dots: true,
+            initialSlide:0,
+            variableWidth: true,
+            centerMode:false,
+            infinite: false,
+            arrows: true,
+
+            mobileFirst: !0,
+            responsive: [
+                {
+                    breakpoint: 320, // 320 이상, 모바일 버전
+                    settings: {
+                        arrows: false,
+                        centerMode: false,
+                        slidesToShow: 1,
+                        dots: true
+                    }
+                }, {
+                    breakpoint: 768, // 768 이상, 태블릿 버전
+                    settings: {
+                        arrows: false,
+                        centerMode: false,
+                        slidesToShow: 1,
+                        dots: true
+                    }
+                }, {
+                    breakpoint: 992, // 992 이상, PC 버전
+                    settings: {
+                        arrows: true,
+                        centerMode: false,
+                        slidesToShow: 2,
+                        dots: false
+                    }
+                }, {
+                    breakpoint: 1307, // 1307 이상, PC 버전
+                    settings: {
+                        arrows: true,
+                        centerMode: false,
+                        slidesToShow: 3,
+                        dots: false
+                    }
+                }, {
+                    breakpoint: 1755, // 1755 이상, PC 버전
+                    settings: {
+                        arrows: true,
+                        centerMode: false,
+                        slidesToShow: 4,
+                        dots: false
+                    }
+                }]
+        })
+    });
+    $slider3.each(function(i, el) {
+        var $list = $(el);
+        $list.on("init", function() {
+
+            if( $(window).width() >= 992){
+                $('.slick-arrow').show();
+                $(".slick-dots").hide();
+            } else {
+                $('.slick-arrow').hide();
+                $(".slick-dots").show();
+            }
+
+            $list.find('.slick-arrow').hover(function(){
+                $(this).addClass('hover');
+            }, function(){
+                $(this).removeClass('hover');
+            });
+
+        }).slick({
+            customPaging:function(){
+                return '<div></div>';
+            },
+            dots: true,
+            initialSlide:0,
+            variableWidth: true,
+            centerMode:false,
+            infinite: false,
+            arrows: true,
+
+            mobileFirst: !0,
+            responsive: [
+                {
+                    breakpoint: 320, // 320 이상, 모바일 버전
+                    settings: {
+                        arrows: false,
+                        centerMode: false,
+                        slidesToShow: 1,
+                        dots: true
+                    }
+                }, {
+                    breakpoint: 768, // 768 이상, 태블릿 버전
+                    settings: {
+                        arrows: false,
+                        centerMode: false,
+                        slidesToShow: 1,
+                        dots: true
+                    }
+                }, {
+                    breakpoint: 992, // 992 이상, PC 버전
+                    settings: {
+                        arrows: true,
+                        centerMode: false,
+                        slidesToShow: 2,
+                        dots: false
+                    }
+                }, {
+                    breakpoint: 1307, // 1307 이상, PC 버전
+                    settings: {
+                        arrows: true,
+                        centerMode: false,
+                        slidesToShow: 3,
+                        dots: false
+                    }
+                }, {
+                    breakpoint: 1755, // 1755 이상, PC 버전
+                    settings: {
+                        arrows: true,
+                        centerMode: false,
+                        slidesToShow: 4,
+                        dots: false
+                    }
+                }]
+        })
+    });
+</script>
+</body>
+</html>

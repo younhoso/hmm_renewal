@@ -1,0 +1,170 @@
+<div class="outer">
+    <div class="inner">
+        <span class="f-logo">compass</span>
+        <form class="visit_form_pc">
+            <table class="visit_form">
+                <tbody>
+                    <tr>
+                        <th colspan="2">VISITORS</th>
+                    </tr>
+                    <tr>
+                        <td>65</td>
+                        <td>235</td>
+                    </tr>
+                    <tr class="title">
+                        <td>Today</td>
+                        <td>This Month</td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <div class="f-content">
+            <div class="f-top-wrap">
+                <ul class="f-util-list">
+                    <li><a>Hyundai Merchant Marine Magazine</a></li>
+                    <li><a href="#opinion" class="pop-btn">mail the editor</a></li>
+					<li><a href="/privacy">Privacy Policy</a></li>
+                </ul>
+				<div class="f-select-area">
+                    <div class="custom-select">
+                        <select>
+                            <option value="">Family Site</option>
+                            <option value="http://www.hmm21.com/cms/company/engn/index.jsp">hmm21</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="f-bot-wrap">
+                <div class="f-bot-left">
+                    <form class=visit_form_m>
+                        <table class="visit_form">
+                            <tbody>
+                                <tr>
+                                    <th colspan="2">VISITORS</th>
+                                </tr>
+                                <tr>
+                                    <td>65</td>
+                                    <td>235</td>
+                                </tr>
+                                <tr class="title">
+                                    <td>Today</td>
+                                    <td>This Month</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                    <p class="comment">
+						<span><Strong style="font-weight: bold;">Publisher</Strong> Yoo Chang-Keun &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; <Strong style="font-weight: bold;">Editor</Strong> Yang Hye-won &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; <Strong style="font-weight: bold;">Design</Strong> Cobiz  82-2-2272-1400</span>
+                        <span>HMM Compass, the monthly magazine for HMM overseas members and customers, is published on the 10th of every month.</span>
+                        <span>If you have any ideas or comments about the magazine, you can also send your opinions to the editor. Please click the ‘mail the editor’ button, and give your honest opinion about the magazine.</span>
+                    </p>
+                    <address>
+                        <div><p><span>Address</span> &#183; Hyundai Group Building, 194, Yulgok-ro, Jongno-gu, Seoul, Korea</p></div>
+                        <div>
+                            <p><span>Tel</span> &#183; 82-2-3706-6017</p>
+                            <p><span>Fax</span> &#183; 82-2-738-7232</p>
+                            <p class="clear-fix"><span>Homepage</span> &#183; <a href="http://www.hmm21.com" target="_blank">http://www.hmm21.com</a></p>
+                        </div>
+                    </address>
+                </div>
+                <div class="f-select-area">
+                    <div class="custom-select">
+                        <select>
+                            <option value="">Family Site</option>
+                            <option value="http://www.hmm21.com/cms/company/engn/index.jsp">hmm21</option>
+                        </select>
+                    </div>
+                </div>
+                <ul class="f-sns-list">
+                    <li class="sns-01"><a href="https://www.instagram.com/hmm_21_pr/" target="_blank"><span>instagram</span></a></li>
+                    <li class="sns-03"><a href="https://www.facebook.com/hmm21official/" target="_blank"><span>facebook</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+var x, i, j, selElmnt, a, b, c;
+/*look for any elements with the class "custom-select":*/
+x = document.getElementsByClassName("custom-select");
+for (i = 0; i < x.length; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  /*for each element, create a new DIV that will act as the selected item:*/
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /*for each element, create a new DIV that will contain the option list:*/
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 0; j < selElmnt.length; j++) {
+    /*for each option in the original select element,
+    create a new DIV that will act as an option item:*/
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /*when an item is clicked, update the original select box,
+        and the selected item:*/
+        var y, i, k, s, h;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < s.length; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            for (k = 0; k < y.length; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+
+			if(s.options[i].value){
+				window.open(s.options[i].value,'_blank');
+			}
+
+            break;
+
+
+          }
+        }
+        h.click();
+
+
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+      /*when the select box is clicked, close any other select boxes,
+      and open/close the current select box:*/
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide");
+      this.classList.toggle("select-arrow-active");
+	  //console.log('a click');
+    });
+}
+function closeAllSelect(elmnt) {
+  /*a function that will close all select boxes in the document,
+  except the current select box:*/
+  var x, y, i, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  for (i = 0; i < y.length; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < x.length; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+/*if the user clicks anywhere outside the select box,
+then close all select boxes:*/
+document.addEventListener("click", closeAllSelect);
+</script>

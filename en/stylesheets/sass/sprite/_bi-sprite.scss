@@ -1,0 +1,211 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$bi-btn-popup-name: 'bi-btn_popup';
+$bi-btn-popup-x: 0px;
+$bi-btn-popup-y: 0px;
+$bi-btn-popup-offset-x: 0px;
+$bi-btn-popup-offset-y: 0px;
+$bi-btn-popup-width: 21px;
+$bi-btn-popup-height: 21px;
+$bi-btn-popup-total-width: 53px;
+$bi-btn-popup-total-height: 524px;
+$bi-btn-popup-image: '../../images/sprite/bi.png?4103586962805';
+$bi-btn-popup: (0px, 0px, 0px, 0px, 21px, 21px, 53px, 524px, '../../images/sprite/bi.png?4103586962805', 'bi-btn_popup', );
+$bi-business-overview-arrow01-name: 'bi-business_overview_arrow01';
+$bi-business-overview-arrow01-x: 0px;
+$bi-business-overview-arrow01-y: 36px;
+$bi-business-overview-arrow01-offset-x: 0px;
+$bi-business-overview-arrow01-offset-y: -36px;
+$bi-business-overview-arrow01-width: 7px;
+$bi-business-overview-arrow01-height: 13px;
+$bi-business-overview-arrow01-total-width: 53px;
+$bi-business-overview-arrow01-total-height: 524px;
+$bi-business-overview-arrow01-image: '../../images/sprite/bi.png?4103586962805';
+$bi-business-overview-arrow01: (0px, 36px, 0px, -36px, 7px, 13px, 53px, 524px, '../../images/sprite/bi.png?4103586962805', 'bi-business_overview_arrow01', );
+$bi-business-overview-list01-name: 'bi-business_overview_list01';
+$bi-business-overview-list01-x: 0px;
+$bi-business-overview-list01-y: 64px;
+$bi-business-overview-list01-offset-x: 0px;
+$bi-business-overview-list01-offset-y: -64px;
+$bi-business-overview-list01-width: 49px;
+$bi-business-overview-list01-height: 47px;
+$bi-business-overview-list01-total-width: 53px;
+$bi-business-overview-list01-total-height: 524px;
+$bi-business-overview-list01-image: '../../images/sprite/bi.png?4103586962805';
+$bi-business-overview-list01: (0px, 64px, 0px, -64px, 49px, 47px, 53px, 524px, '../../images/sprite/bi.png?4103586962805', 'bi-business_overview_list01', );
+$bi-business-overview-list02-name: 'bi-business_overview_list02';
+$bi-business-overview-list02-x: 0px;
+$bi-business-overview-list02-y: 126px;
+$bi-business-overview-list02-offset-x: 0px;
+$bi-business-overview-list02-offset-y: -126px;
+$bi-business-overview-list02-width: 53px;
+$bi-business-overview-list02-height: 47px;
+$bi-business-overview-list02-total-width: 53px;
+$bi-business-overview-list02-total-height: 524px;
+$bi-business-overview-list02-image: '../../images/sprite/bi.png?4103586962805';
+$bi-business-overview-list02: (0px, 126px, 0px, -126px, 53px, 47px, 53px, 524px, '../../images/sprite/bi.png?4103586962805', 'bi-business_overview_list02', );
+$bi-business-overview-list03-name: 'bi-business_overview_list03';
+$bi-business-overview-list03-x: 0px;
+$bi-business-overview-list03-y: 188px;
+$bi-business-overview-list03-offset-x: 0px;
+$bi-business-overview-list03-offset-y: -188px;
+$bi-business-overview-list03-width: 52px;
+$bi-business-overview-list03-height: 47px;
+$bi-business-overview-list03-total-width: 53px;
+$bi-business-overview-list03-total-height: 524px;
+$bi-business-overview-list03-image: '../../images/sprite/bi.png?4103586962805';
+$bi-business-overview-list03: (0px, 188px, 0px, -188px, 52px, 47px, 53px, 524px, '../../images/sprite/bi.png?4103586962805', 'bi-business_overview_list03', );
+$bi-gallery-next-name: 'bi-gallery_next';
+$bi-gallery-next-x: 0px;
+$bi-gallery-next-y: 250px;
+$bi-gallery-next-offset-x: 0px;
+$bi-gallery-next-offset-y: -250px;
+$bi-gallery-next-width: 36px;
+$bi-gallery-next-height: 36px;
+$bi-gallery-next-total-width: 53px;
+$bi-gallery-next-total-height: 524px;
+$bi-gallery-next-image: '../../images/sprite/bi.png?4103586962805';
+$bi-gallery-next: (0px, 250px, 0px, -250px, 36px, 36px, 53px, 524px, '../../images/sprite/bi.png?4103586962805', 'bi-gallery_next', );
+$bi-gallery-prev-name: 'bi-gallery_prev';
+$bi-gallery-prev-x: 0px;
+$bi-gallery-prev-y: 301px;
+$bi-gallery-prev-offset-x: 0px;
+$bi-gallery-prev-offset-y: -301px;
+$bi-gallery-prev-width: 36px;
+$bi-gallery-prev-height: 36px;
+$bi-gallery-prev-total-width: 53px;
+$bi-gallery-prev-total-height: 524px;
+$bi-gallery-prev-image: '../../images/sprite/bi.png?4103586962805';
+$bi-gallery-prev: (0px, 301px, 0px, -301px, 36px, 36px, 53px, 524px, '../../images/sprite/bi.png?4103586962805', 'bi-gallery_prev', );
+$bi-gallery-txt-name: 'bi-gallery_txt';
+$bi-gallery-txt-x: 0px;
+$bi-gallery-txt-y: 352px;
+$bi-gallery-txt-offset-x: 0px;
+$bi-gallery-txt-offset-y: -352px;
+$bi-gallery-txt-width: 21px;
+$bi-gallery-txt-height: 21px;
+$bi-gallery-txt-total-width: 53px;
+$bi-gallery-txt-total-height: 524px;
+$bi-gallery-txt-image: '../../images/sprite/bi.png?4103586962805';
+$bi-gallery-txt: (0px, 352px, 0px, -352px, 21px, 21px, 53px, 524px, '../../images/sprite/bi.png?4103586962805', 'bi-gallery_txt', );
+$bi-history-back-name: 'bi-history_back';
+$bi-history-back-x: 0px;
+$bi-history-back-y: 388px;
+$bi-history-back-offset-x: 0px;
+$bi-history-back-offset-y: -388px;
+$bi-history-back-width: 24px;
+$bi-history-back-height: 13px;
+$bi-history-back-total-width: 53px;
+$bi-history-back-total-height: 524px;
+$bi-history-back-image: '../../images/sprite/bi.png?4103586962805';
+$bi-history-back: (0px, 388px, 0px, -388px, 24px, 13px, 53px, 524px, '../../images/sprite/bi.png?4103586962805', 'bi-history_back', );
+$bi-import01-name: 'bi-import01';
+$bi-import01-x: 0px;
+$bi-import01-y: 416px;
+$bi-import01-offset-x: 0px;
+$bi-import01-offset-y: -416px;
+$bi-import01-width: 35px;
+$bi-import01-height: 35px;
+$bi-import01-total-width: 53px;
+$bi-import01-total-height: 524px;
+$bi-import01-image: '../../images/sprite/bi.png?4103586962805';
+$bi-import01: (0px, 416px, 0px, -416px, 35px, 35px, 53px, 524px, '../../images/sprite/bi.png?4103586962805', 'bi-import01', );
+$bi-import02-name: 'bi-import02';
+$bi-import02-x: 0px;
+$bi-import02-y: 466px;
+$bi-import02-offset-x: 0px;
+$bi-import02-offset-y: -466px;
+$bi-import02-width: 35px;
+$bi-import02-height: 35px;
+$bi-import02-total-width: 53px;
+$bi-import02-total-height: 524px;
+$bi-import02-image: '../../images/sprite/bi.png?4103586962805';
+$bi-import02: (0px, 466px, 0px, -466px, 35px, 35px, 53px, 524px, '../../images/sprite/bi.png?4103586962805', 'bi-import02', );
+$bi-total-view-name: 'bi-total_view';
+$bi-total-view-x: 0px;
+$bi-total-view-y: 516px;
+$bi-total-view-offset-x: 0px;
+$bi-total-view-offset-y: -516px;
+$bi-total-view-width: 4px;
+$bi-total-view-height: 8px;
+$bi-total-view-total-width: 53px;
+$bi-total-view-total-height: 524px;
+$bi-total-view-image: '../../images/sprite/bi.png?4103586962805';
+$bi-total-view: (0px, 516px, 0px, -516px, 4px, 8px, 53px, 524px, '../../images/sprite/bi.png?4103586962805', 'bi-total_view', );
+$bi-width: 53px;
+$bi-height: 524px;
+$bi-image: '../../images/sprite/bi.png?4103586962805';
+$bi-sprites: ($bi-btn-popup, $bi-business-overview-arrow01, $bi-business-overview-list01, $bi-business-overview-list02, $bi-business-overview-list03, $bi-gallery-next, $bi-gallery-prev, $bi-gallery-txt, $bi-history-back, $bi-import01, $bi-import02, $bi-total-view, );
+$bi: (53px, 524px, '../../images/sprite/bi.png?4103586962805', $bi-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

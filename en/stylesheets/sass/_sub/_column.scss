@@ -1,0 +1,251 @@
+@charset "UTF-8";
+#content{
+	.container.column{
+		.cultural-odyssey-wrap{ 
+			.top-visual-area{width:100%; height:600px; background: url('../../images/column/cultural_odyssey_bg.jpg') 50% 50% no-repeat; background-size:cover;
+				.inner-wrap{max-width:1000px; height:600px; position: relative; margin:0 auto; padding:0 20px;
+					.label{ position: absolute; width:100%; top:60px; left:0; text-align: center;
+						> span{ position: relative; font-size:18px; color: #fff; font-family: 'montserrat-semibold';
+							> span{ position: relative; z-index:2;}
+							&:before{ position: absolute; content:""; width:100%; height:18px; background-color: #007ac3; z-index:1; }
+						}
+					}
+					.flt-text{ background-color: #ffe32a; display:inline-block; padding:48px 48px; position: absolute; bottom:-214px; left:20px;
+						.title{ color: #1b1b1b; font-size: 70px; font-family: 'montserrat-bold'; line-height:78px;
+							span{display:block;}
+						}
+						.text{ font-size:36px; color: #1b1b1b; font-family: 'montserrat-bold'; line-height:42px;
+							span{display:block;}
+						}
+					}
+				}
+			}
+			.con-wrap{ padding-top:294px;
+				.confine-area{max-width:1000px; padding:0 20px; margin:0 auto; position: relative;
+					&.text_by{ text-align: right;
+						.text_by_img{width:120px; height:120px; position: absolute; top:-235px; right:20px;
+							.inside_img_m{display:none;}
+						}
+						.label{
+							&:before{display:none;}
+						}
+					}
+					.label{ position: absolute; right:20px; top:-99px; font-size:18px; color: #1b1b1b; font-family: 'montserrat-medium';
+						&:before{ background-color:#1b1b1b; width:1px; height:80px; content:""; position: absolute; top:-98px; right:1px;}
+					}
+					> div{
+						img{width:100%; display:block;}
+						.title{ position: relative; display:inline-block;
+							span{ font-family: 'montserrat-semibold'; font-size: 20px; color: #1b1b1b; position: relative; z-index:1;}
+							&:after{display:block; width:100%; height:11px; background-color:#ffe32a; content:""; position: absolute; bottom:0;}
+						}
+						.text{ font-size:16px; color: #444; font-family: 'montserrat-regular'; line-height: 30px; text-align: justify;}
+
+						&.section1{
+							.text{
+								&.tp-1{margin-top:23px;}
+								&.tp-2{margin-top:28px;}
+							}
+						}
+						&.section2{margin-top:72px;
+							.text{
+								&.tp-1{margin-top:20px;}
+								&.tp-2{ margin-top:30px;}
+							}
+							img{margin-top:23px;}
+						}
+						&.section3{margin-top:28px;
+							.text{
+								&.tp-1{margin-top:20px;}
+								&.tp-2{ margin-top:30px;}
+							}
+						}
+						&.section4{margin-top:118px;
+							.text{
+								&.tp-1{margin-top:20px;}
+								&.tp-2{ margin-top:30px;}
+								&.tp-3{ margin-top:30px;}
+							}
+							img{margin-top:23px;}
+						}
+					}
+				}
+				.wide-img-area{ background: url('../../images/column/cultural_odyssey_img3.jpg') 50% 50% no-repeat; width:100%; height:520px;  margin-top:23px;
+					img{display:none;}
+				}
+				.wide-mo{display:none;
+					img{display:block; width:100%;}
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width:1024px){
+}
+
+@media all and (max-width:992px) {
+	#content{
+		.container.column{
+			.cultural-odyssey-wrap{
+				.top-visual-area{width:100%; height:600px; background: url('../../images/column/cultural_odyssey_bg.jpg') 50% 50% no-repeat; background-size:cover;
+					.inner-wrap{max-width:1000px; height:600px; position: relative; margin:0 auto; padding:0 20px;
+						.label{ position: absolute; width:100%; top:60px; left:0; text-align: center;
+							> span{ position: relative; font-size:18px; color: #fff; font-family: 'montserrat-semibold';
+								> span{ position: relative; z-index:2;}
+								&:before{ position: absolute; content:""; width:100%; height:18px; background-color: #007ac3; z-index:1;}
+							}
+						}
+						.flt-text{ background-color: #ffe32a; display:inline-block; padding:35px 40px; position: absolute; bottom:-180px; left:20px;
+							.title{ color: #1b1b1b; font-size: 60px; font-family: 'montserrat-bold'; line-height:70px;
+								span{display:block;}
+							}
+							.text{ font-size:30px; color: #1b1b1b; font-family: 'montserrat-bold'; line-height:40px; margin-top:10px;
+								span{display:block;}
+							}
+						}
+					}
+				}
+				.con-wrap{ padding-top:294px;
+					.confine-area{max-width:1000px; padding:0 20px; margin:0 auto; position: relative;
+						&.text_by{
+							.text_by_img{top:-240px;}
+						}
+						.label{ position: absolute; right:20px; top:-99px; font-size:18px; color: #1b1b1b; font-family: 'montserrat-medium';
+							&:before{ background-color:#1b1b1b; width:1px; height:80px; content:""; position: absolute; top:-98px; right:1px;}
+						}
+						> div{
+							img{width:100%; display:block;}
+							.title{ position: relative; display:inline-block;
+								span{ font-family: 'montserrat-semibold'; font-size: 20px; color: #1b1b1b; position: relative; z-index:1;}
+								&:after{display:block; width:100%; height:11px; background-color:#ffe32a; content:""; position: absolute; bottom:0;}
+							}
+							.text{ font-size:16px; color: #444; font-family: 'montserrat-regular'; line-height: 30px;}
+
+							&.section1{
+								.text{
+									&.tp-1{margin-top:23px;}
+									&.tp-2{margin-top:28px;}
+								}
+							}
+							&.section2{margin-top:72px;
+								.text{
+									&.tp-1{margin-top:20px;}
+									&.tp-2{ margin-top:30px;}
+								}
+								img{margin-top:23px;}
+							}
+							&.section3{margin-top:28px;
+								.text{
+									&.tp-1{margin-top:20px;}
+									&.tp-2{ margin-top:30px;}
+								}
+							}
+							&.section4{margin-top:28px;
+								.text{
+									&.tp-1{margin-top:20px;}
+									&.tp-2{ margin-top:30px;}
+									&.tp-3{ margin-top:30px;}
+								}
+								img{margin-top:23px;}
+							}
+						}
+					}
+					.wide-img-area{ background: url('../../images/column/cultural_odyssey_img3.jpg') 50% 50% no-repeat; width:100%; height:610px;  margin-top:23px;
+						img{display:none;}
+					}
+					.wide-mo{display:none;
+						img{display:block; width:100%;}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width:768px) {
+	#content{
+		.container.column{
+			.cultural-odyssey-wrap{
+				.top-visual-area{width:100%; height:310px; background: url('../../images/column/cultural_odyssey_bg.jpg') 50% 50% no-repeat; background-size:cover;
+					.inner-wrap{max-width:1000px; height:auto; min-height:362px; position: relative; margin:0 auto; padding:0 12px;
+						.label{ position: absolute; width:100%; top:25px; left:0; text-align: center;
+							> span{ position: relative; font-size:15px; color: #fff; font-family: 'montserrat-semibold';
+								> span{ position: relative; z-index:2;}
+								&:before{ position: absolute; content:""; top:3px; width:100%; height:16px; background-color: #007ac3; z-index:1;}
+							}
+						}
+						.flt-text{ background-color:transparent; display:inline-block; padding:0 0; position: relative; padding-top:245px; top:0; left:0; width:100%; @include boxSizing;
+							div{ width:100%; background-color: #ffe32a; padding:20px 20px; @include boxSizing;
+								.title{ color: #1b1b1b; font-size: 35px; font-family: 'montserrat-bold'; line-height:38px;
+									span{display:block;}
+								}
+								.text{ font-size:18px; color: #1b1b1b; font-family: 'montserrat-bold'; line-height:24px; margin-top:5px;
+									span{display:block;}
+								}
+							}
+						}
+					}
+				}
+				.con-wrap{ padding-top:118px;
+					.confine-area{max-width:1000px; padding:0 12px; margin:0 auto; position: relative;
+						&:first-child{padding-top:90px;}
+						&.text_by{
+							.text_by_img{ width:65px; height:65px; top:0; right:12px;
+								.inside_img_pc{display:none;}
+								.inside_img_m{display:block;}
+							}
+							.label{ padding-top:75px;}
+						}
+						.label{ position: absolute; right:20px; top:0; font-size:14px; color: #1b1b1b; font-family: 'montserrat-medium'; padding-top:45px;
+							&:before{ background-color:#1b1b1b; width:1px; height:30px; content:""; position: absolute; top:0; right:1px;}
+						}
+						> div{
+							img{width:100%; display:block;}
+							.title{ position: relative; display:inline-block;
+								span{ font-family: 'montserrat-semibold'; font-size: 17px; color: #1b1b1b; position: relative; z-index:1;}
+								&:after{display:block; width:100%; height:11px; background-color:#ffe32a; content:""; position: absolute; bottom:0;}
+							}
+							.text{ font-size:14px; color: #444; font-family: 'montserrat-regular'; line-height: 24px;}
+
+							&.section1{
+								.text{
+									&.tp-1{margin-top:8px;}
+									&.tp-2{margin-top:20px;}
+								}
+								img{display:none;}
+							}
+							&.section2{margin-top:35px;
+								.text{
+									&.tp-1{margin-top:10px;}
+									&.tp-2{ margin-top:20px;}
+								}
+								img{margin-top:10px;}
+							}
+							&.section3{margin-top:16px;
+								.text{
+									&.tp-1{margin-top:10px;}
+									&.tp-2{ margin-top:20px;}
+								}
+							}
+							&.section4{margin-top:55px;
+								.text{
+									&.tp-1{margin-top:10px;}
+									&.tp-2{ margin-top:20px;}
+									&.tp-3{ margin-top:20px;}
+								}
+								img{margin-top:7px;}
+							}
+						}
+					}
+					.wide-img-area{ background: none; width:100%; height:auto;  margin-top:10px;
+						img{display:block; width:100%;}
+					}
+					.wide-mo{display:block;
+						img{display:block; width:100%;}
+					}
+				}
+			}
+		}
+	}
+}

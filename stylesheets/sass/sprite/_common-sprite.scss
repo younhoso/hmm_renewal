@@ -1,0 +1,332 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$common-checkbox-off-name: 'common-checkbox_off';
+$common-checkbox-off-x: 0px;
+$common-checkbox-off-y: 0px;
+$common-checkbox-off-offset-x: 0px;
+$common-checkbox-off-offset-y: 0px;
+$common-checkbox-off-width: 21px;
+$common-checkbox-off-height: 21px;
+$common-checkbox-off-total-width: 154px;
+$common-checkbox-off-total-height: 848px;
+$common-checkbox-off-image: '../../images/sprite/common.png?4103599887478';
+$common-checkbox-off: (0px, 0px, 0px, 0px, 21px, 21px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-checkbox_off', );
+$common-checkbox-on-name: 'common-checkbox_on';
+$common-checkbox-on-x: 0px;
+$common-checkbox-on-y: 36px;
+$common-checkbox-on-offset-x: 0px;
+$common-checkbox-on-offset-y: -36px;
+$common-checkbox-on-width: 21px;
+$common-checkbox-on-height: 21px;
+$common-checkbox-on-total-width: 154px;
+$common-checkbox-on-total-height: 848px;
+$common-checkbox-on-image: '../../images/sprite/common.png?4103599887478';
+$common-checkbox-on: (0px, 36px, 0px, -36px, 21px, 21px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-checkbox_on', );
+$common-footer-logo-name: 'common-footer_logo';
+$common-footer-logo-x: 0px;
+$common-footer-logo-y: 72px;
+$common-footer-logo-offset-x: 0px;
+$common-footer-logo-offset-y: -72px;
+$common-footer-logo-width: 154px;
+$common-footer-logo-height: 25px;
+$common-footer-logo-total-width: 154px;
+$common-footer-logo-total-height: 848px;
+$common-footer-logo-image: '../../images/sprite/common.png?4103599887478';
+$common-footer-logo: (0px, 72px, 0px, -72px, 154px, 25px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-footer_logo', );
+$common-layer-pop-close-name: 'common-layer_pop_close';
+$common-layer-pop-close-x: 0px;
+$common-layer-pop-close-y: 112px;
+$common-layer-pop-close-offset-x: 0px;
+$common-layer-pop-close-offset-y: -112px;
+$common-layer-pop-close-width: 21px;
+$common-layer-pop-close-height: 21px;
+$common-layer-pop-close-total-width: 154px;
+$common-layer-pop-close-total-height: 848px;
+$common-layer-pop-close-image: '../../images/sprite/common.png?4103599887478';
+$common-layer-pop-close: (0px, 112px, 0px, -112px, 21px, 21px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-layer_pop_close', );
+$common-list-more01-01-name: 'common-list_more01_01';
+$common-list-more01-01-x: 0px;
+$common-list-more01-01-y: 148px;
+$common-list-more01-01-offset-x: 0px;
+$common-list-more01-01-offset-y: -148px;
+$common-list-more01-01-width: 29px;
+$common-list-more01-01-height: 29px;
+$common-list-more01-01-total-width: 154px;
+$common-list-more01-01-total-height: 848px;
+$common-list-more01-01-image: '../../images/sprite/common.png?4103599887478';
+$common-list-more01-01: (0px, 148px, 0px, -148px, 29px, 29px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-list_more01_01', );
+$common-list-more01-02-name: 'common-list_more01_02';
+$common-list-more01-02-x: 0px;
+$common-list-more01-02-y: 192px;
+$common-list-more01-02-offset-x: 0px;
+$common-list-more01-02-offset-y: -192px;
+$common-list-more01-02-width: 29px;
+$common-list-more01-02-height: 29px;
+$common-list-more01-02-total-width: 154px;
+$common-list-more01-02-total-height: 848px;
+$common-list-more01-02-image: '../../images/sprite/common.png?4103599887478';
+$common-list-more01-02: (0px, 192px, 0px, -192px, 29px, 29px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-list_more01_02', );
+$common-location-arrow-name: 'common-location_arrow';
+$common-location-arrow-x: 0px;
+$common-location-arrow-y: 236px;
+$common-location-arrow-offset-x: 0px;
+$common-location-arrow-offset-y: -236px;
+$common-location-arrow-width: 11px;
+$common-location-arrow-height: 6px;
+$common-location-arrow-total-width: 154px;
+$common-location-arrow-total-height: 848px;
+$common-location-arrow-image: '../../images/sprite/common.png?4103599887478';
+$common-location-arrow: (0px, 236px, 0px, -236px, 11px, 6px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-location_arrow', );
+$common-location-home-name: 'common-location_home';
+$common-location-home-x: 0px;
+$common-location-home-y: 257px;
+$common-location-home-offset-x: 0px;
+$common-location-home-offset-y: -257px;
+$common-location-home-width: 19px;
+$common-location-home-height: 18px;
+$common-location-home-total-width: 154px;
+$common-location-home-total-height: 848px;
+$common-location-home-image: '../../images/sprite/common.png?4103599887478';
+$common-location-home: (0px, 257px, 0px, -257px, 19px, 18px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-location_home', );
+$common-location-print-name: 'common-location_print';
+$common-location-print-x: 0px;
+$common-location-print-y: 290px;
+$common-location-print-offset-x: 0px;
+$common-location-print-offset-y: -290px;
+$common-location-print-width: 27px;
+$common-location-print-height: 23px;
+$common-location-print-total-width: 154px;
+$common-location-print-total-height: 848px;
+$common-location-print-image: '../../images/sprite/common.png?4103599887478';
+$common-location-print: (0px, 290px, 0px, -290px, 27px, 23px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-location_print', );
+$common-location-share-name: 'common-location_share';
+$common-location-share-x: 0px;
+$common-location-share-y: 328px;
+$common-location-share-offset-x: 0px;
+$common-location-share-offset-y: -328px;
+$common-location-share-width: 22px;
+$common-location-share-height: 21px;
+$common-location-share-total-width: 154px;
+$common-location-share-total-height: 848px;
+$common-location-share-image: '../../images/sprite/common.png?4103599887478';
+$common-location-share: (0px, 328px, 0px, -328px, 22px, 21px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-location_share', );
+$common-navigation-icon-name: 'common-navigation_icon';
+$common-navigation-icon-x: 0px;
+$common-navigation-icon-y: 364px;
+$common-navigation-icon-offset-x: 0px;
+$common-navigation-icon-offset-y: -364px;
+$common-navigation-icon-width: 42px;
+$common-navigation-icon-height: 42px;
+$common-navigation-icon-total-width: 154px;
+$common-navigation-icon-total-height: 848px;
+$common-navigation-icon-image: '../../images/sprite/common.png?4103599887478';
+$common-navigation-icon: (0px, 364px, 0px, -364px, 42px, 42px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-navigation_icon', );
+$common-navigation-next-name: 'common-navigation_next';
+$common-navigation-next-x: 0px;
+$common-navigation-next-y: 421px;
+$common-navigation-next-offset-x: 0px;
+$common-navigation-next-offset-y: -421px;
+$common-navigation-next-width: 24px;
+$common-navigation-next-height: 13px;
+$common-navigation-next-total-width: 154px;
+$common-navigation-next-total-height: 848px;
+$common-navigation-next-image: '../../images/sprite/common.png?4103599887478';
+$common-navigation-next: (0px, 421px, 0px, -421px, 24px, 13px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-navigation_next', );
+$common-navigation-prev-name: 'common-navigation_prev';
+$common-navigation-prev-x: 0px;
+$common-navigation-prev-y: 449px;
+$common-navigation-prev-offset-x: 0px;
+$common-navigation-prev-offset-y: -449px;
+$common-navigation-prev-width: 24px;
+$common-navigation-prev-height: 13px;
+$common-navigation-prev-total-width: 154px;
+$common-navigation-prev-total-height: 848px;
+$common-navigation-prev-image: '../../images/sprite/common.png?4103599887478';
+$common-navigation-prev: (0px, 449px, 0px, -449px, 24px, 13px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-navigation_prev', );
+$common-search-name: 'common-search';
+$common-search-x: 0px;
+$common-search-y: 477px;
+$common-search-offset-x: 0px;
+$common-search-offset-y: -477px;
+$common-search-width: 18px;
+$common-search-height: 18px;
+$common-search-total-width: 154px;
+$common-search-total-height: 848px;
+$common-search-image: '../../images/sprite/common.png?4103599887478';
+$common-search: (0px, 477px, 0px, -477px, 18px, 18px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-search', );
+$common-search-on-name: 'common-search_on';
+$common-search-on-x: 0px;
+$common-search-on-y: 510px;
+$common-search-on-offset-x: 0px;
+$common-search-on-offset-y: -510px;
+$common-search-on-width: 18px;
+$common-search-on-height: 18px;
+$common-search-on-total-width: 154px;
+$common-search-on-total-height: 848px;
+$common-search-on-image: '../../images/sprite/common.png?4103599887478';
+$common-search-on: (0px, 510px, 0px, -510px, 18px, 18px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-search_on', );
+$common-select-arrow01-name: 'common-select_arrow01';
+$common-select-arrow01-x: 0px;
+$common-select-arrow01-y: 543px;
+$common-select-arrow01-offset-x: 0px;
+$common-select-arrow01-offset-y: -543px;
+$common-select-arrow01-width: 15px;
+$common-select-arrow01-height: 9px;
+$common-select-arrow01-total-width: 154px;
+$common-select-arrow01-total-height: 848px;
+$common-select-arrow01-image: '../../images/sprite/common.png?4103599887478';
+$common-select-arrow01: (0px, 543px, 0px, -543px, 15px, 9px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-select_arrow01', );
+$common-select-arrow02-name: 'common-select_arrow02';
+$common-select-arrow02-x: 0px;
+$common-select-arrow02-y: 567px;
+$common-select-arrow02-offset-x: 0px;
+$common-select-arrow02-offset-y: -567px;
+$common-select-arrow02-width: 15px;
+$common-select-arrow02-height: 9px;
+$common-select-arrow02-total-width: 154px;
+$common-select-arrow02-total-height: 848px;
+$common-select-arrow02-image: '../../images/sprite/common.png?4103599887478';
+$common-select-arrow02: (0px, 567px, 0px, -567px, 15px, 9px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-select_arrow02', );
+$common-share-facebook-name: 'common-share_facebook';
+$common-share-facebook-x: 0px;
+$common-share-facebook-y: 591px;
+$common-share-facebook-offset-x: 0px;
+$common-share-facebook-offset-y: -591px;
+$common-share-facebook-width: 36px;
+$common-share-facebook-height: 36px;
+$common-share-facebook-total-width: 154px;
+$common-share-facebook-total-height: 848px;
+$common-share-facebook-image: '../../images/sprite/common.png?4103599887478';
+$common-share-facebook: (0px, 591px, 0px, -591px, 36px, 36px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-share_facebook', );
+$common-share-googleplus-name: 'common-share_googleplus';
+$common-share-googleplus-x: 0px;
+$common-share-googleplus-y: 642px;
+$common-share-googleplus-offset-x: 0px;
+$common-share-googleplus-offset-y: -642px;
+$common-share-googleplus-width: 36px;
+$common-share-googleplus-height: 36px;
+$common-share-googleplus-total-width: 154px;
+$common-share-googleplus-total-height: 848px;
+$common-share-googleplus-image: '../../images/sprite/common.png?4103599887478';
+$common-share-googleplus: (0px, 642px, 0px, -642px, 36px, 36px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-share_googleplus', );
+$common-share-linkedin-name: 'common-share_linkedin';
+$common-share-linkedin-x: 0px;
+$common-share-linkedin-y: 693px;
+$common-share-linkedin-offset-x: 0px;
+$common-share-linkedin-offset-y: -693px;
+$common-share-linkedin-width: 36px;
+$common-share-linkedin-height: 36px;
+$common-share-linkedin-total-width: 154px;
+$common-share-linkedin-total-height: 848px;
+$common-share-linkedin-image: '../../images/sprite/common.png?4103599887478';
+$common-share-linkedin: (0px, 693px, 0px, -693px, 36px, 36px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-share_linkedin', );
+$common-share-twitter-name: 'common-share_twitter';
+$common-share-twitter-x: 0px;
+$common-share-twitter-y: 744px;
+$common-share-twitter-offset-x: 0px;
+$common-share-twitter-offset-y: -744px;
+$common-share-twitter-width: 36px;
+$common-share-twitter-height: 36px;
+$common-share-twitter-total-width: 154px;
+$common-share-twitter-total-height: 848px;
+$common-share-twitter-image: '../../images/sprite/common.png?4103599887478';
+$common-share-twitter: (0px, 744px, 0px, -744px, 36px, 36px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-share_twitter', );
+$common-star-name: 'common-star';
+$common-star-x: 0px;
+$common-star-y: 795px;
+$common-star-offset-x: 0px;
+$common-star-offset-y: -795px;
+$common-star-width: 13px;
+$common-star-height: 13px;
+$common-star-total-width: 154px;
+$common-star-total-height: 848px;
+$common-star-image: '../../images/sprite/common.png?4103599887478';
+$common-star: (0px, 795px, 0px, -795px, 13px, 13px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-star', );
+$common-table-download-name: 'common-table_download';
+$common-table-download-x: 0px;
+$common-table-download-y: 823px;
+$common-table-download-offset-x: 0px;
+$common-table-download-offset-y: -823px;
+$common-table-download-width: 19px;
+$common-table-download-height: 25px;
+$common-table-download-total-width: 154px;
+$common-table-download-total-height: 848px;
+$common-table-download-image: '../../images/sprite/common.png?4103599887478';
+$common-table-download: (0px, 823px, 0px, -823px, 19px, 25px, 154px, 848px, '../../images/sprite/common.png?4103599887478', 'common-table_download', );
+$common-width: 154px;
+$common-height: 848px;
+$common-image: '../../images/sprite/common.png?4103599887478';
+$common-sprites: ($common-checkbox-off, $common-checkbox-on, $common-footer-logo, $common-layer-pop-close, $common-list-more01-01, $common-list-more01-02, $common-location-arrow, $common-location-home, $common-location-print, $common-location-share, $common-navigation-icon, $common-navigation-next, $common-navigation-prev, $common-search, $common-search-on, $common-select-arrow01, $common-select-arrow02, $common-share-facebook, $common-share-googleplus, $common-share-linkedin, $common-share-twitter, $common-star, $common-table-download, );
+$common: (154px, 848px, '../../images/sprite/common.png?4103599887478', $common-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

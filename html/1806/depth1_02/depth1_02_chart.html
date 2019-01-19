@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>현대상선</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,target-densitydpi=medium-dpi" />
+    <meta name="Description" content=""/>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content=""/>
+    <meta name="Keywords" content=""/>
+    <meta name="Author" content=""/>
+    <meta name="robots" content="">
+    <meta name="format-detection" content="telephone=no">
+    <script type="text/javascript" src="../../../javascripts/lib/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../../javascripts/lib/TweenMax.min.js"></script>
+    <script type="text/javascript" src="../../../javascripts/lib/swiper.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="../../javascripts/lib/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 10]>
+    <script src="../../javascripts/lib/placeholders.min.js"></script>
+    <![endif]-->
+    <!--css-->
+    <link rel="stylesheet" href="../../../stylesheets/css/common.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common_1806.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common2.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common2_1806.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/lib/swiper.min.css"/>
+</head>
+<body class="webzine1806">
+<div id="wrap" role="main">
+    <!-- quick -->
+    <div id="quickMenu" class="quick_menu">
+        <ul class="quick-list">
+            <li class="list-01">
+                <span>PDF<br>다운로드</span>
+                <a href="" class="pBackground"><span>PDF 다운로드</span></a>
+            </li>
+            <li class="list-02">
+                <span>과월호<br>보기</span>
+                <a href="" class="pBackground"><span>과월호 보기</span></a>
+            </li>
+            <li class="list-03">
+                <span>북마크</span>
+                <a href="" class="pBackground"><span>북마크</span></a>
+            </li>
+            <li class="list-04">
+                <span>구독신청</span>
+                <a href="#application" class="pop-btn pBackground"><span>구독신청</span></a>
+            </li>
+        </ul>
+    </div>
+    <!--// quick -->
+    <!-- header -->
+    <header id="header" role="banner">
+        <div id="skipNavigation">
+            <ul>
+                <li><a href="#content">본문 바로가기</a></li>
+                <li><a href="#gnb">주메뉴 바로가기</a></li>
+            </ul>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <div class="h-top-area">
+                    <div class="h-srch">
+                        <div class="srch-input-wrap">
+                            <button type="submit" class="srch-bt p-ver">검색</button>
+                            <div class="srch-input-area">
+                                <input type="text" placeholder="검색어를 입력하세요" class="srch-input">
+                                <button type="button" class="srch-close">닫기</button>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 id="logo"><a href="./index.html?folder=main&file=main">현대상선</a></h1>
+                    <div class="h-date">
+                        <span class="year">2018</span>
+                        <span class="bar"></span>
+                        <span class="month pColor">05</span>
+                    </div>
+                </div>
+                <div class="h-bot-area">
+                    <div class="left-wrap">
+                        <ul class="h-sns-list">
+                            <li class="sns-01"><a href=""><span></span></a></li>
+                            <li class="sns-02"><a href=""><span></span></a></li>
+                            <li class="sns-03"><a href="#recommend" class="pop-btn"><span></span></a></li>
+                            <li class="sns-04"><a href=""><span></span></a></li>
+                        </ul>
+                        <span class="scroll-logo"><a href="">현대상선</a></span>
+                    </div>
+                    <div class="m-srch-area">
+                        <button type="button" class="srch-bt"></button>
+                        <div class="srch-box">
+                            <input type="text" placeholder="검색어를 입력하세요.">
+                            <button type="button" class="close-bt"></button>
+                        </div>
+                    </div>
+                    <a href="" class="m-scroll-logo"><span>현대상선</span></a>
+                    <nav id="gnb" role="navigation">
+                        <h2 class="hidden-txt">주메뉴</h2>
+                        <ul class="depth01-lists">
+                            <li class="depth01-list">
+                                <a href="#" class="depth01">통<span class="pColor">通</span>하는</a>
+                                <ul class="depth02-lists">
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>Column</span>]</p>
+                                            <p class="title">이달의 인물</p>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>Focus</span>]</p>
+                                            <span class="title">지금 현대상선 I</span>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>Focus</span>]</p>
+                                            <p class="title">지금 현대상선 II</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="depth01-list">
+                                <a href="#" class="depth01">사람<span class="pColor">人</span>들의</a>
+                                <ul class="depth02-lists">
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>Hobby</span>]</p>
+                                            <p class="title">이달의 인물</p>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>People</span>]</p>
+                                            <p class="title">지금 현대상선 I</p>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>People</span>]</p>
+                                            <p class="title">지금 현대상선 II</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="depth01-list">
+                                <a href="#" class="depth01">즐거움<span class="pColor">樂</span></a>
+                                <ul class="depth02-lists">
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>PEOPLE</span>]</p>
+                                            <p class="title">이달의 인물</p>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>PEOPLE</span>]</p>
+                                            <p class="title">지금 현대상선 I</p>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>PEOPLE</span>]</p>
+                                            <p class="title">지금 현대상선 II</p>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>PEOPLE</span>]</p>
+                                            <p class="title">지금 현대상선 II</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="h-util">
+                        <a href="" class="compass-logo"><span>콤파스</span></a>
+                        <div class="h-date">
+                            <span class="year">2018</span>
+                            <span class="bar"></span>
+                            <span class="month pColor">05</span>
+                        </div>
+                        <button type="button" class="util-menu-btn pBackgroundColor"></button>
+                        <a class="menu-trigger" href="">
+                            <span> </span>
+                            <span> </span>
+                            <span> </span>
+                        </a>
+                    </div>
+                    <div id="m_quick_open" class="m_quick_open">
+                        <ul>
+                            <li class="m_quick_close"><button type="button"><img src="../../images/layout/m_quick_close.png" /></button></li>
+                            <li><a href=""><span class="txt"><span>PDF</span> 다운로드</span><img src="../../images/layout/m_quick_01.png" /></a></li>
+                            <li><a href=""><span class="txt">과월호 보기</span><img src="../../images/layout/m_quick_02.png" /></a></li>
+                            <li><a href=""><span class="txt">북마크</span><img src="../../images/layout/m_quick_03.png" /></a></li>
+                            <li><a href="#application" class="pop-btn"><span class="txt">구독신청</span><img src="../../images/layout/m_quick_04.png" /></a></li>
+                        </ul>
+                    </div>
+                    <div id="m_quick_open2" class="m_quick_open2">
+                        <ul>
+                            <li><a href=""><span class="txt"><span>PDF</span> 다운로드</span><img src="../../images/layout/m_quick_01.png" /></a></li>
+                            <li><a href=""><span class="txt">과월호 보기</span><img src="../../images/layout/m_quick_02.png" /></a></li>
+                            <li><a href=""><span class="txt">북마크</span><img src="../../images/layout/m_quick_03.png" /></a></li>
+                            <li><a href="#application" class="pop-btn"><span class="txt">구독신청</span><img src="../../images/layout/m_quick_04.png" /></a></li>
+                            <li class="m_quick_close"><button type="button"><img src="../../images/layout/m_quick_close.png" /></button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="siteMap" class="site-map">
+            <div class="site-con">
+                <dl>
+                    <dt><p>통<span>通</span>하는</p></dt>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><p>통<span>通</span>하는</p></dt>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><p>통<span>通</span>하는</p></dt>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div id="mSiteMap" class="m-site-map">
+            <button type="button" class="m-site-close"></button>
+            <div class="site-con">
+                <ul>
+                    <li>
+                        <button type="button"><p>통<span>通</span>하는</p></button>
+                        <ul class="hidden-list">
+                            <li><a href=""><span>[Focus]</span><br>CEO 신년사</a></li>
+                            <li><a href=""><span>[Focus]</span><br>스페셜</a></li>
+                            <li><a href=""><span>[Focus]</span><br>글로벌 현상인</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button type="button"><p>사람<span>人</span>들의</p></button>
+                        <ul class="hidden-list">
+                            <li><a href=""><span>[Focus]</span><br>CEO 신년사</a></li>
+                            <li><a href=""><span>[Focus]</span><br>스페셜</a></li>
+                            <li><a href=""><span>[Focus]</span><br>글로벌 현상인</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button type="button"><p>즐거움<span>樂</span></p></button>
+                        <ul class="hidden-list">
+                            <li><a href=""><span>[Focus]</span><br>CEO 신년사</a></li>
+                            <li><a href=""><span>[Focus]</span><br>스페셜</a></li>
+                            <li><a href=""><span>[Focus]</span><br>글로벌 현상인</a></li>
+                            <li><a href=""><span>[Focus]</span><br>글로벌 현상인</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="sns-list">
+                    <a href="" class="sns-01"></a>
+                    <a href="" class="sns-02"></a>
+                    <a href="" class="sns-03"></a>
+                    <a href="" class="sns-04"></a>
+                </div>
+            </div>
+        </div>
+        <script>
+            (function () {
+                var es_step = "Expo.ease";
+                var winHeight = $(window).height();
+                var hHeight = $("#header").outerHeight();
+                var $siteMap = $(".site-map");
+                var $mSiteMap = $(".m-site-map");
+
+                // 사이트맵 초기화
+                $siteMap.css({
+                    height:winHeight - hHeight,
+                    top:-(winHeight - hHeight*2) - 2
+                });
+
+                $(".srch-bt.p-ver").on("click", function(){
+                    TweenMax.to( $(this), .3, {left:20, ease:es_step});
+                    if( $(window).width() >= 992 ){
+                        TweenMax.to( $(".srch-input-wrap"), .3, {width:330, ease:es_step, onComplete:function(){
+                            $(".srch-input-area").addClass("active");
+                        }});
+                    } else {
+                        TweenMax.to( $(".srch-input-wrap"), .3, {width:280, ease:es_step, onComplete:function(){
+                            $(".srch-input-area").addClass("active");
+                        }});
+                    }
+                });
+                $(".srch-close").on("click", function(){
+                    $(".srch-input-area").removeClass("active");
+                    TweenMax.to( $(".srch-bt"), .3, {left:0, ease:es_step});
+                    TweenMax.to( $(".srch-input-wrap"), .1, {width:0, ease:es_step});
+                });
+
+                $(".depth01-list").on("mouseenter", function(){
+                    $(this).addClass("active");
+                });
+                $(".depth01-list").on("mouseleave", function(){
+                    $(this).removeClass("active");
+                });
+
+                $siteMap.find("dl").on("mouseenter", function(){
+                    $(this).addClass("active");
+                });
+                $siteMap.find("dl").on("mouseleave", function(){
+                    $(this).removeClass("active");
+                });
+
+                $(window).scroll(function(){
+                    if ( $(window).width() >= 752 ){
+                        if ( $(window).scrollTop() > 90 ){
+                            $("#header").addClass("scroll");
+                            $("#content").addClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:-25, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:13, ease:es_step});
+                            TweenMax.to( $(".compass-logo"), .2, {top:-17, ease:es_step});
+                            TweenMax.to( $(".h-util .h-date"), .2, {top:3, ease:es_step});
+                        } else {
+                            $("#header").removeClass("scroll");
+                            $("#content").removeClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:9, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:42, ease:es_step});
+                            TweenMax.to( $(".compass-logo"), .2, {top:18, ease:es_step});
+                            TweenMax.to( $(".h-util .h-date"), .2, {top:40, ease:es_step});
+                        }
+                    } else {
+                        if ( $(window).scrollTop() > 50 ){
+                            $("#header").addClass("scroll");
+                            $("#content").addClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:-25, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:13, ease:es_step});
+                        } else {
+                            $("#header").removeClass("scroll");
+                            $("#content").removeClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:9, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:42, ease:es_step});
+                        }
+                    }
+                })
+
+                $(window).resize(function(){
+                    winHeight = $(window).height();
+                    if ( $(window).width() > 752 ){
+                        $(".m_quick_open").hide();
+                        $(".srch-box").removeClass("active");
+                        mSiteClose();
+                    }
+
+                    if ( $("#siteMap").hasClass("zIndex")){
+                        $("html").css({
+                            height: winHeight,
+                            overflow:"hidden"
+                        });
+                    }
+
+                    if ( $(window).width() < 992 ){
+                        if ($(".srch-input-area").hasClass("active")){
+                            $(".srch-input-wrap").css("width",280)
+                        }
+                    } else {
+                        if ($(".srch-input-area").hasClass("active")){
+                            $(".srch-input-wrap").css("width",330)
+                        }
+                    }
+
+                    if ( $(window).width() >= 752 ){
+                        if ( $(window).scrollTop() > 90 ){
+                            $("#header").addClass("scroll");
+                            $("#content").addClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:-25, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:13, ease:es_step});
+                            TweenMax.to( $(".compass-logo"), .2, {top:-17, ease:es_step});
+                            TweenMax.to( $(".h-util .h-date"), .2, {top:3, ease:es_step});
+                        } else {
+                            $("#header").removeClass("scroll");
+                            $("#content").removeClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:9, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:42, ease:es_step});
+                            TweenMax.to( $(".compass-logo"), .2, {top:18, ease:es_step});
+                            TweenMax.to( $(".h-util .h-date"), .2, {top:40, ease:es_step});
+                        }
+                    } else {
+                        $mSiteMap.css("height",winHeight);
+                        if ( $(window).scrollTop() > 50 ){
+                            $("#header").addClass("scroll");
+                            $("#content").addClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:-25, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:13, ease:es_step});
+                        } else {
+                            $("#header").removeClass("scroll");
+                            $("#content").removeClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:9, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:42, ease:es_step});
+                        }
+
+                        $(".srch-bt.p-ver").on("click", function(){
+                            TweenMax.to( $(this), .3, {left:20, ease:es_step});
+                            TweenMax.to( $(".srch-input-wrap"), .3, {width:330, ease:es_step, onComplete:function(){
+                                $(".srch-input-area").addClass("active");
+                            }});
+                        });
+
+                        $(".srch-input-area").removeClass("active");
+                        TweenMax.to( $(".srch-bt"), .3, {left:0, ease:es_step});
+                        TweenMax.to( $(".srch-input-wrap"), .1, {width:0, ease:es_step});
+
+                        $(".menu-trigger").removeClass("active").addClass("inactive");
+                        $siteMap.css({
+                            display: "none"
+                        })
+                        $("html").css({
+                            height: "auto",
+                            overflow:"visible"
+                        });
+                        allMenu = false;
+                    }
+                })
+
+                var allMenu = false;
+                $(".menu-trigger").on("click", function(){
+                    winHeight = $(window).height();
+                    if ( $(window).width() >= 752 ){
+                        // PC 사이트맵 스크립트
+                        if ( $("header").hasClass("scroll") ){
+                            if ( allMenu === false ){
+                                $(".menu-trigger").removeClass("inactive").addClass("active");
+                                $siteMap.css({
+                                    top: 60,
+                                    display: "block",
+                                    height: winHeight
+                                });
+                                $siteMap.addClass("zIndex");
+                                $("html").css({
+                                    height: winHeight,
+                                    overflow:"hidden"
+                                });
+                                allMenu = true;
+                            } else {
+                                $(".menu-trigger").removeClass("active").addClass("inactive");
+                                $siteMap.css({
+                                    display: "none"
+                                })
+                                $("html").css({
+                                    height: "auto",
+                                    overflow:"visible"
+                                });
+                                allMenu = false;
+                            }
+                        } else {
+                            if ( allMenu === false ){
+                                $(".menu-trigger").removeClass("inactive").addClass("active");
+                                $siteMap.css({
+                                    top: 141,
+                                    display: "block",
+                                    height: winHeight
+                                });
+                                $siteMap.addClass("zIndex");
+                                $("html").css({
+                                    height: winHeight,
+                                    overflow:"hidden"
+                                });
+                                allMenu = true;
+                            } else {
+                                $(".menu-trigger").removeClass("active").addClass("inactive");
+                                $siteMap.css({
+                                    display: "none"
+                                })
+                                $("html").css({
+                                    height: "auto",
+                                    overflow:"visible"
+                                });
+                                allMenu = false;
+                            }
+                        }
+                    } else {
+                        // MO 사이트맵 스크립트
+                        $mSiteMap.css({
+                            display: "block",
+                            height: winHeight
+                        });
+                        if ( $("header").hasClass("scroll") ){
+                            $("html").css({
+                                height: winHeight,
+                                overflow:"hidden"
+                            });
+                        } else {
+                            $("header").addClass("top");
+                            $("html").css({
+                                height: winHeight,
+                                overflow:"hidden"
+                            });
+                        }
+                    }
+                    return false;
+                })
+
+                // 모바일 스크립트
+                /* 서치 영역 */
+                $(".m-srch-area .srch-bt").on("click", function(){
+                    $(".srch-box").addClass("active");
+                });
+                $(".m-srch-area .close-bt").on("click", function(){
+                    $(".srch-box").removeClass("active");
+                });
+
+                /* 유틸 영역 */
+                $(".util-menu-btn").on("click", function(){
+                    $(".m_quick_open").css("display","block");
+                    $("html").css({
+                        height: winHeight,
+                        overflow:"hidden"
+                    });
+                });
+                $(".m_quick_close").on("click", function(){
+                    $(".m_quick_open").css("display","none");
+                    $(".m_quick_open2").css("display","none");
+                    $("html").css({
+                        height: "auto",
+                        overflow:"visible"
+                    });
+                });
+                $(".mo-util-bt").on("click", function(){
+                    $(".m_quick_open2").css("display","block");
+                    $("html").css({
+                        height: winHeight,
+                        overflow:"hidden"
+                    });
+                });
+
+                /* 전체메뉴 닫기 */
+                $(".m-site-close").on("click", function(){
+                    mSiteClose();
+
+                    $(".site-con li").find("button").removeClass("active");
+                    $(".site-con li").find("ul").slideUp();
+
+                    if ( $("header").hasClass("top") ){
+                        $("html, body").animate({scrollTop:0},0);
+                        $("header").removeClass("top");
+                    }
+                })
+
+                function mSiteClose(){
+                    $mSiteMap.css("display","none");
+                    $("html").css({
+                        height: "auto",
+                        overflow:"visible"
+                    });
+                }
+
+                /* 모바일 전체메뉴 아코디언 */
+                $(".site-con button").on("click", function(){
+                    var _this = $(this);
+                    if ( _this.hasClass("active") ){
+                        $(".site-con li").find("ul").slideUp();
+                        _this.removeClass("active");
+                    } else {
+                        _this.parents("li").siblings().find("button").removeClass("active");
+                        _this.parents("li").siblings().find("ul").slideUp();
+                        _this.siblings("ul").slideDown();
+                        _this.addClass("active");
+                    }
+                })
+            })();
+        </script>
+    </header>
+    <!-- //header -->
+    <!-- content -->
+    <div id="content">
+        <div class="container chart">
+            <!-- 컨텐츠 작업영역 -->
+            <div class="top_visual_area">
+                <div class="outer-wrap">
+                    <div class="inner-wrap">
+                        <span class="label">차트로 보는 해운</span>
+                        <div class="visual_tit_wrap">
+                            <div class="visual_tit">
+                                <div class="txt01">
+                                    명나라 시기 <br>
+                                    <span>무역의 억압과</span> 왜구의 창궐
+                                </div>
+                                <div class="txt02">
+                                    <span>경제학을 전공한 신현호 칼럼니스트는 KPMG에서 비즈니스 컨설턴트로 근무한 뒤,</span>
+                                    <span>국회 경제상임위의 정책연구위원으로 근무하였고 지금은 경제 칼럼니스트로 활동하고 있다.</span>
+                                    <span>해운, 무역, 세계화에 관한 흥미로운 차트를 &#60;바다소리&#62;에 소개한다.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mo-img-wrap">
+                    <img src="../../../images/1806/people/chart_top_bg_m.jpg" alt="">
+                </div>
+            </div>
+            <!-- top_visual_area end -->
+            <div class="com-con-wrap">
+                <div class="outer-wrap">
+                    <div class="inner-wrap">
+                        <div class="write-copy">
+                            <div class="text-area">
+                                <span>명나라 시기 왜구의 침탈과 해금(海禁) 정책이 오늘날 해양 번영에 어떤 영향을 미쳤을까?</span>
+                                <span>‘중국이 해양 무역 부문에서 왜 유럽에 뒤쳐지게 되었는가’를 생각해볼 수 있는</span>
+                                <span>흥미로운 차트를 분석해본다.</span>
+                            </div>
+
+                            <div class="write-area">
+                                <p class="write-1">글</p>
+                                <p class="write-2">신현호(칼럼니스트)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wide-wrap">
+                <div class="outer-wrap">
+                    <div class="graph-wrap">
+                        <div class="graph-area">
+                            <img src="../../../images/1806/people/chart_graph_img.jpg" alt="" class="pc">
+                            <img src="../../../images/1806/people/chart_graph_img_mo.jpg" alt="" class="mo">
+                            <p><span>그림1</span>명 왕조 시기 왜구의 공격 회수 (출처: JEH)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="com-con-wrap">
+                <div class="outer-wrap">
+                    <div class="inner-wrap">
+                        <div class="text-wrap">
+                            <p>중국 명나라 11대 황제 가정제(재위 1521~1566년)의 묘호<em>*</em> 는 세종이다. 조선왕조의 세종대왕과 달리 가정제의 치세는 극도로 혼란스러운 시기였다. 전임 황제였던 정덕제가 후사 없이 죽은 뒤 가정제는 전 황제의 사촌동생으로서 황제 자리를 물려받았는데, 황제 취임 직후부터 가정제의 생부를 어떻게 자리매김할 것인가를 두고 극심한 분란을 일으켰다. 이 논쟁이 끝난 이후에도 가정제는 도교에 심취해 불사약을 만든다면서 궁녀들을 학대하고, 정치를 등한시하여 탐관오리들의 부패가 심하였고, 왜구에 의한 피해도 극심하였다.</p>
+
+                            <p>왜구의 침탈은 그 이전에도 있었지만 특히 이 시기에 극심해서 ‘가정대왜구(嘉靖大倭寇)’라고 불릴 정도로 대규모화되었다. 명 왕조 전체 시기(1368~1644년) 중 왜구의 공격 수를 표시한 그래프 <span class="tin">&#60;그림1 참조&#62;</span>를 보면, 1550년에 갑작스럽게 왜구의 침략이 급등하여 십여 년간 지속되다가 1567년 또 갑자기 대폭 감소한 것을 볼 수 있다. 하필이면 왜 이 시기에 왜구의 침탈이 집중했는지 오랫동안 논쟁이 지속되었는데, 2014년 홍콩과학기술대학의 경제학자 쿵카이싱(龚启圣) 교수와 마치쳉(马驰骋) 교수가 통상적인 생각을 뒤엎는, 흥미로운 분석을 &#60;경제사저널 JEH&#62;에 발표하였다.</p>
+
+                            <p>우선 이 시기 해적의 명칭은 왜구이지만 대부분의 구성원은 일본인이 아닌 중국인 상인들이 해적으로 변신한 것이었다. 특히 수백 척의 선박과 십만 명 이상의 선원을 휘하에 두었던 해적왕 ‘왕직’ 역시 중국 출신으로 스스로를 해상(海商)이라고 불렀다. 따라서 ‘가정대왜구’는 일본인의 침략이라기 보다 일차적으로 중국인들 사이의 문제였다.</p>
+
+                            <p>다음으로 명의 해상 교역을 차단하는 해금(海禁) 정책이 중요한 역할을 했다. 중국은 전통적으로 무역을 장려하여 7세기 이후 한국, 일본, 동남아, 아랍 등과의 해양 무역이 번성하였지만, 명나라를 세운 홍무제는 명 건국 직후 해금 조치를 취했다. 그 이유로 중국 중심의 조공 무역체제를 확립하기 위해 민간무역을 금지했다는 설, 중국인과 외국인 사이의 접촉이 초래할 불안정을 방지하기 위한 조치였다는 설, 상업보다 농업을 중요하게 생각하는 전통사상인 중농경상(重農輕商)의 반영이라는 설 등이 제시되었다.</p>
+
+                            <p>사실 공식적으로 해금 정책이 취해졌지만 해양 무역은 암묵적으로 용인되어 왔다. 하지만 1548~1549년 사이 가정제가 해금 정책을 엄격하게 시행하면서, 수백 척의 무역 선박이 파괴되고 수백 명의 밀수상인들이 처형되었다. 그러자 그동안 비록 불법이지만 무역활동을 종사했던 수 많은 상인들이 해적으로 변신한 것이다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wide-wrap bg-tp">
+                <div class="outer-wrap">
+                    <div class="map-wrap">
+                        <img src="../../../images/1806/people/chart_map_img.jpg" alt="" class="pc">
+                        <img src="../../../images/1806/people/chart_map_img_mo.jpg" alt="" class="mo">
+                        <p><span>그림2</span>가정대왜구 시기 왜구의 창궐 (출처: JEH)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="com-con-wrap">
+                <div class="outer-wrap">
+                    <div class="inner-wrap">
+                        <div class="text-wrap">
+                            <p>명 왕실의 공식 역사서인 명실록에 등장하는 왜구의 침략 시기와 장소가 정리된 지도 &#60;그림2 참조&#62; 를 보면, 중국 절강성(浙江省) 및 복건성(福建省) 등 해안 지역의 실크 중심지가 집중적으로 공격을 받았다는 사실을 알 수 있다. 실크는 당시 무역의 핵심 상품이었다. 그리고 당시 해적의 주요 기지가 1540년대 무역 중심지와 매우 밀접하다는 것 또한 알 수 있다. 예컨대 해적 기지 영파(寧波)는 무역이 가장 번성하였던 쌍서(雙嶼)섬 인근이었다.</p>
+
+                            <p>1567년 가정제의 사망 후 황제로 등극한 융경제는 부임하자마자 해금 정책을 폐지하고 무역을 합법화하였는데, 그와 동시에 왜구의 숫자는 급락하여 정상화되었다. 우리는 해양 무역으로 번영을 이룬 중국이 명 왕조 가정제 시기 무역을 억압한 후폭풍으로 해적이 창궐하고, 중요한 산업 중심지가 파괴되었던 것을 볼 수 있었다. 그리고 이것은 어쩌면 ‘중국이 왜 유럽에 뒤쳐지게 되었는가’라는 경제사의 의문점에 하나의 실마리를 주는 것일지도 모른다.</p>
+
+                            <p class="bg-tp"><span>무역을 확대한다고 반드시 발전하는 것은 아니겠지만, 세계 시장에 빗장을 걸고 무역을 억압해서는 어떤 경우에도 정체를 피할 수 없다는 것 또한 분명하다.</span></p>
+
+                            <p class="copyright">
+                                신현호 칼럼니스트 <br>
+                                <span>(hyunhos@gmail.com)</span>
+                            </p>
+                        </div>
+                        <div class="tin-wrap">
+                            <p><span>* 묘호</span>황제나 왕이 죽은 뒤 신위를 모실 때 붙이는 호</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="eval-wrap">
+            <ul>
+                <li class="e-value-01">
+                    <button type="submit"></button>
+                    <p class="e-value">최고예요</p>
+                    <p class="count">322</p>
+                </li>
+                <li class="e-value-02">
+                    <button type="submit"></button>
+                    <p class="e-value">좋아요</p>
+                    <p class="count">322</p>
+                </li>
+                <li class="e-value-03">
+                    <button type="submit"></button>
+                    <p class="e-value">슬퍼요</p>
+                    <p class="count">322</p>
+                </li>
+                <li class="e-value-04">
+                    <button type="submit"></button>
+                    <p class="e-value">그저그래요</p>
+                    <p class="count">322</p>
+                </li>
+                <li class="e-value-05">
+                    <button type="submit"></button>
+                    <p class="e-value">화나요</p>
+                    <p class="count">322</p>
+                </li>
+            </ul>
+        </div>
+        <div class="reply-wrap">
+            <div class="reply-area">
+                <div class="reply-input">
+                    <p class="title"><span>소통하며</span> 컨텐츠에 대한 이야기를 나누어 봐요!</p>
+                    <div class="input-wrap">
+                        <div class="input-area">
+                            <div class="info">
+                                <input type="text" placeholder="이름">
+                                <input type="password" placeholder="비밀번호">
+                            </div>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="내용을 입력해 주세요."></textarea>
+                            <button type="submit">등록</button>
+                        </div>
+                        <ul class="sns-list">
+                            <li>
+                                <a href="" class="sns-01">인스타그램</a>
+                                <a href="" class="sns-02">트위터</a>
+                                <a href="" class="sns-03">페이스북</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="noti-list">
+                        <li>타인을 <span>배려하는 마음</span>을 담아 댓글을 달아주세요.</li>
+                        <li>내용에 따라 관련 법률에 의해 임의 조치를 수행 할 수 있습니다.</li>
+                    </ul>
+                </div>
+                <div class="reply-list">
+                    <ul>
+                        <li>
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-1">수정</a>
+                                        <a href="" class="reply-bt tp-1">삭제</a>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                </div>
+                                <div class="reply-bt-area">
+                                    <a href="" class="reply-view-bt">답글 <span>0</span>개</a>
+                                    <a href="" class="reply-write-bt">답글쓰기</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-1">수정</a>
+                                        <a href="" class="reply-bt tp-1">삭제</a>
+                                    </div>
+                                </div>
+                                <div class="pass-input-area">
+                                    <input type="password" placeholder="비밀번호">
+                                    <button type="submit" class="tp-1">확인</button>
+                                    <button type="submit" class="tp-2">취소</button>
+                                </div>
+                                <div class="reply-bt-area">
+                                    <a href="" class="reply-view-bt">답글 <span>0</span>개</a>
+                                    <a href="" class="reply-write-bt">답글쓰기</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li> <!--사용자가 로그인 상태에서 본인이 게시한 글을 수정하고 있는 상태-->
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-2">확인</a>
+                                        <a href="" class="reply-bt tp-1">취소</a>
+                                    </div>
+                                </div>
+                                <div class="mod-input">
+                                    <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-1">수정</a>
+                                        <a href="" class="reply-bt tp-1">삭제</a>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                </div>
+                                <div class="reply-bt-area">
+                                    <a href="" class="reply-view-bt">답글 <span>2</span>개</a>
+                                    <a href="" class="reply-write-bt">답글쓰기</a>
+                                </div>
+                            </div>
+                            <div class="view-area">
+                                <ul>
+                                    <li>
+                                        <div class="info-top">
+                                            <span class="name">이종석</span>
+                                            <span class="date">2017.12.03</span>
+                                        </div>
+                                        <div class="text">
+                                            <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info-top">
+                                            <span class="name">이종석</span>
+                                            <span class="date">2017.12.03</span>
+                                        </div>
+                                        <div class="text">
+                                            <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="write-area">
+                                <ul>
+                                    <li>
+                                        <div class="info-top">
+                                            <span class="name">이종석</span>
+                                            <span class="date">2017.12.03</span>
+                                        </div>
+                                        <div class="mod-input">
+                                            <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+                                            <div class="btn-area">
+                                                <a href="" class="reply-bt tp-2">확인</a>
+                                                <a href="" class="reply-bt tp-1">취소</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="paging">
+                    <ul>
+                        <li class="prev inactive"><a href="">prev</a></li>
+                        <li class="num"><a href="" class="active">1</a></li>
+                        <li class="num"><a href="">2</a></li>
+                        <li class="num"><a href="">3</a></li>
+                        <li class="num"><a href="">4</a></li>
+                        <li class="num"><a href="">5</a></li>
+                        <li class="next"><a href="">next</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="top-btn">
+            <button type="button" class="mo-util-bt"></button>
+            <button type="button" id="scroll_top" class="pBackgroundColor"></button>
+        </div>
+    </div>
+    <!-- //content -->
+    <!-- footer -->
+    <footer id="footer">
+        <!-- include footer -->
+        <script>$('#footer').load('../include/footer.html')</script>
+        <!-- //include footer -->
+    </footer>
+    <!-- //footer -->
+    <!-- layer popup container -->
+    <div id="layer_container">
+        <!-- include popup -->
+        <script>$('#layer_container').load('../include/popup.html')</script>
+        <!-- //include popup -->
+    </div>
+    <!--// layer popup container -->
+    <div class="dimmed h-dimmed"></div>
+    <div class="dimmed p-dimmed"></div>
+</div>
+<script type="text/javascript" src="../../javascripts/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>현대상선</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,target-densitydpi=medium-dpi" />
+    <meta name="Description" content=""/>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content=""/>
+    <meta name="Keywords" content=""/>
+    <meta name="Author" content=""/>
+    <meta name="robots" content="">
+    <meta name="format-detection" content="telephone=no">
+    <script type="text/javascript" src="../../javascripts/lib/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../javascripts/lib/TweenMax.min.js"></script>
+    <script type="text/javascript" src="../../javascripts/lib/swiper.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="../../javascripts/lib/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 10]>
+    <script src="../../javascripts/lib/placeholders.min.js"></script>
+    <![endif]-->
+    <!--css-->
+    <link rel="stylesheet" href="../../../stylesheets/css/common.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common_1806.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common2.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/common2_1806.css"/>
+    <link rel="stylesheet" href="../../../stylesheets/css/lib/swiper.min.css"/>
+</head>
+<body class="webzine1806">
+<div id="wrap" role="main">
+    <!-- quick -->
+    <div id="quickMenu" class="quick_menu">
+        <ul class="quick-list">
+            <li class="list-01">
+                <span>PDF<br>다운로드</span>
+                <a href="" class="pBackground"><span>PDF 다운로드</span></a>
+            </li>
+            <li class="list-02">
+                <span>과월호<br>보기</span>
+                <a href="" class="pBackground"><span>과월호 보기</span></a>
+            </li>
+            <li class="list-03">
+                <span>북마크</span>
+                <a href="" class="pBackground"><span>북마크</span></a>
+            </li>
+            <li class="list-04">
+                <span>구독신청</span>
+                <a href="#application" class="pop-btn pBackground"><span>구독신청</span></a>
+            </li>
+        </ul>
+    </div>
+    <!--// quick -->
+    <!-- header -->
+    <header id="header" role="banner">
+        <div id="skipNavigation">
+            <ul>
+                <li><a href="#content">본문 바로가기</a></li>
+                <li><a href="#gnb">주메뉴 바로가기</a></li>
+            </ul>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <div class="h-top-area">
+                    <div class="h-srch">
+                        <div class="srch-input-wrap">
+                            <button type="submit" class="srch-bt p-ver">검색</button>
+                            <div class="srch-input-area">
+                                <input type="text" placeholder="검색어를 입력하세요" class="srch-input">
+                                <button type="button" class="srch-close">닫기</button>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 id="logo"><a href="./index.html?folder=main&file=main">현대상선</a></h1>
+                    <div class="h-date">
+                        <span class="year">2018</span>
+                        <span class="bar"></span>
+                        <span class="month pColor">05</span>
+                    </div>
+                </div>
+                <div class="h-bot-area">
+                    <div class="left-wrap">
+                        <ul class="h-sns-list">
+                            <li class="sns-01"><a href=""><span></span></a></li>
+                            <li class="sns-02"><a href=""><span></span></a></li>
+                            <li class="sns-03"><a href="#recommend" class="pop-btn"><span></span></a></li>
+                            <li class="sns-04"><a href=""><span></span></a></li>
+                        </ul>
+                        <span class="scroll-logo"><a href="">현대상선</a></span>
+                    </div>
+                    <div class="m-srch-area">
+                        <button type="button" class="srch-bt"></button>
+                        <div class="srch-box">
+                            <input type="text" placeholder="검색어를 입력하세요.">
+                            <button type="button" class="close-bt"></button>
+                        </div>
+                    </div>
+                    <a href="" class="m-scroll-logo"><span>현대상선</span></a>
+                    <nav id="gnb" role="navigation">
+                        <h2 class="hidden-txt">주메뉴</h2>
+                        <ul class="depth01-lists">
+                            <li class="depth01-list">
+                                <a href="#" class="depth01">통<span class="pColor">通</span>하는</a>
+                                <ul class="depth02-lists">
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>Column</span>]</p>
+                                            <p class="title">이달의 인물</p>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>Focus</span>]</p>
+                                            <span class="title">지금 현대상선 I</span>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>Focus</span>]</p>
+                                            <p class="title">지금 현대상선 II</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="depth01-list">
+                                <a href="#" class="depth01">사람<span class="pColor">人</span>들의</a>
+                                <ul class="depth02-lists">
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>Hobby</span>]</p>
+                                            <p class="title">이달의 인물</p>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>People</span>]</p>
+                                            <p class="title">지금 현대상선 I</p>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>People</span>]</p>
+                                            <p class="title">지금 현대상선 II</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="depth01-list">
+                                <a href="#" class="depth01">즐거움<span class="pColor">樂</span></a>
+                                <ul class="depth02-lists">
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>PEOPLE</span>]</p>
+                                            <p class="title">이달의 인물</p>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>PEOPLE</span>]</p>
+                                            <p class="title">지금 현대상선 I</p>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>PEOPLE</span>]</p>
+                                            <p class="title">지금 현대상선 II</p>
+                                        </a>
+                                    </li>
+                                    <li class="depth02-list">
+                                        <a href="#" class="depth02">
+                                            <p class="label">[<span>PEOPLE</span>]</p>
+                                            <p class="title">지금 현대상선 II</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="h-util">
+                        <a href="" class="compass-logo"><span>콤파스</span></a>
+                        <div class="h-date">
+                            <span class="year">2018</span>
+                            <span class="bar"></span>
+                            <span class="month pColor">05</span>
+                        </div>
+                        <button type="button" class="util-menu-btn pBackgroundColor"></button>
+                        <a class="menu-trigger" href="">
+                            <span> </span>
+                            <span> </span>
+                            <span> </span>
+                        </a>
+                    </div>
+                    <div id="m_quick_open" class="m_quick_open">
+                        <ul>
+                            <li class="m_quick_close"><button type="button"><img src="../../images/layout/m_quick_close.png" /></button></li>
+                            <li><a href=""><span class="txt"><span>PDF</span> 다운로드</span><img src="../../images/layout/m_quick_01.png" /></a></li>
+                            <li><a href=""><span class="txt">과월호 보기</span><img src="../../images/layout/m_quick_02.png" /></a></li>
+                            <li><a href=""><span class="txt">북마크</span><img src="../../images/layout/m_quick_03.png" /></a></li>
+                            <li><a href="#application" class="pop-btn"><span class="txt">구독신청</span><img src="../../images/layout/m_quick_04.png" /></a></li>
+                        </ul>
+                    </div>
+                    <div id="m_quick_open2" class="m_quick_open2">
+                        <ul>
+                            <li><a href=""><span class="txt"><span>PDF</span> 다운로드</span><img src="../../images/layout/m_quick_01.png" /></a></li>
+                            <li><a href=""><span class="txt">과월호 보기</span><img src="../../images/layout/m_quick_02.png" /></a></li>
+                            <li><a href=""><span class="txt">북마크</span><img src="../../images/layout/m_quick_03.png" /></a></li>
+                            <li><a href="#application" class="pop-btn"><span class="txt">구독신청</span><img src="../../images/layout/m_quick_04.png" /></a></li>
+                            <li class="m_quick_close"><button type="button"><img src="../../images/layout/m_quick_close.png" /></button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="siteMap" class="site-map">
+            <div class="site-con">
+                <dl>
+                    <dt><p>통<span>通</span>하는</p></dt>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><p>통<span>通</span>하는</p></dt>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><p>통<span>通</span>하는</p></dt>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="">
+                            <div class="label"><p>[<span>Focus</span>]</p></div>
+                            <div class="depth2-tit"><p>CEO 신년사</p></div>
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div id="mSiteMap" class="m-site-map">
+            <button type="button" class="m-site-close"></button>
+            <div class="site-con">
+                <ul>
+                    <li>
+                        <button type="button"><p>통<span>通</span>하는</p></button>
+                        <ul class="hidden-list">
+                            <li><a href=""><span>[Focus]</span><br>CEO 신년사</a></li>
+                            <li><a href=""><span>[Focus]</span><br>스페셜</a></li>
+                            <li><a href=""><span>[Focus]</span><br>글로벌 현상인</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button type="button"><p>사람<span>人</span>들의</p></button>
+                        <ul class="hidden-list">
+                            <li><a href=""><span>[Focus]</span><br>CEO 신년사</a></li>
+                            <li><a href=""><span>[Focus]</span><br>스페셜</a></li>
+                            <li><a href=""><span>[Focus]</span><br>글로벌 현상인</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button type="button"><p>즐거움<span>樂</span></p></button>
+                        <ul class="hidden-list">
+                            <li><a href=""><span>[Focus]</span><br>CEO 신년사</a></li>
+                            <li><a href=""><span>[Focus]</span><br>스페셜</a></li>
+                            <li><a href=""><span>[Focus]</span><br>글로벌 현상인</a></li>
+                            <li><a href=""><span>[Focus]</span><br>글로벌 현상인</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="sns-list">
+                    <a href="" class="sns-01"></a>
+                    <a href="" class="sns-02"></a>
+                    <a href="" class="sns-03"></a>
+                    <a href="" class="sns-04"></a>
+                </div>
+            </div>
+        </div>
+        <script>
+            (function () {
+                var es_step = "Expo.ease";
+                var winHeight = $(window).height();
+                var hHeight = $("#header").outerHeight();
+                var $siteMap = $(".site-map");
+                var $mSiteMap = $(".m-site-map");
+
+                // 사이트맵 초기화
+                $siteMap.css({
+                    height:winHeight - hHeight,
+                    top:-(winHeight - hHeight*2) - 2
+                });
+
+                $(".srch-bt.p-ver").on("click", function(){
+                    TweenMax.to( $(this), .3, {left:20, ease:es_step});
+                    if( $(window).width() >= 992 ){
+                        TweenMax.to( $(".srch-input-wrap"), .3, {width:330, ease:es_step, onComplete:function(){
+                            $(".srch-input-area").addClass("active");
+                        }});
+                    } else {
+                        TweenMax.to( $(".srch-input-wrap"), .3, {width:280, ease:es_step, onComplete:function(){
+                            $(".srch-input-area").addClass("active");
+                        }});
+                    }
+                });
+                $(".srch-close").on("click", function(){
+                    $(".srch-input-area").removeClass("active");
+                    TweenMax.to( $(".srch-bt"), .3, {left:0, ease:es_step});
+                    TweenMax.to( $(".srch-input-wrap"), .1, {width:0, ease:es_step});
+                });
+
+                $(".depth01-list").on("mouseenter", function(){
+                    $(this).addClass("active");
+                });
+                $(".depth01-list").on("mouseleave", function(){
+                    $(this).removeClass("active");
+                });
+
+                $siteMap.find("dl").on("mouseenter", function(){
+                    $(this).addClass("active");
+                });
+                $siteMap.find("dl").on("mouseleave", function(){
+                    $(this).removeClass("active");
+                });
+
+                $(window).scroll(function(){
+                    if ( $(window).width() >= 752 ){
+                        if ( $(window).scrollTop() > 90 ){
+                            $("#header").addClass("scroll");
+                            $("#content").addClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:-25, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:13, ease:es_step});
+                            TweenMax.to( $(".compass-logo"), .2, {top:-17, ease:es_step});
+                            TweenMax.to( $(".h-util .h-date"), .2, {top:3, ease:es_step});
+                        } else {
+                            $("#header").removeClass("scroll");
+                            $("#content").removeClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:9, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:42, ease:es_step});
+                            TweenMax.to( $(".compass-logo"), .2, {top:18, ease:es_step});
+                            TweenMax.to( $(".h-util .h-date"), .2, {top:40, ease:es_step});
+                        }
+                    } else {
+                        if ( $(window).scrollTop() > 50 ){
+                            $("#header").addClass("scroll");
+                            $("#content").addClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:-25, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:13, ease:es_step});
+                        } else {
+                            $("#header").removeClass("scroll");
+                            $("#content").removeClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:9, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:42, ease:es_step});
+                        }
+                    }
+                })
+
+                $(window).resize(function(){
+                    winHeight = $(window).height();
+                    if ( $(window).width() > 752 ){
+                        $(".m_quick_open").hide();
+                        $(".srch-box").removeClass("active");
+                        mSiteClose();
+                    }
+
+                    if ( $("#siteMap").hasClass("zIndex")){
+                        $("html").css({
+                            height: winHeight,
+                            overflow:"hidden"
+                        });
+                    }
+
+                    if ( $(window).width() < 992 ){
+                        if ($(".srch-input-area").hasClass("active")){
+                            $(".srch-input-wrap").css("width",280)
+                        }
+                    } else {
+                        if ($(".srch-input-area").hasClass("active")){
+                            $(".srch-input-wrap").css("width",330)
+                        }
+                    }
+
+                    if ( $(window).width() >= 752 ){
+                        if ( $(window).scrollTop() > 90 ){
+                            $("#header").addClass("scroll");
+                            $("#content").addClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:-25, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:13, ease:es_step});
+                            TweenMax.to( $(".compass-logo"), .2, {top:-17, ease:es_step});
+                            TweenMax.to( $(".h-util .h-date"), .2, {top:3, ease:es_step});
+                        } else {
+                            $("#header").removeClass("scroll");
+                            $("#content").removeClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:9, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:42, ease:es_step});
+                            TweenMax.to( $(".compass-logo"), .2, {top:18, ease:es_step});
+                            TweenMax.to( $(".h-util .h-date"), .2, {top:40, ease:es_step});
+                        }
+                    } else {
+                        $mSiteMap.css("height",winHeight);
+                        if ( $(window).scrollTop() > 50 ){
+                            $("#header").addClass("scroll");
+                            $("#content").addClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:-25, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:13, ease:es_step});
+                        } else {
+                            $("#header").removeClass("scroll");
+                            $("#content").removeClass("scroll");
+                            TweenMax.to( $(".h-sns-list"), .2, {top:9, ease:es_step});
+                            TweenMax.to( $(".scroll-logo"), .2, {top:42, ease:es_step});
+                        }
+
+                        $(".srch-bt.p-ver").on("click", function(){
+                            TweenMax.to( $(this), .3, {left:20, ease:es_step});
+                            TweenMax.to( $(".srch-input-wrap"), .3, {width:330, ease:es_step, onComplete:function(){
+                                $(".srch-input-area").addClass("active");
+                            }});
+                        });
+
+                        $(".srch-input-area").removeClass("active");
+                        TweenMax.to( $(".srch-bt"), .3, {left:0, ease:es_step});
+                        TweenMax.to( $(".srch-input-wrap"), .1, {width:0, ease:es_step});
+
+                        $(".menu-trigger").removeClass("active").addClass("inactive");
+                        $siteMap.css({
+                            display: "none"
+                        })
+                        $("html").css({
+                            height: "auto",
+                            overflow:"visible"
+                        });
+                        allMenu = false;
+                    }
+                })
+
+                var allMenu = false;
+                $(".menu-trigger").on("click", function(){
+                    winHeight = $(window).height();
+                    if ( $(window).width() >= 752 ){
+                        // PC 사이트맵 스크립트
+                        if ( $("header").hasClass("scroll") ){
+                            if ( allMenu === false ){
+                                $(".menu-trigger").removeClass("inactive").addClass("active");
+                                $siteMap.css({
+                                    top: 60,
+                                    display: "block",
+                                    height: winHeight
+                                });
+                                $siteMap.addClass("zIndex");
+                                $("html").css({
+                                    height: winHeight,
+                                    overflow:"hidden"
+                                });
+                                allMenu = true;
+                            } else {
+                                $(".menu-trigger").removeClass("active").addClass("inactive");
+                                $siteMap.css({
+                                    display: "none"
+                                })
+                                $("html").css({
+                                    height: "auto",
+                                    overflow:"visible"
+                                });
+                                allMenu = false;
+                            }
+                        } else {
+                            if ( allMenu === false ){
+                                $(".menu-trigger").removeClass("inactive").addClass("active");
+                                $siteMap.css({
+                                    top: 141,
+                                    display: "block",
+                                    height: winHeight
+                                });
+                                $siteMap.addClass("zIndex");
+                                $("html").css({
+                                    height: winHeight,
+                                    overflow:"hidden"
+                                });
+                                allMenu = true;
+                            } else {
+                                $(".menu-trigger").removeClass("active").addClass("inactive");
+                                $siteMap.css({
+                                    display: "none"
+                                })
+                                $("html").css({
+                                    height: "auto",
+                                    overflow:"visible"
+                                });
+                                allMenu = false;
+                            }
+                        }
+                    } else {
+                        // MO 사이트맵 스크립트
+                        $mSiteMap.css({
+                            display: "block",
+                            height: winHeight
+                        });
+                        if ( $("header").hasClass("scroll") ){
+                            $("html").css({
+                                height: winHeight,
+                                overflow:"hidden"
+                            });
+                        } else {
+                            $("header").addClass("top");
+                            $("html").css({
+                                height: winHeight,
+                                overflow:"hidden"
+                            });
+                        }
+                    }
+                    return false;
+                })
+
+                // 모바일 스크립트
+                /* 서치 영역 */
+                $(".m-srch-area .srch-bt").on("click", function(){
+                    $(".srch-box").addClass("active");
+                });
+                $(".m-srch-area .close-bt").on("click", function(){
+                    $(".srch-box").removeClass("active");
+                });
+
+                /* 유틸 영역 */
+                $(".util-menu-btn").on("click", function(){
+                    $(".m_quick_open").css("display","block");
+                    $("html").css({
+                        height: winHeight,
+                        overflow:"hidden"
+                    });
+                });
+                $(".m_quick_close").on("click", function(){
+                    $(".m_quick_open").css("display","none");
+                    $(".m_quick_open2").css("display","none");
+                    $("html").css({
+                        height: "auto",
+                        overflow:"visible"
+                    });
+                });
+                $(".mo-util-bt").on("click", function(){
+                    $(".m_quick_open2").css("display","block");
+                    $("html").css({
+                        height: winHeight,
+                        overflow:"hidden"
+                    });
+                });
+
+                /* 전체메뉴 닫기 */
+                $(".m-site-close").on("click", function(){
+                    mSiteClose();
+
+                    $(".site-con li").find("button").removeClass("active");
+                    $(".site-con li").find("ul").slideUp();
+
+                    if ( $("header").hasClass("top") ){
+                        $("html, body").animate({scrollTop:0},0);
+                        $("header").removeClass("top");
+                    }
+                })
+
+                function mSiteClose(){
+                    $mSiteMap.css("display","none");
+                    $("html").css({
+                        height: "auto",
+                        overflow:"visible"
+                    });
+                }
+
+                /* 모바일 전체메뉴 아코디언 */
+                $(".site-con button").on("click", function(){
+                    var _this = $(this);
+                    if ( _this.hasClass("active") ){
+                        $(".site-con li").find("ul").slideUp();
+                        _this.removeClass("active");
+                    } else {
+                        _this.parents("li").siblings().find("button").removeClass("active");
+                        _this.parents("li").siblings().find("ul").slideUp();
+                        _this.siblings("ul").slideDown();
+                        _this.addClass("active");
+                    }
+                })
+            })();
+        </script>
+    </header>
+    <!-- //header -->
+    <!-- content -->
+    <div id="content">
+        <div class="container enjoyment culture-club">
+            <!-- 컨텐츠 작업영역 -->
+            <div class="top_visual_area">
+                <div class="inner_wrap">
+                    <p class="label"><span>컬처 클럽</span></p>
+                    <div class="visual_tit_wrap">
+                        <div class="visual_tit">
+                            <div class="txt01">
+                                6월의 컬처클럽
+                            </div>
+                            <div class="txt02">
+                                주위를 둘러보면 일상에 활력을 주는 다양한<br />
+                                문화 콘텐트가 가득하다. 이번 달에는 사랑하는 이들과 함께<br />
+                                전시, 공연, 독서의 즐거움을 나눠보는 것은 어떨까?
+                            </div>
+                            <div class="txt02-mo">
+                                주위를 둘러보면 일상에 활력을 주는 <br />
+                                다양한 문화 콘텐트가 가득하다. 이번 달에는 <br />
+                                사랑하는 이들과 함께 전시, 공연, 독서의 <br />
+                                즐거움을 나눠보는 것은 어떨까?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mo-img-wrap">
+                    <img src="../../../images/enjoyment/club_top_visual_mo.jpg" alt="">
+                </div>
+            </div>
+            <!-- top_visual_area end -->
+            <div class="con-list-area">
+                <ul>
+                    <li>
+                        <div class="poster-wrap">
+                            <img src="../../../images/1806/enjoyment/club_section01.jpg" alt="" class="pc-v">
+                            <img src="../../../images/1806/enjoyment/club_section01_mo.jpg" alt="" class="mo-v">
+                        </div>
+                        <div class="info-wrap">
+                            <div class="title-area">
+                                <p class="title">
+                                    샤갈 러브 앤 라이프 <em>展</em>
+                                </p>
+                                <p class="label-tit"><span>위대한 화가 ‘마르크 샤갈’의 사랑과 삶</span></p>
+                            </div>
+                            <div class="text-area">
+                                20세기 가장 위대한 화가 ‘마르크 샤갈’의 사랑과 삶을 집중 조명하는 전시가 올여름 서울을 찾는다. <샤갈 러브 앤 라이프>는 선사시대부터 현대에 이르기까지 다양한 문화 예술 수집품을 소장하고 있는 국립이스라엘미술관의 컬렉션전이다. 아시아에서 최초로 열리는 이번 전시는 샤갈과 그의 딸 이다(Ida)가 직접 기증하거나 세계 각지의 후원자들로부터 기증받은 샤갈 작품 중 150여 점을 엄선해 소개한다. 전시는 초상화, 나의 인생, 연인들, 성서 등 총 7개의 섹션으로 구성된다. 전시를 통해 고향인 벨라루스공화국의 비테프스크를 떠나 베를린, 파리, 미국을 돌며 다양한 문화를 수용하면서도 죽는 날까지 고향을 그리워했던 샤갈의 삶, 그리고 첫 번째 부인 벨라에 대한 사랑이 그의 작품세계에 어떠한 영향을 미쳤는가를 보여준다. 또한, 관람객들은 회화, 판화, 삽화, 스테인드글라스 등 여러 장르를 넘나드는 작품을 보며 샤갈의 종합예술가로서 숨겨진 면모를 확인할 수 있다.                            </div>
+                            <ul class="info-list">
+                                <li>
+                                    <span class="tit">기간</span>
+                                    <span class="con">2018년 6월 5일 ~ 9월 26일</span>
+                                </li>
+                                <li>
+                                    <span class="tit">장소</span>
+                                    <span class="con">예술의전당 한가람미술관</span>
+                                </li>
+                            </ul>
+                            <p class="btn-area">
+                                <a href="http://www.chagall.co.kr/" target="_blank"><span>더 자세한 내용 보러가기</span></a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="poster-wrap">
+                            <img src="../../../images/1806/enjoyment/club_section02.jpg" alt="" class="pc-v">
+                            <img src="../../../images/1806/enjoyment/club_section02_mo.jpg" alt="" class="mo-v">
+                        </div>
+                        <div class="info-wrap">
+                            <div class="title-area">
+                                <p class="title">
+                                    앨리스 인 원더랜드
+                                </p>
+                                <p class="label-tit"><span>최고의 기술이 선사하는 환상적인 체험</span></p>
+                            </div>
+                            <div class="text-area">
+                                &#60;앨리스 인 원더랜드&#62;는 전세계 누구나 아는 동화 ‘이상한 나라의 앨리스’를 콘셉트로 한 인터랙티브 전시(관람객의 행동이나 모션에 작품이 반응하여 상호작용이 이루어지는 전시)이다. 동화 속 원더랜드를 높은 화소와 최신 맵핑 기술로 완벽하게 재현했다. 특히 사람의 형태와 동작을 인식하는 최고의 기술을 활용해 다양한 신체활동이 가능한 체험전시로 탄생했다. 이에 따라 관객들은 만지고 뛰어다니면서 원더랜드를 체험할 수 있으며, 앨리스 동화 속 친구들과 함께 미션을 수행하고 문제를 해결하며 전시를 즐길 수 있다. 앨리스가 하얀 토끼를 따라 뛰어들었던 굴을 특수효과 조명으로 형상화한 도입부부터 영상 속 버섯을 터치하면 몸이 커지는 것처럼 느껴지는 ‘버섯숲’, 모자 장수와 함께 티타임을 하며 접시를 마음껏 깨뜨리고 놀 수 있는 ‘모자장수와 수수께끼 고양이’ 등 스토리 라인에 따른 다양한 콘텐츠들이 전시되어 있어 관객들의 상상력을 자극하고, 직접 몸으로 체험하며 즐길 수 있는 재미를 준다.
+                            </div>
+                            <ul class="info-list">
+                                <li>
+                                    <span class="tit">기간</span>
+                                    <span class="con">2018년 6월 22일 ~ 2019년 3월 3일 </span>
+                                </li>
+                                <li>
+                                    <span class="tit">장소</span>
+                                    <span class="con">용산전쟁기념관 제3기획전시실</span>
+                                </li>
+                            </ul>
+                            <p class="btn-area">
+                                <a href="http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=18006686" target="_blank"><span>더 자세한 내용 보러가기</span></a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="poster-wrap">
+                            <img src="../../../images/1806/enjoyment/club_section03.jpg" alt="" class="pc-v">
+                            <img src="../../../images/1806/enjoyment/club_section03_mo.jpg" alt="" class="mo-v">
+                        </div>
+                        <div class="info-wrap">
+                            <div class="title-area">
+                                <p class="title">
+                                    <span>곰돌이 푸,</span>
+                                    서두르지 않아도 괜찮아
+                                </p>
+                                <p class="label-tit"><span>언제나 오늘이 처음인 우리를 위해</span></p>
+                            </div>
+                            <div class="text-area">
+                                1977년 디즈니의 프로덕션에서 탄생하여 오랫동안 전세계 어린이들의 사랑을 받아온 인기 만화영화 ‘곰돌이 푸’가 책으로 돌아왔다. &#60;곰돌이 푸, 서두르지 않아도 괜찮아&#62;는 꾸밈 없이 순수하고 진실한 마음으로 세상을 바라보고 생각하며, 서두르는 법 없이 늘 여유로운 미소를 짓고 느릿느릿한 몸짓으로 숲 속을 거니는 곰돌이 푸의 메시지와 삽화를 엮은 책이다. 지혜를 담은 푸의 이야기와 함께 삶의 방식에 관한 오래된 경전인 ‘논어’의 혜안을 담았다. 이제 어린 시절 곰돌이 푸를 사랑하던 아이들도 어른이 되었고, 이제는 인생의 기쁨보다는 삶의 고단함에 대해서 논하는 나이가 되었지만, 여전히 마음 한편에는 그 시절에 대한 그리움이 남아 있다. 그래서 곰돌이 푸를 좋아하는 사람이라면, 아니 적어도 곰돌이 푸를 알고 있는 사람이라면 인생에 관한 푸의 따뜻하고 진심 어린 말을 들으며 나의 삶을 잠시 돌아볼 여유를 얻어갈 수 있을 것이다.
+                            </div>
+                            <ul class="info-list">
+                                <li>
+                                    <span class="tit">출간일</span>
+                                    <span class="con">2018년 5월 8일</span>
+                                </li>
+                                <li>
+                                    <span class="tit">출판사</span>
+                                    <span class="con">알에이치코리아</span>
+                                </li>
+                            </ul>
+                            <p class="btn-area">
+                                <a href="https://ebook.rhk.co.kr/front/book/bookView.do?contId=PB1805000001" target="_blank"><span>더 자세한 내용 보러가기</span></a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- con-list-area end -->
+            <div class="event-wrap">
+                <div class="event-area">
+                    <p class="title">EVENT</p>
+                    <div class="content">
+                        <p class="text">
+                            <span>추첨을 통해 &#60;샤갈 러브 앤 라이프&#62; 展 <i>5분(1인 2장)</i>, </span>
+                            <span>&#60;앨리스 인 원더랜드&#62; 展 티켓을 <i>5분(1인 2장)</i>, </span>
+                            <span>&#60;곰돌이 푸, 서두르지 않아도 괜찮아&#62; 책을 <i>10분께</i> 선물합니다.</span>
+                            <span><i>보고 싶은 전시명 또는 책명을 적어 응모해주세요.</i></span>
+                            <span>응모는 6월 28일까지, 당첨자는 개별 통보 드립니다.</span>
+                        </p>
+                        <p class="btn-area">
+                            <a href=""><span>이벤트 참여하기</span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- event-area end -->
+        </div>
+        <div class="eval-wrap">
+            <ul>
+                <li class="e-value-01">
+                    <button type="submit"></button>
+                    <p class="e-value">최고예요</p>
+                    <p class="count">322</p>
+                </li>
+                <li class="e-value-02">
+                    <button type="submit"></button>
+                    <p class="e-value">좋아요</p>
+                    <p class="count">322</p>
+                </li>
+                <li class="e-value-03">
+                    <button type="submit"></button>
+                    <p class="e-value">슬퍼요</p>
+                    <p class="count">322</p>
+                </li>
+                <li class="e-value-04">
+                    <button type="submit"></button>
+                    <p class="e-value">그저그래요</p>
+                    <p class="count">322</p>
+                </li>
+                <li class="e-value-05">
+                    <button type="submit"></button>
+                    <p class="e-value">화나요</p>
+                    <p class="count">322</p>
+                </li>
+            </ul>
+        </div>
+        <div class="reply-wrap">
+            <div class="reply-area">
+                <div class="reply-input">
+                    <p class="title"><span>소통하며</span> 컨텐츠에 대한 이야기를 나누어 봐요!</p>
+                    <div class="input-wrap">
+                        <div class="input-area">
+                            <div class="info">
+                                <input type="text" placeholder="이름">
+                                <input type="password" placeholder="비밀번호">
+                            </div>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="내용을 입력해 주세요."></textarea>
+                            <button type="submit">등록</button>
+                        </div>
+                        <ul class="sns-list">
+                            <li>
+                                <a href="" class="sns-01">인스타그램</a>
+                                <a href="" class="sns-02">트위터</a>
+                                <a href="" class="sns-03">페이스북</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="noti-list">
+                        <li>타인을 <span>배려하는 마음</span>을 담아 댓글을 달아주세요.</li>
+                        <li>내용에 따라 관련 법률에 의해 임의 조치를 수행 할 수 있습니다.</li>
+                    </ul>
+                </div>
+                <div class="reply-list">
+                    <ul>
+                        <li>
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-1">수정</a>
+                                        <a href="" class="reply-bt tp-1">삭제</a>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                </div>
+                                <div class="reply-bt-area">
+                                    <a href="" class="reply-view-bt">답글 <span>0</span>개</a>
+                                    <a href="" class="reply-write-bt">답글쓰기</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-1">수정</a>
+                                        <a href="" class="reply-bt tp-1">삭제</a>
+                                    </div>
+                                </div>
+                                <div class="pass-input-area">
+                                    <input type="password" placeholder="비밀번호">
+                                    <button type="submit" class="tp-1">확인</button>
+                                    <button type="submit" class="tp-2">취소</button>
+                                </div>
+                                <div class="reply-bt-area">
+                                    <a href="" class="reply-view-bt">답글 <span>0</span>개</a>
+                                    <a href="" class="reply-write-bt">답글쓰기</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li> <!--사용자가 로그인 상태에서 본인이 게시한 글을 수정하고 있는 상태-->
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-2">확인</a>
+                                        <a href="" class="reply-bt tp-1">취소</a>
+                                    </div>
+                                </div>
+                                <div class="mod-input">
+                                    <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="reply-div">
+                                <div class="info-top">
+                                    <div class="info-area">
+                                        <span class="name">이종석</span>
+                                        <span class="date">2017.12.03</span>
+                                    </div>
+                                    <div class="btn-area">
+                                        <a href="" class="reply-bt tp-1">수정</a>
+                                        <a href="" class="reply-bt tp-1">삭제</a>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                </div>
+                                <div class="reply-bt-area">
+                                    <a href="" class="reply-view-bt">답글 <span>2</span>개</a>
+                                    <a href="" class="reply-write-bt">답글쓰기</a>
+                                </div>
+                            </div>
+                            <div class="view-area">
+                                <ul>
+                                    <li>
+                                        <div class="info-top">
+                                            <span class="name">이종석</span>
+                                            <span class="date">2017.12.03</span>
+                                        </div>
+                                        <div class="text">
+                                            <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info-top">
+                                            <span class="name">이종석</span>
+                                            <span class="date">2017.12.03</span>
+                                        </div>
+                                        <div class="text">
+                                            <p>와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ와 제 롤모델이 잡스에요!!! 아이폰 첫 출시되고 나서부터 계속 아이폰 쓰고 있는데 잡스가 너무 그리워요ㅠㅠ 지금은 돈만 벌려고 하는 것 같아서 디자인 발전도 없고ㅠㅠ</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="write-area">
+                                <ul>
+                                    <li>
+                                        <div class="info-top">
+                                            <span class="name">이종석</span>
+                                            <span class="date">2017.12.03</span>
+                                        </div>
+                                        <div class="mod-input">
+                                            <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+                                            <div class="btn-area">
+                                                <a href="" class="reply-bt tp-2">확인</a>
+                                                <a href="" class="reply-bt tp-1">취소</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="paging">
+                    <ul>
+                        <li class="prev inactive"><a href="">prev</a></li>
+                        <li class="num"><a href="" class="active">1</a></li>
+                        <li class="num"><a href="">2</a></li>
+                        <li class="num"><a href="">3</a></li>
+                        <li class="num"><a href="">4</a></li>
+                        <li class="num"><a href="">5</a></li>
+                        <li class="next"><a href="">next</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="top-btn">
+            <button type="button" class="mo-util-bt"></button>
+            <button type="button" id="scroll_top" class="pBackgroundColor"></button>
+        </div>
+    </div>
+    <!-- //content -->
+    <!-- footer -->
+    <footer id="footer">
+        <!-- include footer -->
+        <script>$('#footer').load('../include/footer.html')</script>
+        <!-- //include footer -->
+    </footer>
+    <!-- //footer -->
+    <!-- layer popup container -->
+    <div id="layer_container">
+        <!-- include popup -->
+        <script>$('#layer_container').load('../include/popup.html')</script>
+        <!-- //include popup -->
+    </div>
+    <!--// layer popup container -->
+    <div class="dimmed h-dimmed"></div>
+    <div class="dimmed p-dimmed"></div>
+</div>
+<script type="text/javascript" src="../../javascripts/common.js"></script>
+</body>
+</html>
